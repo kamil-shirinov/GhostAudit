@@ -1,4 +1,4 @@
-# Ghost Data Still Exists: a deletion audit agent
+# GhostAudit (HackerRank Orchestrate, October 2026)
 
 - Built for HackerRank Orchestrate (October 2026): final score 67.5/100, rank #425 of 4,090 (top 11%).
 - Challenge and dataset: https://github.com/interviewstreet/hackerrank-orchestrate-october26. The dataset isn't included here; to run the agent, copy that repo's dataset/ folder into this repo's root.
