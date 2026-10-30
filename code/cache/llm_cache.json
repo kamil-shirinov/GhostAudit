@@ -1,0 +1,4509 @@
+{
+ "00485f7f9d8a3b3230461214c3ba7205953857250a948da8988cf2db82e05e85": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests removal of account and linked personal information, with confirmation of completion."
+   }
+  ]
+ },
+ "017b7ccfcaaa43f99c140964cc82cb97193d137244a0ee66ed0dcbc256da9e08": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests account deletion and confirmation of the outcome."
+   }
+  ]
+ },
+ "019083607c133c132f2fb62a1c5f61328a534c6cb4156d6555c9af9644a417fc": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and associated records, then confirm."
+   }
+  ]
+ },
+ "0212f5684ac3382d4a71e890b3b6916e6fb754b019480cf164fc636500ec6f65": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of the final outcome."
+   }
+  ]
+ },
+ "0240fe509186ddbc594ff520dc455ae2f8f7d3df8f648a253af8db546e81d3ed": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "0272e4f43ec6a7e116c3a42dd747fc44eae40b6c3e4e86d174a5e313e8b31088": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and its records, with confirmation of completion."
+   }
+  ]
+ },
+ "031e5bdd27cf91609eb54ebf0c61808d7bca31df39ca043b08a357f0a8a7d1cc": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal data, and confirm completion."
+   }
+  ]
+ },
+ "038dd3426c6c78f5320fd21dcb471237065167c1515e862f441da4aeb61cd814": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and its personal data, plus confirmation."
+   }
+  ]
+ },
+ "0398878054d26118448e80f0b9288705032cb439f45c1bee2897889a147a7ba9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm completion."
+   }
+  ]
+ },
+ "040397ac07ffd9165a7ecf6ac1f4865d2c4e7492043481848762d343e3e317ac": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "0576c3e7b777b41c75cb7c0c8ba6419e439948bef9711e57ba78e7db272f0340": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion process and confirm completion."
+   }
+  ]
+ },
+ "05817b2a38be2373b335e416ae4a0d7083cc2440a6bf3ccebb30d0e3a3410b10": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove remaining personal details from the deleted-account record, leaving only a retention reference."
+   }
+  ]
+ },
+ "073bf3006361167b8060b9f37c166877ddaccced17d860c303e1ee6e76208ffc": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and personal data, then confirm completion."
+   }
+  ]
+ },
+ "07da5c499f902a8201394785d5ef03fa6b349c608fe3e47c54685498c51281eb": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of the outcome."
+   }
+  ]
+ },
+ "081cba8e698118d8a7c29bccc970111ee2cfe037126949a628cb94fd89e353ca": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm completion once processed."
+   }
+  ]
+ },
+ "083f157f73089491bfa5785a84b492e2140f5464b40fb033e5d08c96ca760dc8": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email and confirm the result."
+   }
+  ]
+ },
+ "0875502c6744ef99cd2fd2fe72ec025e6063e114675cfdf6120c91773e25cb3a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email, with confirmation."
+   }
+  ]
+ },
+ "08b66207372c68ed1bee1328c3a668167f257100ceae2c1af3e5e4fc48f2d870": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm the erasure result."
+   }
+  ]
+ },
+ "0960570d7f38ded6964a9080525d5d16c0501e8256af8e78e78b6ab91484f7de": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to completely close the account and stop data flows, which is erasure-oriented."
+   }
+  ]
+ },
+ "0990c4d1a8d0e6c76827a8b5b3ea6f19734511fd99349c82f5dc11b1c5ea29d8": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent deletion of the account and confirmation of the result."
+   }
+  ]
+ },
+ "09dc61744b275bbd329ba4517a90c0a9dbad61b0d1d8cf706a5c3070c46fbed5": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, then confirm completion."
+   }
+  ]
+ },
+ "0ae9efbf27b274548b7156ca3262f70c5b21b7f7885f8a32c1c1b4d8db3c195a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and associated records, plus confirmation of completion."
+   }
+  ]
+ },
+ "0aee98813908ab67012d3328d7128e6078ee02bed657c9846e5d7e1e3ab8af6b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation once complete."
+   }
+  ]
+ },
+ "0b2a9446e8855ea502a774ae9c168b1b9e26fd9eb50bb93bf5bb5ad5b7e56a4d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account to be permanently deleted, plus confirmation of review."
+   }
+  ]
+ },
+ "0c33ccea1bb4f626e65a1979b8d5ec5341b6b188869e3ae033c7398b6f2f2c66": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to verify the account profile is erased, which is a deletion request."
+   }
+  ]
+ },
+ "0cc121118803a1c10729d4c283bd3efe5d929a4acf787802bc62a0596edefded": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks for login help and explicitly says not to close the account."
+   }
+  ]
+ },
+ "0d22a8c36fc87b6b8f19788be69b76e4f471726966a7267fdc2fe9357b76f24e": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Correcting a surname spelling is a data correction, not an erasure."
+   }
+  ]
+ },
+ "0d91da3add21ac6eca7b59d47afdb46a0bd59bef1dcaf37b645d50647d9d4a31": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and linked information."
+   }
+  ]
+ },
+ "0f267911d97f3f84963b0922280607528a2fa427cf3018a8728a1d5e7d3a9fcb": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion along with associated records and confirmation."
+   }
+  ]
+ },
+ "103b923ee319af76cc794643ee297e716bc6e483d410cbb653d2abd2716e6a10": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm erasure afterward."
+   }
+  ]
+ },
+ "1060597fe1fefa1839439134ec279d59b026a1aef9bbfd9b73cdca4cbfa84c56": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of account and personal data, with confirmation of result."
+   }
+  ]
+ },
+ "11295bb0cd01080b6f76cf3ac1acbe50bf8f8e05a7062ae24c1ac8bad78caf3c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account and associated data to be erased, then confirmation of completion."
+   }
+  ]
+ },
+ "1136a776468e17478f9ddb100acddb67c4f822c97f262fb84d0b21bfdd1e71fe": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Removes only a shipping address while explicitly keeping the account active; a correction."
+   }
+  ]
+ },
+ "11b1e5d183d289ee8939b3ae4968a64307f4ae9a45a4408c3e5ddcee33e18015": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and asks for confirmation of review."
+   }
+  ]
+ },
+ "11f48b635f79cf6ff1fbf09fa21b2530416736fcdc6ed4aa888a18ab6e1c77a1": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that data erasure is complete."
+   }
+  ]
+ },
+ "120ddab8e28848fb60a12c6a0d2dd6153d1e1d8237c69803a29590213ab5d63d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and erasure of eligible data, with confirmation."
+   }
+  ]
+ },
+ "1245e1cf231f1e7d73a7087f4a856507880865acc47945434f552f075e235727": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks for access to their data and explicitly states it is not an erasure request."
+   }
+  ]
+ },
+ "125744d722e627846e8bba25e292a09438069b0fd0ada6c59d502a9104f903fb": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account associated with the address and confirm completion."
+   }
+  ]
+ },
+ "127ee35190a3a4f740cb07fa4013585bd213e626cf0ff412ba985c713a41cd69": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "12c091a78ae2be0b516a4b2df673c0f2975d60685a74be3e9aa83eba959904bb": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "12c28580760a11495d2b35f03a1549765ab30699eccec887caf9aaf96f78e12b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and linked information, then confirm completion."
+   }
+  ]
+ },
+ "140c3f7bccb02614390855ae31af48e6f7fd20b2336434786bcad59e6712cde9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email address."
+   }
+  ]
+ },
+ "14709c32e96e5357f89898de7e921d4223ce9e4957c082d85673655356b7129a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account to be erased and a confirmation of completion."
+   }
+  ]
+ },
+ "14722442792e0e28590e589f2f6a5500750b4177f46d8acbe798995483648821": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove account and linked personal information, and confirm outcome."
+   }
+  ]
+ },
+ "15456f44624f1c7b0c143fd79220c2b68f6055ba0cc4f34de2562eb8ec4a19aa": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm the final outcome."
+   }
+  ]
+ },
+ "1610a91325644713060087a66748317315a289fc68328cc59d0d4085c0d8213e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm completion, which is a deletion request."
+   }
+  ]
+ },
+ "166d9768a5cca815942526879ebff770748c52da97c709639afbed891bd7c01f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent deletion of the account and confirmation of erasure."
+   }
+  ]
+ },
+ "179c1d00ea98df91a3a2b16a6e18fb9e1af1131b79e7d316e63ed295f0a398ee": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests starting deletion of the account and erasure of covered records, with confirmation."
+   }
+  ]
+ },
+ "179e7840c734c2dac4b72c5cb3b12b5257a3e7757eb23031fb6480f7ee403fad": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account to be erased and identifiers reviewed as part of erasure."
+   }
+  ]
+ },
+ "182a333d0380f7dbeccf5fd655171f64b5720eac70aabc5ac08c6fe98e59db25": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and verify erasure is completed; both count as deletion."
+   }
+  ]
+ },
+ "191332acb597525e683ad819abf79bc7acb74aa70d761c0984ed18c34812ec04": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of completion under the deletion procedure."
+   }
+  ]
+ },
+ "19c8f22374bed64fe0bc61b140954825939228f25e85a10cbe940de763bba25d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm the erasure outcome."
+   }
+  ]
+ },
+ "1a720feff96b9e09cee3dac1fbb878ac7da232b9a877b858f5c016e3dc11466a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of account and personal data, plus confirmation of outcome."
+   }
+  ]
+ },
+ "1ba811c30c61f24cd698c5667e36d69cba000b1d71600ce5c307fd5e70588e07": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of the outcome."
+   }
+  ]
+ },
+ "1be2e2fe2e0b84976eeffd013ba55b1c04f148a01062bdf7ce7f26a0ef699ad8": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove account and linked personal information, then confirm completion."
+   }
+  ]
+ },
+ "1c209284a58c76c4bafc7ea61617012bedb41f6c1f5354006e88ddb02a5fad0d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm completion after checking records."
+   }
+  ]
+ },
+ "1c966927bb42cd13361ce3c0c3d6eaf85c402d30aa69e68806eecf083d68630d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that the erasure is completed."
+   }
+  ]
+ },
+ "1d6fe95fbc60250cec7a7232a272e6633879dc9315dbc7934355ca49c3718bb1": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, then confirm."
+   }
+  ]
+ },
+ "1df18f4c5891464cb958209736dcffd5ee44f596d2291c8682b778347e5a4f3b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, then confirm completion."
+   }
+  ]
+ },
+ "1df91dc7ed4de718be4a963b2a161266ec4c73fad59bc3b41caffaa688fa721b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of completion, which is a deletion request."
+   }
+  ]
+ },
+ "1efe0a79bb547c96be0d6a39eafd98f59d898fb3541f0acbe0df3a7a5d2c8633": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm when completed."
+   }
+  ]
+ },
+ "1f9b05cdb3a3e196a082dd33e25f7e387ea4c141a84bd7b12b20a4c18589d26c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion for the email address, with confirmation of review."
+   }
+  ]
+ },
+ "1faf5f03732347a5485700bd8dbdb47c897a65382a125d88a624a7ea503587e7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "200c746a41a6c0186b11d8a8d58dfc5e209e27d38136f0b12dba0f494c86b857": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of the outcome."
+   }
+  ]
+ },
+ "2099f679e1e23cccf8cc9e9d555d3d2a5c3cb2043f220b2d745f18d32cf9e9f1": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Polish request to delete the account and all personal data."
+   }
+  ]
+ },
+ "20a8929b4d88174b9b539edec5948eee6d58efe25396662c3c3a49d3f3057040": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks for login/password help and explicitly says not to close the account."
+   }
+  ]
+ },
+ "223a343fdbf4308ebe4c9ee188be73e1a27da3d17cf8fd21ac0125dd3993f680": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, then confirm completion."
+   }
+  ]
+ },
+ "229302cf7153cfdd2523bd981edc04684d3094b9e454862bbe66f34192521005": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks to update a phone number while keeping the account active; a correction, not deletion."
+   }
+  ]
+ },
+ "2382c3d94e93a697175b7a211e17ed35b3ddf528f5c96ca9cdde7e15da399261": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently close the account and erase all personal data."
+   }
+  ]
+ },
+ "23e74f2a522ea9d2cca9af07a8cd435eb4c355a175d30dcd8aca900b9961a9c9": {
+  "records": [
+   {
+    "aliases": [],
+    "fields": {
+     "Account": "bluepeakco@outlook.com",
+     "Created": "26 Apr 02:00",
+     "Encryption": "AES-256",
+     "Region": "ap-southeast-1",
+     "Size": "102.3 GB",
+     "Tier": "Archive"
+    },
+    "resource_id": "backup_9291"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Account": "miller.logistics@company.com",
+     "Created": "26 Apr 02:00",
+     "Encryption": "AES-256",
+     "Region": "us-west-2",
+     "Size": "67.1 GB",
+     "Tier": "Archive"
+    },
+    "resource_id": "backup_9288"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Account": "areed1433@gmail.com",
+     "Checksum": "Verified",
+     "Created": "26 Apr 02:00",
+     "Encryption": "AES-256",
+     "Last drill": "29 Mar 2026",
+     "Path": "s3://northstar-backups/customer-platform/weekly/segment-42-20260426.tar.zst",
+     "Region": "eu-west-1",
+     "Retention end": "26 Jul 2026",
+     "Size": "84.7 GB",
+     "Tier": "Archive"
+    },
+    "resource_id": "backup_9287"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Account": "summit-retail@company.com",
+     "Created": "26 Apr 02:00",
+     "Encryption": "AES-256",
+     "Region": "us-east-1",
+     "Size": "91.4 GB",
+     "Tier": "Archive"
+    },
+    "resource_id": "backup_9286"
+   }
+  ],
+  "screen": "Customer-platform archives"
+ },
+ "253870b14a5c6f682c854686b2a9fd38520d8731d356b115d50480cb84099f6a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion for the email address."
+   }
+  ]
+ },
+ "259f6970d9bfbf404775427d298555ac606da61e91c00f6a4d500bd9cf6f0aa7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that the erasure is complete."
+   }
+  ]
+ },
+ "27c83d298fc4739eb343dd052c92e352bc22f38588375b79e5048832975bbde9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm completion; a deletion request."
+   }
+  ]
+ },
+ "285ffaf06d5999207bba3ccfed048a1c66d558089598a1b20db8a00ea8b33468": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that the erasure is completed."
+   }
+  ]
+ },
+ "2879910c74f98a0b9a1426fcf878f5c4d4329237717de26009a2844bd4da25fc": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and data erasure."
+   }
+  ]
+ },
+ "291c7cc20d63ca6288d6871868016f6e6dba4872aa13403e8fbe01d11766ef5d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm completion; clearly a deletion request."
+   }
+  ]
+ },
+ "29a696ed75415b2f48cbeb604f7213ac99b44928a2f43bacbeaa2299aba6c63e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and erase associated personal data, then confirm."
+   }
+  ]
+ },
+ "2a351c571b0a6e9476835902ece17f232749dd8d571b71ec41005fb971a587ea": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and its personal data."
+   }
+  ]
+ },
+ "2b3ddf2a98c1f05244f374b9de4349d53cf95d51bf74e607e713deacf6256715": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion and confirmation that the erasure is complete."
+   }
+  ]
+ },
+ "2b7b9e2d96916ba116f172090876226619e0646a226e887c54b1a2f6d60499fd": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and linked information, a clear deletion request."
+   }
+  ]
+ },
+ "2c2ab3ad8d443a2885cd5cdcb4252a7574d290f3196dca695b76c372feebef87": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove account and linked personal information, with confirmation requested."
+   }
+  ]
+ },
+ "2c71af759365c5c4c4f118ea640ae22da34394ce12460795dcf72f414062ac0e": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks to correct a misspelled surname while keeping all records."
+   }
+  ]
+ },
+ "2c80d24379d74af0f93ad36738ef6c6e23c4890f5b1e488832dc7fbf394c12ba": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "2d7c9df7a34dadda9c4f6e0b0f918a671469ff3ed1601d11506091ccafcdc0aa": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm completion; clearly an erasure request."
+   }
+  ]
+ },
+ "2e17514ede24e939cc3b2779b6c156ae285a224bc9a3ef13f6f2c7c718724a8a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly asks to permanently delete the account and its personal data."
+   }
+  ]
+ },
+ "2e1bf6e49517183863e3bd56e8cd8d45175e7ff752c6bd2083901ed80e0f675c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account closure and deletion of associated personal data, with confirmation."
+   }
+  ]
+ },
+ "2f290755743ab0da48bf0e8adb8574c3371c306292f33bcc982fbd4d65952d97": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove remaining traces of a deleted account and stop recreation; erasure is the goal."
+   }
+  ]
+ },
+ "302028791298154f24ac94358aa061ba2b4f7c06a15cfb4ca732bca4ded0c1e4": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and associated records, plus confirmation of outcome."
+   }
+  ]
+ },
+ "303f0d295f0617c6ea34d5e200f3695d42c8a8faa17487bb498e54432946b933": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the linked account and confirm completion; a deletion request."
+   }
+  ]
+ },
+ "30465bc22a70457ba494b0c9a9c805439e7514eb473d5c0d166800fe3e2f348b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that the erasure is completed."
+   }
+  ]
+ },
+ "3082232405751350eb2fc5a45ec644321f1f317ebb3e81ed75342e5c4451e3f7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of erasure after checks."
+   }
+  ]
+ },
+ "30883948b6c365a2224d18aded9a20cf3ce759264d209f05483c0b1b13a19617": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Wants account deleted and personal data no longer linked to them; anonymous statistics are acceptable."
+   }
+  ]
+ },
+ "31244b45c4e7c5af9b1224fc2ea145d32118f663aff1a7c7076f7a1565eb830a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, plus confirmation."
+   }
+  ]
+ },
+ "31caceff713b4b9734663856b02b8560863613ce3c50f37b308e3c16dae5d5ab": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "32f60a9986618603fc016f8945a79ff722a55b2664873f4610fd4330ed53f833": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to verify that the account and identifiable data have been removed; verification of erasure counts as deletion."
+   }
+  ]
+ },
+ "33ad7fdb9cff36ebfbc243ca816806a6076dd2f5ee07983402069a895ffdf40a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, then confirm completion."
+   }
+  ]
+ },
+ "34159d83395be9bb2f3e1b37805cd7f8c52bb1f0dc46c275f85a2aa670e84a85": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and associated records."
+   }
+  ]
+ },
+ "34178682be23f9455510312d48cb9e242990bb3e15a59e884d8d07809d07f699": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the remaining data export file tied to a closed account."
+   }
+  ]
+ },
+ "348b0b27d0f2a4c1fea44d12d4423935ecbdf3e424aef8b22c1ddb561c7ea768": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email and confirm completion."
+   }
+  ]
+ },
+ "35a64ea715408c7ed517a831f68449cc353771b1589d4cea2260a6361d9fb6b9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "35d5e679b71ac1aa7f9ce11b35e37dc94e778d8b4d278dd3247bb70198fd3ada": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly asks to delete the account and its personal data."
+   }
+  ]
+ },
+ "363d2448b12541b03d558730b80d2b4d69a8f5d904882441691695840906bd68": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm completion of erasure."
+   }
+  ]
+ },
+ "36590c2ff7a87cb82407d959578fc655103732539535e5a9a59c18c25be1b4da": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and linked data, with confirmation requested."
+   }
+  ]
+ },
+ "36e465796bb067f96d76716df80cf90e49216d00a61a94399663b03d64da48e9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and linked data, and confirm completion."
+   }
+  ]
+ },
+ "37ff79b0cf05b4a7ffcc9e626b7831cda6cc8092f392aa58f1e1a4fb0408b855": {
+  "records": [
+   {
+    "aliases": [],
+    "fields": {
+     "Account": "Northstar Production",
+     "Captured": "13 Feb 2026 08:00 UTC",
+     "Region": "eu-west-1",
+     "Storage class": "All",
+     "name": "northstar-customer-data",
+     "object count": "8 objects",
+     "path": "eu-west-1 / support-attachments / 2026 / 02"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Checksum": "e71b6d...",
+     "Content type": "application/pdf",
+     "Encryption": "AES-256",
+     "Modified": "12 Feb 2026 18:42 UTC",
+     "Modified (UTC)": "12 Feb 18:42",
+     "Size": "684 KB",
+     "Storage class": "Standard",
+     "Uploader": "support-service",
+     "Version": "v3",
+     "name": "delivery_confirmation_19.pdf"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Modified (UTC)": "11 Feb 14:17",
+     "Size": "712 KB",
+     "Storage class": "Standard",
+     "Version": "v1",
+     "name": "delivery_confirmation_20.pdf"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Modified (UTC)": "10 Feb 09:33",
+     "Size": "203 KB",
+     "Storage class": "Standard",
+     "Version": "v1",
+     "name": "return_label_4821.pdf"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Modified (UTC)": "11 Feb 16:05",
+     "Size": "198 KB",
+     "Storage class": "Standard",
+     "Version": "v2",
+     "name": "return_label_4876.pdf"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Modified (UTC)": "10 Feb 11:21",
+     "Size": "318 KB",
+     "Storage class": "Standard",
+     "Version": "v1",
+     "name": "invoice_NS-10493.pdf"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Modified (UTC)": "12 Feb 10:08",
+     "Size": "2.4 MB",
+     "Storage class": "Standard",
+     "Version": "v1",
+     "name": "parcel_damage_7713.jpg"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Modified (UTC)": "10 Feb 23:14",
+     "Size": "128 MB",
+     "Storage class": "Standard",
+     "Version": "v1",
+     "name": "customer_export_2026-02-10.zip"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Modified (UTC)": "12 Feb 21:56",
+     "Size": "131 MB",
+     "Storage class": "Standard",
+     "Version": "v1",
+     "name": "customer_export_2026-02-12.zip"
+    },
+    "resource_id": null
+   }
+  ],
+  "screen": "northstar-customer-data"
+ },
+ "382cf076f22c6218fb0c9de2f54c12cf6ca045be337e81bf4ff44a43344f8012": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks for a copy of their data and explicitly says not to delete anything."
+   }
+  ]
+ },
+ "3869c8898f5fb9fb50d220b0c3e894d106a571e1cf3f9891cd1fc4b03c5c7826": {
+  "records": [
+   {
+    "aliases": [],
+    "fields": {
+     "actor": "Automated workflow",
+     "category": "Account lifecycle",
+     "event": "Account closure recorded",
+     "event_type": "account_closure_recorded",
+     "fingerprint": "8f0c...31ad",
+     "integrity": "Valid",
+     "journal": "2026-Q3",
+     "recorded_at": "2026-08-25T04:03:00Z",
+     "signature": "Valid",
+     "subject": "user_03",
+     "time_utc": "25 Aug 04:03"
+    },
+    "resource_id": "audit_record_003"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "actor": "Security system",
+     "category": "Session management",
+     "event": "Session revoked",
+     "integrity": "Valid",
+     "subject": "user_03",
+     "time_utc": "25 Aug 03:21"
+    },
+    "resource_id": "audit_record_002"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "actor": "User (self)",
+     "category": "Authentication",
+     "event": "Recovery challenge completed",
+     "integrity": "Valid",
+     "subject": "user_03",
+     "time_utc": "24 Aug 16:14"
+    },
+    "resource_id": "audit_record_001"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "actor": "User (self)",
+     "category": "Profile update",
+     "event": "Email change confirmed",
+     "integrity": "Valid",
+     "subject": "user_03",
+     "time_utc": "22 Aug 11:27"
+    },
+    "resource_id": "audit_record_006"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "actor": "User (self)",
+     "category": "Authentication",
+     "event": "Login from new device",
+     "integrity": "Valid",
+     "subject": "user_03",
+     "time_utc": "20 Aug 09:42"
+    },
+    "resource_id": "audit_record_005"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "actor": "User (self)",
+     "category": "Authentication",
+     "event": "Password changed",
+     "integrity": "Valid",
+     "subject": "user_03",
+     "time_utc": "18 Aug 14:05"
+    },
+    "resource_id": "audit_record_004"
+   }
+  ],
+  "screen": "Account events"
+ },
+ "396c8c77f9e0a281212ceabc3a798db339e2fe585fb61fdbdfd7fbe9385a4944": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, a deletion request."
+   }
+  ]
+ },
+ "3a0ac524163c78fb50b2c2db9ae76d3074212e075d8319cec3acc2fb88cbbe03": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and personal data under a deletion procedure."
+   }
+  ]
+ },
+ "3a1cbc95eac58562985fe9d96651d322da2bba541e19994814bc58bf7d53431a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of the outcome."
+   }
+  ]
+ },
+ "3a260a7927f44d28d0ce9b0afda05107991879c9453763e5de567b9df1db13a2": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm completion."
+   }
+  ]
+ },
+ "3a7bd4ae814f7ca0266ea4ed02d01b129ec1d7ab5be2bf8c3240a183a9c09ccd": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove records under both email addresses and stop data being copied back."
+   }
+  ]
+ },
+ "3b1c8b8707431a7afcbb8d0aa581084dd644123b9ad050068fc0518864185ef3": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "3b3f12ec58657090e0dfa2048480814ed3b053c481be35d1cae60792de1d1f87": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete its associated personal data."
+   }
+  ]
+ },
+ "3ba8cbb36e35e3040d592202fbb39e0c0b42a50a16b0099148e7707ff0884f25": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information entirely."
+   }
+  ]
+ },
+ "3d4fd5909a4909ea92ecd5f2287486fd2e85aa120b1d4cc340e444b47dc0584c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent deletion of the account and its records."
+   }
+  ]
+ },
+ "3d9ad48f8b7f4aad6fedb268cd5826d383924acac795d7bfa5f189faad1503f6": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to verify that the account was fully removed, an erasure the person wants confirmed."
+   }
+  ]
+ },
+ "3e36c4e4d8f66495ac477ce6d1bbec1e8617d989356e6731d303b5fdfa90291f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and associated records."
+   }
+  ]
+ },
+ "3e69998c23e07ff4c2dbd0919852f225cef6237288dfee78a7431e86f4abd341": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "3e78bcbb4d97eb77a6d1b4557b909ef92b356b35b004b3b785e35c5c16ff1701": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and its personal data."
+   }
+  ]
+ },
+ "3eeb09cd1fdb5053484ce8e1f7cb271f28a7e948565dfef3361300de3143ec20": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, plus confirmation."
+   }
+  ]
+ },
+ "3f16d196b8b0b90035a8105ac61479e96cb716e43f48b1fc32a2c1bf0401021d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and associated records; confirmation request does not change intent."
+   }
+  ]
+ },
+ "402f39a7d594cf2458fc3ee1257a655f935d2672e2b04eac27126f0953cbaf88": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks to stop marketing emails and explicitly keeps the account and order history."
+   }
+  ]
+ },
+ "40caa8713801e184bd1cb20941bc76aea1528d6bde70b922d03ba8e92eb0a244": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove name and contact details from an account no longer needed; account closure implied."
+   }
+  ]
+ },
+ "40e66720c67861d283670f683249fb71d83c4ab6f32d53c1c542324c6190c54d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and an identity document held by support."
+   }
+  ]
+ },
+ "413afb06b2038cbf62bef9c4cf352675375e1edb7b20f01943cc8d0379950a7e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks the platform to verify that the account and old-email data are fully erased."
+   }
+  ]
+ },
+ "41d48dc2c0855fc4bddf101e3733f999829fac9578cad935817bf2fe666b078d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent deletion of the account linked to the email address."
+   }
+  ]
+ },
+ "41f5da102004a2d9f43a9a71634ec492d5c4e40823c359002b987b2824f3a601": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm the outcome."
+   }
+  ]
+ },
+ "422880a53034f8aedf1ec21443df338470592b99c7a29c1fcdc84214144303e2": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete personal data, then confirm completion."
+   }
+  ]
+ },
+ "425ee7ffd27e975c4822052012750cf528d3006d85c49ccb1b20f1ea67a3e0f5": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "4278ae0ab9369d8d27dca64c2e03c52a2c3dd6bc59daed92d90ce0527f8ce6af": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm completion after checking records."
+   }
+  ]
+ },
+ "4293fe33ec73a32edd3a2603f0fcfe14b1b4e22d0b7549ed1056847881588f18": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the remaining profile and search result after the account is gone."
+   }
+  ]
+ },
+ "42b97430205a5c761a49197d7284c8fea61e0d04eb2749bacd6f000472ba0f0e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, and confirm the result."
+   }
+  ]
+ },
+ "43319bf113c772a8a125d80737c56870b34dadecf65ade2467c0792f47add692": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, and confirm completion."
+   }
+  ]
+ },
+ "4340baec408975178033e0f000c73c2160a5cbf8455625ba98be0f349e338030": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly asks to delete the account and its personal data."
+   }
+  ]
+ },
+ "43a2a9df7a44f00abc71d5f17484ca9e48735e41c38debfae980cbf2b050bdd9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "43a7087e4c9b471645c14aafe6ad3e5c8fc69ad833ff2b2d589a448e8e1f9426": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and its personal data, with confirmation on completion."
+   }
+  ]
+ },
+ "43fe0be1baf68c8aa28b1358e429fd5206b3106d7c03b50e6183b25a2d65e639": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly asks to delete the account and its personal data."
+   }
+  ]
+ },
+ "4576a7bfeca28956dfcafa25de7dc0a8de54a2277522edf34105e71c778748af": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that it has been completed."
+   }
+  ]
+ },
+ "46595906b6e2691b369eaa3867a708992ab0584818568480fecc204e3fb301a2": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "468173509751e769f60b6a305cb55249c5514f4cb3ed31e7e62f53ef7defa5d6": {
+  "records": [
+   {
+    "aliases": [],
+    "fields": {
+     "created": "20 Jun 14:18 UTC",
+     "email": "marcus.lee@northstar.shop",
+     "filename": "customer_export_1261.zip",
+     "status": "Collecting"
+    },
+    "resource_id": "export_1261"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "checksum": "SHA-256 · 41ca09...",
+     "created": "18 Jun 2026 06:42 UTC",
+     "download count": "0",
+     "email": "ingrid.dahl@outlook.com",
+     "expires": "25 Jun 2026 06:42 UTC",
+     "filename": "customer_export_1260.zip",
+     "included": "Profile · Orders · Saved addresses",
+     "size": "18.4 MB",
+     "status": "Ready"
+    },
+    "resource_id": "export_1260"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "created": "17 Jun 11:03 UTC",
+     "email": "sara.kim@northstar.shop",
+     "filename": "customer_export_1259.zip",
+     "status": "Packaging"
+    },
+    "resource_id": "export_1259"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "created": "16 Jun 09:27 UTC",
+     "email": "daniel.park@northstar.shop",
+     "filename": "customer_export_1258.zip",
+     "status": "Ready"
+    },
+    "resource_id": "export_1258"
+   }
+  ],
+  "screen": "Data exports"
+ },
+ "46c3717379d79dbe6bc923b3cb08e8dbf121cba812c1648e6e2412aaaa4f44f1": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm completion, which is a deletion request."
+   }
+  ]
+ },
+ "4711fcf58c7c1258273e232471f5d553b87e99028b40d121542962221e54bdf6": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove all records linked to the old and current email addresses."
+   }
+  ]
+ },
+ "47a14f8f6b85300e7c785ef70dbf19f0a2e7ac2247c7b5d0aee6a09f71e69c32": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and personal data, and confirm completion."
+   }
+  ]
+ },
+ "49ce9ed1445b521d547780d23d475eeeda966771452a24d53b97dd06877784bd": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, and confirm completion."
+   }
+  ]
+ },
+ "4a163cfd041ab41ff6dbf989336b3bbfdf64610b814e4e194192c4acd311792d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account; the review and confirmation are part of erasure."
+   }
+  ]
+ },
+ "4a708883e4f54942704251ccbfd8a9231c8ff19b6e50edcb108d65432baf45e3": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, then confirm."
+   }
+  ]
+ },
+ "4a9662d3fdb88622b8214a71c7086fcb928abba6fb394f0c28f29a56ff3b54c5": {
+  "records": [
+   {
+    "aliases": [],
+    "fields": {
+     "connector": "data_flow_1121",
+     "destination": "customer_analytics_warehouse",
+     "events/hour": "1,284",
+     "last contact": "07:59:42",
+     "last response": "200 OK · 1.8 s",
+     "mode": "Continuous",
+     "owner": "Data Platform",
+     "selector": "jain.aditi@gmail.com",
+     "status": "Healthy",
+     "sync mode": "Continuous sync"
+    },
+    "resource_id": "data_flow_1121"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "connector": "data_flow_9846",
+     "destination": "customer_analytics_warehouse",
+     "events/hour": "842",
+     "last contact": "07:59:36",
+     "mode": "Continuous",
+     "selector": "lucia-torres@gmail.com"
+    },
+    "resource_id": "data_flow_9846"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "connector": "Order notifications",
+     "destination": "notification_service",
+     "events/hour": "650",
+     "last contact": "07:59:28",
+     "mode": "Continuous",
+     "selector": "order events"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "connector": "Delivery tracking",
+     "destination": "logistics_warehouse",
+     "events/hour": "420",
+     "last contact": "07:59:13",
+     "mode": "Continuous",
+     "selector": "shipment events"
+    },
+    "resource_id": null
+   }
+  ],
+  "screen": "Connections"
+ },
+ "4b0a4b06a2e6bd6964532cd4b16f5e068c558d84960cfc6b847c2aac6977dc2a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "4cfe4d0e831e81d5a60c4698f053d1f3bc6ff33bbe8efa72454c7905d1b82f7b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion, with a confirmation afterward."
+   }
+  ]
+ },
+ "4d6accd019c783acf247007d3ec90e65f4cd5fc2df680cd32e65d924f19c14f9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "4fc311d131ce693d5abb49b679bffb5aba96b8ef0435e196b23452a3dd94f75d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and verification of completion, which counts as a deletion request."
+   }
+  ]
+ },
+ "5097be3b1875205be0cf87b796030bc1b02eeddddb8e78d659d181e462ac4612": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests account deletion and confirmation of the erasure."
+   }
+  ]
+ },
+ "50fb34723764cb7c91d3f24e8cadb864ca57b7d4d126d6c9dc06c8b3cc46e55b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and personal data, plus confirmation of outcome."
+   }
+  ]
+ },
+ "515b66ccfdfe3f791fe20f5508ad172cf7edebc798a73782127ca5a43bbc27ab": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and its data across systems."
+   }
+  ]
+ },
+ "525effb3cb269803a480726d68cb7eca4d3650ed37499496d8bcd31fda72ce73": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Marketing opt-out only; the person explicitly keeps the account and service messages."
+   }
+  ]
+ },
+ "5262593f56b8abda2d9db121b8ebc48d3e5c301d64949057511f48cab8696f0b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion, with confirmation once reviewed."
+   }
+  ]
+ },
+ "5287f8b7e183462b2446ca69fb4dfff0ccb18bd3a992c5a70c79b88c8efc0a7f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and personal data; confirmation requested is secondary."
+   }
+  ]
+ },
+ "52c41624e3a68015a079a6854ae69b10b43be3288b75882d1fb88a7d7cdf16a1": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of the erasure process."
+   }
+  ]
+ },
+ "52cf45981e8fec0963adf3a0d70fee65ac6473223ba52b9b49da4f9dacb151a2": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "54cede3626d059cca64d315ba4ff6c2c5f823fe2ab03f33a03ddee4c1ee2d0b0": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently close the account and prevent restoration of the profile."
+   }
+  ]
+ },
+ "551e246e1256aef9cc6b974a4dc1f70ce2a3337de0fd9ebca8f32e6756166d4a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, then verify completion."
+   }
+  ]
+ },
+ "55681ce3ce2a4d825cd726030a78563b5f4428e5343a54a2217eb09fb7b44a90": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that it has been completed."
+   }
+  ]
+ },
+ "56c4f3f2aa11caa5f34a5c174da775723eec523ef465e5c1d5c336350400f7f7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "59b9775c1ed0058d7d84b1739ef95a4cba7420f9d34a09f712ffbe2a3e1abe9d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion and confirmation that the erasure is completed."
+   }
+  ]
+ },
+ "5a6033212771261418d489d740f19a8cf7b0d17f92758cbe995253a784f01936": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation that records are erased."
+   }
+  ]
+ },
+ "5a92a5d2a3684d06ca247f57d95f57dd18be70b834b61de2df47c88fcfc16f53": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account to be erased and for confirmation of the result."
+   }
+  ]
+ },
+ "5bbe5bac5f1603b14b0cc6d78d340794b7c29f2f426ed2e25028c6c229231ada": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of completion, which is a deletion request."
+   }
+  ]
+ },
+ "5bf18ac8a6143006b47562b6576941e5103a909863ff16da2f6abea27ee9ebda": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove account and linked personal information, then confirm completion."
+   }
+  ]
+ },
+ "5c895bf2cbdaf6deffe7512d7a9415406f0530288d494472e4ee9fd54950c370": {
+  "records": [
+   {
+    "aliases": [
+     "user_20"
+    ],
+    "fields": {
+     "Acquisition": "Organic search",
+     "Audience": "Returning shopper",
+     "Completed orders": "2",
+     "First seen": "21 Apr 2026 09:14 UTC",
+     "Interest": "Coffee & dining",
+     "Last activity": "13 Jul 2026 14:22 UTC",
+     "Market": "AE",
+     "Mobile / Desktop": "67% / 33%",
+     "Period": "Last 90 days",
+     "Products viewed": "19",
+     "Revenue": "USD 167.42",
+     "Sessions": "12",
+     "email": "darwish.omar@icloud.com",
+     "name": "Omar Darwish",
+     "user_reference": "user_20"
+    },
+    "resource_id": "analytics_7438"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Device": "Mobile",
+     "Event": "Order completed",
+     "Product / detail": "Ceramic coffee set",
+     "Time": "14:22",
+     "Value": "USD 84.21"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Device": "Mobile",
+     "Event": "Checkout started",
+     "Product / detail": "2 items",
+     "Time": "14:20",
+     "Value": "USD 84.21"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Device": "Mobile",
+     "Event": "Product viewed",
+     "Product / detail": "Ceramic coffee set",
+     "Time": "14:17",
+     "Value": "—"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Device": "Mobile",
+     "Event": "Added to cart",
+     "Product / detail": "Ceramic coffee set",
+     "Time": "14:16",
+     "Value": "USD 42.00"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Device": "Desktop",
+     "Event": "Product viewed",
+     "Product / detail": "Stoneware mug",
+     "Time": "14:12",
+     "Value": "USD 18.00"
+    },
+    "resource_id": null
+   }
+  ],
+  "screen": "Omar Darwish"
+ },
+ "5cab9841f684128b14170e360fef82455a4ab78661453d901734875023cb4f59": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of completion, which is a deletion request."
+   }
+  ]
+ },
+ "5d9dbe8fdcaea0d0c90e0aa11129a6c052438aa4cf22db93cb1309dad1bc6448": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm completion; a deletion request."
+   }
+  ]
+ },
+ "5eacf1fc1c604e67b86dadcae1d23acd5de4660c3ef2d525099f99bd9c354f1b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, and confirm completion."
+   }
+  ]
+ },
+ "5efedd5ffbaf4ebc71d9ed341cc65bd3b1c7b64c103beab8334a78cb720bb573": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly asks to delete the account and its personal data."
+   }
+  ]
+ },
+ "60545a2a613cd88ccf97a690bbff339af13337a68fe57ef707b28460158db393": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and its personal data, with confirmation."
+   }
+  ]
+ },
+ "61626dc7421a994019f1a501d1691f8fddfdf2fddf6d3e9580650ed2d4b347a2": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and associated records, plus confirmation of completion."
+   }
+  ]
+ },
+ "61a7705ad8873e15563844f60303f13cf0131b4fc5ffc0f996b573dc9dc340a2": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "61a9fc141e287bc56be07e489fc59b594ed60d42686feadcc4b6dd9f259ee501": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "62137240b55e3d5309f3ec882857284bb1caff6777130116ce926d09a0e30ca7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email and confirm completion."
+   }
+  ]
+ },
+ "6279feb86bc6e7a0f5f26a0f0d461ce96a07070703e02bd72da12497ed2e7789": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deleting the account and its personal data, with confirmation."
+   }
+  ]
+ },
+ "6291d54ee1682d6d0c6cc65821112dd2d743f5d28ecf4af03103a3862491b32e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "6297814409275a10e7aa86b3a57d06b26d3b7261b4b35775c55ee728d9fed44c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "635f45f7ed7cc06bc8a4b00d1c1be326a7266c7308d09a01f9bc0fbadf37c011": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion process; review is part of the erasure request."
+   }
+  ]
+ },
+ "63b9149614875f7d757be215c53d7db76874965ff00836ef4f53c1da20daaffe": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm the outcome."
+   }
+  ]
+ },
+ "64daed44984a99829d1fcd3651a615fdf897ff3b6d54f8f8fd577e55df286636": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of the outcome."
+   }
+  ]
+ },
+ "656dfc945eda8fea339a2228228dda999a7dab094decb63bfd379b2a3f3dc9ea": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm the erasure is completed."
+   }
+  ]
+ },
+ "66c376289f166b0e3ac14107c668c526c912c26e8a23bac7847f372a5875d214": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "66ed6e12a1e1daca0e81e2664c81efad4560f433eaf3c380c6ed3ded4e2e6d20": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of the erasure review."
+   }
+  ]
+ },
+ "66f65eaef885109900f50b2bd6520325431f2701e52d3df5f0de4bfd3db7b506": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and associated records, and confirm."
+   }
+  ]
+ },
+ "67ccaa03992d883a46397ade3eadfac616c5078a3f4cde0ade84267d8427c70a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and personal data, plus confirmation of outcome."
+   }
+  ]
+ },
+ "685f22c20dc4bf14a79bec21117fc72424a0a8cac1151580cacf73e53b6af41e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm the erasure."
+   }
+  ]
+ },
+ "693fe868fd1800d11009b2a20dd77a290e08c29e29c92d1762d92b8291a466a8": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete its associated personal data."
+   }
+  ]
+ },
+ "69d1ad8d220123757c745f620a105dc52feb9b6d784d06eb98ae971991ad3d36": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks to download their data and explicitly keep the account; this is a data export request."
+   }
+  ]
+ },
+ "6a1dd5c3f1c817c5c43e0899622510baa9dc55acfef5e9ddcf141e64b15a0f0d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, so deletion."
+   }
+  ]
+ },
+ "6a9e27f3f6248ec7e10024c2c8d26f64070fdbd34944765bff45c53c9b6873b8": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and have associated personal data deleted."
+   }
+  ]
+ },
+ "6aefe7a68ca1c4ca71f7f69dbe5b7e6de93c8c94041c30fd2c4ac5b230f8ed4f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, and confirm the result."
+   }
+  ]
+ },
+ "6bb8cbf5b7e2f556bc28c196b45e11a4d34bd9804a8e128498c95144725e4382": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and remove profile and personal details."
+   }
+  ]
+ },
+ "6bcb597b7de4fa2499acf4fb2d6ad22c3a5d52ae21f401c0dcc65b8a4f519c27": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion of the relevant records."
+   }
+  ]
+ },
+ "6c4825028bb17328815989558fa4cb3e8f218dc48cff89f8c208a984965ffc28": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, and confirm the outcome."
+   }
+  ]
+ },
+ "6c7b89b892a028ad6c7ef21072bb8e5ba0eba46b6290f4f5596c354e34e8051a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete its associated personal data, with confirmation."
+   }
+  ]
+ },
+ "6c98e5d1c6e9d31cf1c1cc2d1ae1d76e6c268a8cf2240e4886914ffca3a4ee07": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and its personal data, plus confirmation of outcome."
+   }
+  ]
+ },
+ "6cd269c2d4b58d96ba326cc3f93d55d008859ff58197d8f70d6c94f9b2815ddd": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm the erasure afterward."
+   }
+  ]
+ },
+ "6dea9154c9b0e87fc3785a1b1bac6d4bd76958a227834d75900466d1e32a86df": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion and asks for confirmation of completed erasure."
+   }
+  ]
+ },
+ "6dec881515531ce5e30da3d0b5d60549e5a84174afda26634a33836282acd426": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "6e311a9de25b40642734d7b63eb23a00149a6c76dd0a9348660d2226ba29c497": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation once reviewed."
+   }
+  ]
+ },
+ "6f19db42a2f3154b7c4c98cdee6d0b1e15fb7afa1a2e7cea44da0145145b1517": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of the outcome."
+   }
+  ]
+ },
+ "6fe49b5147d4ae69164f3e81c45f9d347656d15a742087671e4042669016a74f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm completion."
+   }
+  ]
+ },
+ "70d3e04cfd9ee008f478d2ca87e5bddfca8c7cdc8100a252934fdd59827787ee": {
+  "records": [
+   {
+    "aliases": [],
+    "fields": {
+     "Audience": "Returning customers — East Asia",
+     "Click rate": "6.8%",
+     "Email opt-in": "Yes",
+     "Language": "Korean",
+     "Last campaign": "Autumn offers",
+     "Last refreshed": "15 Sep 2026 23:40 UTC",
+     "Market": "South Korea",
+     "Open rate": "32.4%",
+     "Preferred categories": "Desk accessories · Drinkware",
+     "SMS opt-in": "No",
+     "Segments": "Repeat customer · Home & lifestyle · Mobile shopper",
+     "email": "sj.park@naver.com",
+     "name": "Soo-jin Park",
+     "phone": "+82 10-5837-9451",
+     "status": "Live"
+    },
+    "resource_id": "marketing_001"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Activity": "Product-category update",
+     "Detail": "Desk accessories · Drinkware",
+     "Time": "23:40"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Activity": "Campaign eligibility check",
+     "Detail": "Autumn offers · Eligible",
+     "Time": "23:38"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Activity": "Profile refresh",
+     "Detail": "Live profile fields updated",
+     "Time": "23:35"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Activity": "Audience evaluation",
+     "Detail": "Returning customers — East Asia",
+     "Time": "23:32"
+    },
+    "resource_id": null
+   }
+  ],
+  "screen": "Soo-jin Park"
+ },
+ "72a4f3fe315917066f410ed614c1fb1cfb2fcef5fcda0a12e47b718fcc0060fb": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and its connected identifiers."
+   }
+  ]
+ },
+ "733f31a01121d8e3a89bc89ad22cfaa70bad61d3f3f33f9d49b8bb23785de4b7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove profile and erase personal details from conversations; partial retention noted."
+   }
+  ]
+ },
+ "788733226c7156cc1afd57ecc0b7c2f7e2195c8a91ca2923a6ada1342f53a8b2": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion, with verification of identifiers as part of it."
+   }
+  ]
+ },
+ "7a632f8ab87f54d6feb4ebb06af21b4452352bd9490ffa6f3a6a61907df3c359": {
+  "records": [
+   {
+    "aliases": [
+     "user_11"
+    ],
+    "fields": {
+     "Default address": "2-18-4 Kichijoji, Musashino, Tokyo 180-0004",
+     "Last contact": "24 Sep 2026 09:14 JST",
+     "Loyalty tier": "Silver",
+     "Market": "JP",
+     "Member since": "12 Jan 2024",
+     "Preferred language": "Japanese",
+     "Signup channel": "mobile_app",
+     "Support": "CS-8538 · support_9538",
+     "email": "haruka.s1838@zoho.com",
+     "enabled": null,
+     "name": "Haruka Sato",
+     "phone": "+81 90 7610 2507",
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "status": null,
+     "user_reference": "user_11"
+    },
+    "resource_id": "account_5762"
+   },
+   {
+    "aliases": [
+     "ORD-20265762"
+    ],
+    "fields": {
+     "Date": "12 Sep 2026",
+     "Item": "Ceramic coffee set",
+     "Qty": "1",
+     "Total": "JPY 8,900",
+     "email": null,
+     "enabled": null,
+     "name": null,
+     "phone": null,
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "status": "Delivered · 18 Sep",
+     "user_reference": null
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [
+     "ORD-20265518"
+    ],
+    "fields": {
+     "Date": "28 Aug 2026",
+     "Item": "Travel backpack",
+     "Qty": "1",
+     "Total": "JPY 12,400",
+     "email": null,
+     "enabled": null,
+     "name": null,
+     "phone": null,
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "status": "Returned · 03 Sep",
+     "user_reference": null
+    },
+    "resource_id": null
+   }
+  ],
+  "screen": "Haruka Sato"
+ },
+ "7a8b6545d0f13012bbde288895a993aa36763eca8060920ba163c50145783cae": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and linked data, plus confirmation of completion."
+   }
+  ]
+ },
+ "7af8ff86a3d8bbaefef3fb3a5105a7422ee2c71cb64cd9faa9689e1b46624463": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, and confirm completion."
+   }
+  ]
+ },
+ "7ca4c8d238a265be8edd9524c92aecaceb39d21bed7451561d525154ce965b9a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, plus confirmation."
+   }
+  ]
+ },
+ "7e7d7a00d9fe29f22ab965f797d83f110f5a73fcfe046e467f05ead8c557a1f5": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of the result."
+   }
+  ]
+ },
+ "7ea18bb43658848ae63cfd3338d7fc835d57f60f6c87a02923a133fea9f4362f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and erasure of associated records."
+   }
+  ]
+ },
+ "807c0197524b6e657932cf5b7d5dfa4a63a5aad1939f335776c437569d3c2d87": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and its records."
+   }
+  ]
+ },
+ "81778193475400e4242e9a0389775fced1c1854387709df56cc1c5d67eded130": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account tied to the address to be erased, including copies."
+   }
+  ]
+ },
+ "820f25b6eaae34992e6dff385d42a5b51a7dad5b81c94465e804b59b7c4659d6": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests starting account deletion process and confirming completion; clearly a deletion request."
+   }
+  ]
+ },
+ "82ca3b0d840708b70af29cccd2f9b83ec7f1db41deb0e17b68e605a92c398b92": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, with confirmation of outcome."
+   }
+  ]
+ },
+ "832f83030c9291d2b7a5847ca277082155a29eb2c3249e31073b6e0e24be5bdd": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm the erasure."
+   }
+  ]
+ },
+ "838bda9cff12f88961b9658079f4ab422a9b82a8249b5b1466da0b6e14963e6a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm the erasure is complete."
+   }
+  ]
+ },
+ "83a6f10b1ea261c2a1a9002145b7f85142dbbec0ae80d53bde9cba20a606f09e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, with confirmation."
+   }
+  ]
+ },
+ "83b186b152350684840c4bbec867f74ee2e3b505f87829bd70f3b6ad988cd74c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of completion, which is a deletion request."
+   }
+  ]
+ },
+ "8469ed3f30f4f5723cdcfac93be1cc781211234c2cfee569cb299a845f87fb19": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and personal data, with confirmation afterward."
+   }
+  ]
+ },
+ "8560944ec664f76f9cbcc1429e5f8d41cc49b24468232f6578d15d090e09c0b0": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "86230172ab70c19ef5da04ff040a3d091073990b8696b15529d538c646d87c08": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly asks to delete the account and its personal data."
+   }
+  ]
+ },
+ "86c1b43b1852272fa9b7508c02e0777f9457d9180fbeafc7c438129062291bec": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm the erasure of copies."
+   }
+  ]
+ },
+ "87209d4bf7559191a8bab64146cac4f3e285a1c93e640ddaefc6ad84cbc84160": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and associated records, and confirm review."
+   }
+  ]
+ },
+ "87a250cfe5301840f6fcdd90b24658ab3f8aeb8f58345dbaef68be705a7c968d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests account deletion; the review request is only procedural."
+   }
+  ]
+ },
+ "8961718e309f35e5b641994c8ac0f001fce5971cf04471e670888e71c5600f7c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that it has been completed."
+   }
+  ]
+ },
+ "89a76d3690b9707e8d258fb11a59490fb9fe407bf0c8e79ac1ee45b551a1620a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete personal data, then confirm completion."
+   }
+  ]
+ },
+ "8af92bc8493bf5ae3728267b7936a242cdaf18ee4c3883eb28202e99d60f758d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and its personal data, plus confirmation of completion."
+   }
+  ]
+ },
+ "8bb6d82ee94a6d6b4f98092631f8404b511bb86ab397c081ed4cdb226ffa0fc3": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and confirmation of completion."
+   }
+  ]
+ },
+ "8c52b500b93604068c1b6fd206baaf3f915090edf0640a8df97e97f6740ab3c7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm completion; clearly a deletion request."
+   }
+  ]
+ },
+ "8d1cd6f8e910714f0e38d224505844297e880f7e5d17b9376f57219160bffbe3": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, with confirmation."
+   }
+  ]
+ },
+ "8d5b9c1ecece5ddc5665244e3fc4f39f5bfcd25ad7ad23cd7a42f296f4c6c214": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and personal data, plus confirmation of outcome."
+   }
+  ]
+ },
+ "8d63aadc394c41ada222ae09ced83c075c3994214577f59b0e6511902e25e88c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and personal data, plus confirm completion."
+   }
+  ]
+ },
+ "8d7ce695418e919d5f3b5781e5e51123c77f4376bcd09d31c0a2c7632819dbc4": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "8edaf9b56359cf99550d705c143b2273af9adf35293605272be31a204efd6aae": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion for the email address, including linked identifiers' data."
+   }
+  ]
+ },
+ "8f5b0b4796e99a89ad03301d4415bdac8052cb4c0abfa32ccf379be161d2ffda": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Correcting the phone number while explicitly keeping the account is a correction, not deletion."
+   }
+  ]
+ },
+ "8fd7ca722588b962e0697664ad288bfe2f1897076a33971a2061574c8ae6e47f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, a clear erasure request."
+   }
+  ]
+ },
+ "900595d66a0b2ef8441bffd427be72c30f1410c0ba328151dee01a2350293b28": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account registered to the email address."
+   }
+  ]
+ },
+ "90d25833019877d985726395a7c4769f104575d84a1f9abe7ff5156a5f9bf2e2": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion process and confirm completion; clearly an erasure request."
+   }
+  ]
+ },
+ "92be68a38cfb055b10b25663f6f236b39358e44f4db809203fc2b7d199b0e2e7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent deletion of the account and confirmation of erasure, in Portuguese."
+   }
+  ]
+ },
+ "9322c7d817e3b91eb2c8ded4c02f92850b014b1e0f2d7eb21e1a5243975452e1": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of the result."
+   }
+  ]
+ },
+ "93bc8d2dce01530bd17cacaab3cddf1c80eed361ecb3bca4cf0874dde3d402e4": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information entirely."
+   }
+  ]
+ },
+ "93c3b8c47d95ec50ad61f49a06598a023c1355e224f24a45ed4923dd2cdf873f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation that it is completed."
+   }
+  ]
+ },
+ "94398d927637f51784bb339a0ddc75b4568a1352d6eb65b224e497410269c92e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "948f9a4424ce46cedb7b02f85cef2931187193a4748338713727f61570158c7e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email and confirm completion."
+   }
+  ]
+ },
+ "94b8d0cfeba1082d5010a394d08b3c487cd7a659f9ccc5b1f592686891ab55ae": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and erasure of copies, with confirmation."
+   }
+  ]
+ },
+ "94bf4d53f8becc1ab903c8936ac697249603dd3e89823fd90be0c4bac7c0c312": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation once complete."
+   }
+  ]
+ },
+ "9568d36506b66a1504516d010916294331d03d457579d555eb216e8ce22ea4bb": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information entirely."
+   }
+  ]
+ },
+ "95d68067e1ec141c6454d0fb35b56e37045c3db0d1ec0a0accb32bbcf97e31c9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email and confirm completion."
+   }
+  ]
+ },
+ "965f2cd65677bc86f5ca92e4941629d8c1d164b3cc765474344ab8cb087a899d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests account deletion and a confirmation once completed."
+   }
+  ]
+ },
+ "9772ebf26efebbf518a4ae85b3cb8e86b0c3e4cc927f696bde2262737d5631c3": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm the outcome."
+   }
+  ]
+ },
+ "97912fbae237e1b9b99e3ae25ed80b6ddf4c88fb2931998eaa475d66d57f1771": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of the result."
+   }
+  ]
+ },
+ "981e1ecf81fac70e06976c2c2762b42670cfc13f1b4cee547030024bb3420d84": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and requests confirmation of erasure."
+   }
+  ]
+ },
+ "98f4279ea41614f5c46d909ffb39b1b8a1eef31e913c340c3867167ba8d5d966": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation after erasure completes."
+   }
+  ]
+ },
+ "98fd362d0b9abbec9cea5dbd9007386338ac21c7a81ab23fc9656ca0210945a5": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and personal data, plus confirmation of erasure."
+   }
+  ]
+ },
+ "997fd8c30acfac966fc13a41ad983aeec76316982ec1d5d68cd70eac51abbe1d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "9a2366107a0d4b4ec7ae28e60d2b8f5904060820ad2e5a8aa292f8ee5772717e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and asks for confirmation once completed."
+   }
+  ]
+ },
+ "9aa671a37be21547252bc646ac6f0c61910e3582048e51fc18d33f62ec936b54": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove account and linked personal information, plus confirmation of completion."
+   }
+  ]
+ },
+ "9b12ad38da566d07d52dc02a2cfd311b4fa8cfc2c467c36d2cf226c84a93c39a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion and asks for confirmation that erasure is completed."
+   }
+  ]
+ },
+ "9d2c3de32ed0619a2c82b573d55ab3b7ba73aaf28c25ad0c244dd3d7cf0cf16f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email, with confirmation of completion."
+   }
+  ]
+ },
+ "9d3bfb33b83810dd8a3200db6bac085a9d104fdaad11d43fc2d68b1dcaa9166f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email address."
+   }
+  ]
+ },
+ "9d4eafcf27a7cf5fb67389a5162e6997a78665b241c87504b40bdd916de44325": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and asks for confirmation of outcome."
+   }
+  ]
+ },
+ "9e2dfe4ea0b569e337576789f6a1885eea78678f85f7a93fd1c4892d7a16d0fc": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account to be erased and identifiers reviewed; a deletion request."
+   }
+  ]
+ },
+ "a002bf0aedfac4ad4ff907daebbefca4c7f3d7b04c38da83dabd94dd4443113b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and associated records erasure."
+   }
+  ]
+ },
+ "a0f47f522ed7d7a90a17d6050ca97ecbf15bee6e8c88abb0bdfc65f052193bc0": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and associated records, and confirm completion."
+   }
+  ]
+ },
+ "a1b7876826a977e2e11386bcb04d6cf131268218f326cc15ec5c928cbab8dd0d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion and a confirmation once the erasure is complete."
+   }
+  ]
+ },
+ "a2915d98fdd2cf86e9a893c825cd8324bae3e508198ade8a4e65d819709cc20d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email address."
+   }
+  ]
+ },
+ "a3db33f5efa352509c1abce62bc880611224172806ae631905662e150f34d4ab": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and its personal data."
+   }
+  ]
+ },
+ "a4efd45d7862ad4e90ed5c853cb317b95bce07f790cbe2b5db3699d3403769ba": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm completion, which is a deletion request."
+   }
+  ]
+ },
+ "a5ed4e230f74a62879c110ce2cf902ddbc6b25c83b0f68fa7bd149abd4200893": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion including associated records, with confirmation of completion."
+   }
+  ]
+ },
+ "a605fd1df06e6d93f28819134a450921d578ae7e527b957e59b220d30a90c820": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, and confirm completion."
+   }
+  ]
+ },
+ "a81e17c9d49fd7b21d1c0cf8f82ee59b5061dd6dc32f8c6f0079e1a226d03edd": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion and confirmation of the completed erasure."
+   }
+  ]
+ },
+ "a847175e45e6acdc632a650ee35585335ab60a1db9ff2ead9c4ab0e8c6c80523": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Marketing opt-out only; the person explicitly keeps the account."
+   }
+  ]
+ },
+ "a8672a8f8bf2fce9fc8b6628c767535ead58a86d607c8285848fc87e54a2a7bb": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and its personal data, plus confirmation of completion."
+   }
+  ]
+ },
+ "aa8fa93fafed9feb3d5c15d812cbae6d544df8bc7bf31b1ec9e56e87326d3832": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion and a confirmation once the erasure is complete."
+   }
+  ]
+ },
+ "ab0341a866e2bd0cb9680248f8453ab6867d83ba902b03d39d5b343a76881690": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and linked data, and confirm completion."
+   }
+  ]
+ },
+ "ab3f1f734156bb51e9377c531bdf9367d2b55e637597eb8a19e6a5ae440c4210": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, with confirmation."
+   }
+  ]
+ },
+ "ab485bd58f6b39af2d4869f52305407ba7c2d96d0bd8a231eec524573ac9ac3f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and erasure of eligible account data."
+   }
+  ]
+ },
+ "ab4e19ab8ef1741c42b24e98f1b2b41fa4eb77d4877d07fe18071667629c7b07": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, and confirm completion."
+   }
+  ]
+ },
+ "abe18450c7084343d805ffbe1277030a350480e54d9f10c2cfdb6c10fb70a9c6": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of the result."
+   }
+  ]
+ },
+ "abf6f9e1abefe2a6c7ab2b250c1278df04b15c381e98c80ae1947de75b3afdca": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Requests a portable copy of data and explicitly keeps the account; not deletion."
+   }
+  ]
+ },
+ "aca7fb13824ea649e3a12e3d3ed02737b7b741aa409fb85133c87c4ae4cd1022": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account closure and erasure of personal data, plus confirmation of completion."
+   }
+  ]
+ },
+ "acb5e0668a3dd3bc5366ed36aa3a40b7bb73eee0d3e9b89ce2996a920d95a921": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm it has been applied."
+   }
+  ]
+ },
+ "ad21f1ed971fe121b4edb47073545912ace92b930049fdb2461a123d861b7579": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "ade8ad7d3e8b3c022141a2ce3bd3ada8bfdfceb5f9e270e79af58d5107149e5d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion, including linked data, and confirm completion."
+   }
+  ]
+ },
+ "afa53dd048f5852ca1fae60bde34f7538ca0a0070da9e355e71e16189b4ccd49": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks for a copy of their data and explicitly says not to delete anything."
+   }
+  ]
+ },
+ "afef3befbcf873087a0bed0813edd74db043507d9abf090c6dc71cf1898c9b01": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account associated with the address to be erased."
+   }
+  ]
+ },
+ "b08b34c16d74b816c452bb1a56c240b2def4110b8174481e28dc47eae7d61e15": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to finish and verify completion of account and data erasure."
+   }
+  ]
+ },
+ "b0f09464461eea62ff95faaf5f40e1bb49cb6620fcf1aa7e7ef52e12d0e5410d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "b125ab5016653b6825623f2f7dc3bc3f1427fa016b3e7e8817bc277722f1bfb7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "b1e44e9611539e9815cc2c24bcb9217f4a21e76a939085a0c905f8a112f33425": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, then confirm completion."
+   }
+  ]
+ },
+ "b3727eca561640be665a1b2a24f8453a5d65f89976d9cd562fdfeee4a68136ae": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and process personal-data deletion."
+   }
+  ]
+ },
+ "b4078f3649f630cbd24be92d35795b6ecdcb6e1f11b62c8edecfd34cce3a2cba": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests complete deletion of the account linked to the email address."
+   }
+  ]
+ },
+ "b4bda0884f3073707fd4235266078c4583a5d5e15795f71bfcf3bf03aeff1175": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete its associated personal data."
+   }
+  ]
+ },
+ "b507166051676123c5b1ca301b95e0710a5204b19bc09c91e1a75402b1b6389d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that the erasure was completed."
+   }
+  ]
+ },
+ "b5eb7380d8e9f484c2686ac722e23a4dc7e3dfcea318df20820e9cad0b17258f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and linked information."
+   }
+  ]
+ },
+ "b6b96021091b97a397ac3e0d037dfa78f750958bac68463b3fc2245820371c3a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to confirm profile is gone and records cannot identify them; verification of erasure."
+   }
+  ]
+ },
+ "b77f200d705cd3d6de41716bcef38d58970dbd525be7d52899bd6b76b6fb65c8": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and erasure of covered records."
+   }
+  ]
+ },
+ "b7a3ccbad79846a9fd043da77d1275952a564f5244b0abdc6269e57bd59bde9e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "German request to permanently delete account and all associated personal data."
+   }
+  ]
+ },
+ "b826f724a23a0c7ca2ac5370712bed87a9e171cf896b87cf471daf98dc184547": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and its data, with confirmation."
+   }
+  ]
+ },
+ "b9c62d3181aff7ec7c03d4d4f30de1188b9556fd02ef5112077c0b97e1cbea80": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, then confirm completion."
+   }
+  ]
+ },
+ "bbb894586f136cff41b9e55253fee6142a924e1399a83110f14e6b5945b8d2c2": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm the erasure was completed."
+   }
+  ]
+ },
+ "bc4861a6f81e7e021552f0f75c680059574afa614ecbf4ea706b73a9586826ca": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm erasure completed."
+   }
+  ]
+ },
+ "bc940a777bac60e6ec98af9cdab543b119c99d500631cd5f013001d84a62aed9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of the outcome."
+   }
+  ]
+ },
+ "bc97936a1fa7fcf3c1bdfa2ff2d6aff6d546a5a04d4714dbfee1e65bc9f76721": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of the result."
+   }
+  ]
+ },
+ "bca86cb220894a385985be320b87db133b3b49568e20479c0348838f8f039c99": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email address."
+   }
+  ]
+ },
+ "bd44a317e0f50c8af7e50ea1dabc6deb760bc4385dac5de7d6248dc962bb9ec1": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion across systems and confirmation of review."
+   }
+  ]
+ },
+ "bed02c38191bdeda7b274bb012a68f6351fdeebaeffb25ab30eab2f1a1fd8321": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email address."
+   }
+  ]
+ },
+ "c037c57dd43acf21bd9c7eb4a03cf54fcf9dd43e7b7e41ca0e944ddcfe78b460": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account erasure and eligible data deletion, with confirmation once complete."
+   }
+  ]
+ },
+ "c0a8505089b8867ae085285a50b3ea3bbf9cf6aaef53444547b683087bcfa462": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and asks for completion confirmation."
+   }
+  ]
+ },
+ "c0e0db5939682cfae45f360860538acf96d82ccaed9f57a26ee1ccf5850f9e2d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "c15066f6e5dc63ac33d09907321498d143016e6b4c04af567ae503c79ca88435": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that the erasure is completed and checked."
+   }
+  ]
+ },
+ "c177629cafc7609443140394d5b58d1dc2d2a3231b6a89e46965bbd24b04825f": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "c18db725e7115f0eee1a3a4119b0f58cadb7c5f0e6f2fc9f6973821b7700f02d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion and confirm completion after checks."
+   }
+  ]
+ },
+ "c2542f52948fa8d619b192433d0176988534f59e90b24f915a5c2a18c4c815f9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests removal of account and linked personal information, despite politeness about review."
+   }
+  ]
+ },
+ "c35fd18009a87d19dc37350f2f39244784c7398ec6b58aea2eb6d7cee83f3d5b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, then confirm."
+   }
+  ]
+ },
+ "c38cf5963b6f1cf0b981108d8782c593474f60e6f6edcebb475f36704a267600": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and associated records erasure with confirmation."
+   }
+  ]
+ },
+ "c38e5a1551f39411d15f5ff054f402a2ceeafee5b227644d424730323d9a68b0": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and its copies, and confirm completion."
+   }
+  ]
+ },
+ "c4a89f242f5b10613a64e7a006e646547ef5713cf3510f4a625e2e61c856ab54": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, then confirm."
+   }
+  ]
+ },
+ "c4ede03922ad5ff522ea18f08eaef314ab875a19ec658bebc723d62a09e4cc39": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm the outcome."
+   }
+  ]
+ },
+ "c5058050c150a3179f40bd9efa22405f27e116bb388da8fc7a8c9eb9a9d5ff69": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion process and confirm completion."
+   }
+  ]
+ },
+ "c5a27057d820b68c01e36d2c4cbdcb250d9b54f40ece99ae64a6ca08619ed9b4": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and associated copies of data."
+   }
+  ]
+ },
+ "c6cdca9ddf5ac80eddc1dcc2913cc113484a0bd3f8f341bd8b657828cd654fdd": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account registered to the email address."
+   }
+  ]
+ },
+ "c6ceb3f0a7b38a4cb672a20af72b5b5517c42509bd64db16c5e6575614bfcb54": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and asks for confirmation of outcome."
+   }
+  ]
+ },
+ "c9fd7d1c4b63f8da06927aeaf0f6c4f24a98ace4b56f0f6832ed152e93da874e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "ca3191732165bd9334e903bcdb61bd259ada9848e96957a2251a9640b5e660a0": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the linked account and personal data, plus confirmation."
+   }
+  ]
+ },
+ "ca44c7253d1abe6f6b5aea51b0f7166d1585d82f52f27ab0335e7d86175dcd8d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove account and linked personal information, with confirmation."
+   }
+  ]
+ },
+ "caf4b93812f0ce4cf5c8458b93501de22de793d0769ecfe28315f87de0067dae": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "cb10c7f3f479c8567f2a64c8a194f33dc9be545e3175d8e5019e41650c6937b7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, then confirm."
+   }
+  ]
+ },
+ "cb56261b4a11c0091e05032b22c8e218fc76645678ce9564520853d3cbfc4845": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion and asks for confirmation after completion, which counts as deletion."
+   }
+  ]
+ },
+ "cc33684256227a60b31c9aa496968be9006ca928f586270677a88ffd12a5860e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests starting account deletion and erasure of copies, with completion confirmation."
+   }
+  ]
+ },
+ "cd11ece6caa6e753420dd390ebb11ccb7e4586db0459fd68bdf161a7f1604291": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information entirely."
+   }
+  ]
+ },
+ "cd126d2f60051b8c60b53d4efa1a273b09c3edff9787032f687a5ba163154ba9": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Requests a copy of invoices and explicitly keeps profile and history; not deletion."
+   }
+  ]
+ },
+ "ce3dd5cc430d2b70b5d25e74d77b70bfa4bb877c9d7f265d2b02ffd660886bb7": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and confirmation that the erasure is completed."
+   }
+  ]
+ },
+ "ce6525ca59fc903355b5ca2cf141529fbe6b2d425946d7711ad9eeedab4dca59": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of the erasure process."
+   }
+  ]
+ },
+ "cf5abd84cbf8f931470918ccdd4dc6c748aae5ff841700e20408b6213ff95854": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and associated records, with confirmation."
+   }
+  ]
+ },
+ "d065a28a326060a1324a1d93f8ee57bdcbd5e94473af1bfc75bb0dc62f02ab61": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks to correct delivery city while explicitly keeping the account; not deletion."
+   }
+  ]
+ },
+ "d2d7bc458e2ef797eceef6eaee349533e40cb85ecd521942ae198af5acb25e60": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove remaining copies of profile data after account deletion."
+   }
+  ]
+ },
+ "d316a3d06fe609bcd2d51d84f8e7034394ee15b84a05a6ffd8a74f8943cc6572": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "d401ddbef1a47b3dde3e2041a3b4b54ac15dc26598ce499b14723ad3922eec11": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of the erasure after checks."
+   }
+  ]
+ },
+ "d4bc1f478735fe55fee94e01d0875153cf607e29ff23ee9ee2dbdf6826110477": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to verify that the account was deleted, a completed erasure check."
+   }
+  ]
+ },
+ "d5ad22aa966685273df2d3bbaac802a781122327bdc752f59966f689c338e2f8": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly asks to delete the account and its personal data."
+   }
+  ]
+ },
+ "d5b9629ad04b185dd659bfa3faa92a9c7ec3ec6e807ed144889051aea513a005": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm completion of the review."
+   }
+  ]
+ },
+ "d5fac02def4c40baa9454c9a28effc3d6ae36ebe8b4e6c11caf62927c4bfe4ab": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of account and personal data; verification step doesn't change that."
+   }
+  ]
+ },
+ "d66f7491befc20885c4397c26415e28da020b3f3d5d765698c724e5914801c4b": {
+  "records": [
+   {
+    "aliases": [
+     "user_17"
+    ],
+    "fields": {
+     "Created": "11 Jan 2024 08:42 UTC",
+     "Customer key": "user_17",
+     "Most recent update": "10 Mar 2026 07:18 UTC",
+     "Owner team": "Account Platform",
+     "Reference type": "Customer key",
+     "Region": "eu-west",
+     "status": "Retained reference",
+     "user_reference": "user_17"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [
+     "ORD-20263245"
+    ],
+    "fields": {
+     "Created (UTC)": "11 Jan 2024 08:45",
+     "Record reference": "ORD-20263245",
+     "Relationship": "Linked to customer",
+     "Status": "Active",
+     "present": true,
+     "system": "Orders"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [
+     "CS-3245"
+    ],
+    "fields": {
+     "Created (UTC)": "14 Feb 2024 12:16",
+     "Record reference": "CS-3245",
+     "Relationship": "Linked to customer",
+     "Status": "Active",
+     "present": true,
+     "system": "Support"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [
+     "CS-3378"
+    ],
+    "fields": {
+     "Created (UTC)": "03 Jun 2024 09:27",
+     "Record reference": "CS-3378",
+     "Relationship": "Linked to customer",
+     "Status": "Active",
+     "present": true,
+     "system": "Support"
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [
+     "FIN-7742"
+    ],
+    "fields": {
+     "Created (UTC)": "22 Aug 2024 15:03",
+     "Record reference": "FIN-7742",
+     "Relationship": "Linked to customer",
+     "Status": "Active",
+     "present": true,
+     "system": "Finance"
+    },
+    "resource_id": null
+   }
+  ],
+  "screen": "user_17"
+ },
+ "d7ccbe3754d574f90e954d16334a08f099fd3b3bfbe791569177d979d0d97bbf": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly asks to erase the account linked to the email address."
+   }
+  ]
+ },
+ "d9548f27b549982bc4cf892eee6d0f3210385b233f15d68c2ec0445f5058ea93": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "d95ded464a7e0f37aa5f84fcbb8f797b2c56c20b5df1445a44d519ae1401abc3": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete its associated personal data."
+   }
+  ]
+ },
+ "d990ed35582528b6d9a003db49d264fc0e9891e34c2a6be70e26a7bd6e1a11cc": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, and confirm outcome."
+   }
+  ]
+ },
+ "d9be1b0d24d7d200d4884ce79c26b9c3d0ce0b8f90ff1a12f005f65d7230cbc8": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and its copies, plus confirmation of completion."
+   }
+  ]
+ },
+ "d9ef6ca1983b6e6a0e3bec1f1e2c02d6815ab74d458d5ba88df157827bbb543b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm completion, which is a deletion request."
+   }
+  ]
+ },
+ "da7ac92049f29005e4b1ab736e122653f442495665c1e87851ca81302c845c07": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "German request to permanently delete account and all personal data."
+   }
+  ]
+ },
+ "dacabd664cfc15f0ad95aa9bd9d34ea35981d2d5ebf933928ca6d8fa4812a040": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email and confirm completion."
+   }
+  ]
+ },
+ "dbdf35db7cfa081b0206a0f393f486a1cf815f67cea50cbe5020aab89aa93504": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "dc344914a4892b274434508accdf73957399320ad8dd5b19909bf71ae9b1993a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and personal data, plus confirmation of completion."
+   }
+  ]
+ },
+ "dc47dac752de3d737d70758aeaa73e7c471d4e2ec449c6c936b5853cc69cb321": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm the erasure is completed."
+   }
+  ]
+ },
+ "dd003385b737c50b915203f5d9da7d4ab1eef1865872322f2467bcf4dfd33563": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion, including linked data, and confirmation of completion."
+   }
+  ]
+ },
+ "ddd5593a85dce5b72e873735a463a80dc71154595ff224ac7f0c872fa04de706": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation of completion, so it is a deletion request."
+   }
+  ]
+ },
+ "dec21c2d0a6bd51d49f1ff05c7041b072cf23f9e8d3ababe731edf922201c63b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation that records are erased."
+   }
+  ]
+ },
+ "dfb38175bb3bf13de8b585450a3d0daa26a2aab54daf96d19614e6da93e0ba8b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm completion; a deletion request."
+   }
+  ]
+ },
+ "dfb3b90abafbfdad212ca0b135e55291ef9b89b93600410fbab6848ca1a16c2c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion, with verification offered as part of the request."
+   }
+  ]
+ },
+ "e02370da6a584151329664f6213a26233533105b01a664c9ae03930227c45152": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "e12ef0126ba919f54d4e2d730d5b41cfa24d00a8e61a2a66ccc22f71f8b6558a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and asks confirmation of completion."
+   }
+  ]
+ },
+ "e1d15194c78ee28cbdb25ad13d0e734dc5d0b844aace3fefe1792f629e4320cc": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm completion, a deletion request."
+   }
+  ]
+ },
+ "e227c49a4dbf3a6b735287f50ac49737441d61942eb6f1389c3db9abe00d0387": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information, and confirm completion."
+   }
+  ]
+ },
+ "e298a6b24bfb9b996b0eaf876befed0a807d1a394124fc7683af3b0787ee6b59": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation once reviewed."
+   }
+  ]
+ },
+ "e335dcb9b689f606e02cc1b5802f456941ecec50f8cc04c18af9d9c089cfac10": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion process and confirm completion."
+   }
+  ]
+ },
+ "e51f96b893210445edbbe52497505a9286acd2e6d9ae83a79d3cc0f9841b6287": {
+  "records": [
+   {
+    "aliases": [
+     "CS-5034"
+    ],
+    "fields": {
+     "Assigned": "Maya Chen",
+     "Customer": "Kofi Agyeman",
+     "Priority": "Normal priority",
+     "SLA": "01:42",
+     "Tags": "Delivery · Tracking · Order update",
+     "email": "kagyeman8947@fastmail.com",
+     "enabled": null,
+     "name": "Kofi Agyeman",
+     "phone": null,
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "status": null,
+     "user_reference": null
+    },
+    "resource_id": "support_1034"
+   },
+   {
+    "aliases": [
+     "ORD-20265034"
+    ],
+    "fields": {
+     "Assigned agent": "Maya Chen",
+     "Carrier": "SwiftShip",
+     "Expected": "26 May 2026",
+     "Product": "Running shoes",
+     "Tracking": "SWF-884103",
+     "email": null,
+     "enabled": null,
+     "name": null,
+     "phone": null,
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "status": "In transit",
+     "user_reference": null
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Message": "Could you let me know where my order is and when it is expected to arrive?",
+     "Sender": "Kofi Agyeman",
+     "Time": "09:12",
+     "email": null,
+     "enabled": null,
+     "name": null,
+     "phone": null,
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "status": null,
+     "user_reference": null
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Message": "We received your message and are checking the order details.",
+     "Sender": "Northstar Bot",
+     "Time": "09:13",
+     "email": null,
+     "enabled": null,
+     "name": null,
+     "phone": null,
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "status": null,
+     "user_reference": null
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Message": "The parcel reached the regional hub and is on track for delivery on 26 May.",
+     "Sender": "Maya Chen",
+     "Time": "09:28",
+     "email": null,
+     "enabled": null,
+     "name": null,
+     "phone": null,
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "status": null,
+     "user_reference": null
+    },
+    "resource_id": null
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "Message": "Thanks for the update.",
+     "Sender": "Kofi Agyeman",
+     "Time": "09:35",
+     "email": null,
+     "enabled": null,
+     "name": null,
+     "phone": null,
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "status": null,
+     "user_reference": null
+    },
+    "resource_id": null
+   }
+  ],
+  "screen": "CS-5034 · Where is my delivery?"
+ },
+ "e601c88e1e16a3cf4f662e01d718dd09328b5b599c0ffc85c091e1f4ea13c5e8": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and requests confirmation of the outcome."
+   }
+  ]
+ },
+ "e63e8ef892468b781f3a1614c4e5a5dc74a3f55502fdb7222018675839a7369a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests account deletion and asks for confirmation of completion."
+   }
+  ]
+ },
+ "e6526c1bb22349d2b2ab923a0718066c491ee49ff9abbc00cc8f0dda6bf59c8c": {
+  "records": [
+   {
+    "aliases": [
+     "user_13"
+    ],
+    "fields": {
+     "_index": "customer_directory_v3",
+     "customer_reference": "user_13",
+     "email": "g.silva76@gmail.com",
+     "enabled": null,
+     "indexed_at": "2026-09-01T05:58:21Z",
+     "last_indexed": "05:58:21 UTC",
+     "name": "Gabriel Silva",
+     "phone": null,
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "score": "9.84",
+     "status": null,
+     "user_reference": "user_13"
+    },
+    "resource_id": "search_428"
+   },
+   {
+    "aliases": [],
+    "fields": {
+     "customer_reference": "—",
+     "email": "g.silva76.jr@gmail.com",
+     "enabled": null,
+     "last_indexed": "05:55:03 UTC",
+     "name": "—",
+     "phone": null,
+     "present": null,
+     "restore_allowed": null,
+     "retention_end": null,
+     "score": "4.12",
+     "status": null,
+     "user_reference": null
+    },
+    "resource_id": "search_1874"
+   }
+  ],
+  "screen": "Customer Search"
+ },
+ "e66f0c53bc522690e0a86e41d0a86f7e814c8820769bdaee84fbe23364f3cb7d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove account and linked personal information, then confirm completion."
+   }
+  ]
+ },
+ "e70fd646acb75da4ed05d1d4ef0c9d66889abe81163c70bb656e635df806dbc6": {
+  "results": [
+   {
+    "deletion": false,
+    "id": 1,
+    "reason": "Asks to change the account email and keep using the service; not deletion."
+   }
+  ]
+ },
+ "e72414240fd19aa2011cbb0d655ee37e706a4b7c238bb70ecd9158c1da897558": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and linked data, and confirmation of completion."
+   }
+  ]
+ },
+ "e8732ddd4b108e19dc78dbbf2db0be84c338dd9ecc6eda41c223a0d0f9ac9680": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete its associated personal data."
+   }
+  ]
+ },
+ "e8b77cc9302977c6fc648d50bbf54eb8041d965779176f740f22733b2eba9b2c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm completion; a deletion request."
+   }
+  ]
+ },
+ "eb05f827d4b2c4b6636c7e3df5d199f1de8b7ffa7605ecb8e702a3795a0a1f83": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to complete account deletion and verify remaining data is erased."
+   }
+  ]
+ },
+ "eb40367b7e0d8d6933ae224f2d37234af54d4d0a6db88c60bebee1810f41e2ed": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to begin account deletion process and confirm review completion."
+   }
+  ]
+ },
+ "ec404cf02ff9b6a263f2f32e4c9b313d258a1cb7d90cbffc349fe8b3822865f9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the linked account and confirm completion of the erasure."
+   }
+  ]
+ },
+ "ec7b288fec7bc3dd7daf1438458fe6ca9282bf5c70b8d07421b594c53d63be59": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion, with a confirmation of completion once the review is done."
+   }
+  ]
+ },
+ "ecf3a94ae5a251553f45d82e7c11b14bcf362519a513c1f023ff7af2c52768d4": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and its personal data, and confirm completion."
+   }
+  ]
+ },
+ "ed2527417863bbb7a5a4c70c7541f30a8c7e74d434c6059616ed502b8c1c3d28": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account to be erased, with identity verification as part of the process."
+   }
+  ]
+ },
+ "ee0e46317989763be5430174701c2c1fe298dc4744f88767786c9d54fb13eefc": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion with confirmation upon completion."
+   }
+  ]
+ },
+ "ee3aa742c4caa6a6fa53ede19418cc76469f88828ef303d734f43fded131c869": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to delete the account and personal data, with only security records exempted."
+   }
+  ]
+ },
+ "eee7a58ad9368185830167d7244c6eebc988eb97d40dc4c0fa3dcdbe54db1a3e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and process personal-data deletion."
+   }
+  ]
+ },
+ "efc6badebb6d68f13eb1319ca69519cd531cf24a06439f523004bf744e729430": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and its personal data, plus confirmation of outcome."
+   }
+  ]
+ },
+ "f1246a3f4b064342b7e22234da3070b54eea85f57b04b357be6d996fc5e1d7b0": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests account deletion and a confirmation once completed; deletion intent is clear."
+   }
+  ]
+ },
+ "f19a96dde97e942d6dfa2d6a670719f89b4eade1f83ec661becf63fb4d0d407e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete its personal data, with confirmation."
+   }
+  ]
+ },
+ "f1ff61c79c8c8e5a4933eb6993419605cc13c6a00e8b9a45b468105d3bb2f996": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm the erasure."
+   }
+  ]
+ },
+ "f271d3e1a2516849c5c251c080526423ae8e7faf7bb0e7b2cc985842b65589ed": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "f2ee1329ca3de789577640f3c8e0c0d03e7509cd0a9f24f3430d7c4fc801b0c3": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of the result."
+   }
+  ]
+ },
+ "f334532ad1de063fd4543bcf7a543a2c4bba2a56691bde625f6f1e1fb814806d": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion, with a review step added."
+   }
+  ]
+ },
+ "f37d1e199e0e4acfbf11f8c9af5abf205d4f448ac2017cb08ac3564f0374bd0b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that the records were erased."
+   }
+  ]
+ },
+ "f53b221688ebf5b9ca42342ac2f143c9b362c0d347413b42db353f014df4412a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "f5972e6d9f7e88c6a66485654838cf5e7edfc761874d78544f9fdfde4a383a8c": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete its associated personal data."
+   }
+  ]
+ },
+ "f6527cb32f0a7ab1cf4f1aa9319ed2cb78c3d98d9eafdfff491ee57c7d882a86": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of the erasure."
+   }
+  ]
+ },
+ "f6c2d00b1f6f2bbbd00f4ff3c55685ef7cf010136fc34ceaec37d99d0ec727a1": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation of completion."
+   }
+  ]
+ },
+ "f73aaf80c1d9f1582ada03015d1fd5d315df15001a9cf5c1dedb7b81556c6d95": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly asks to delete the account and its personal data."
+   }
+  ]
+ },
+ "f7d171d01ec0acc4a0ca0fefd210354baae8110ee0276e814ed6edc442e4e3cf": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests deletion of the account and its personal data, plus confirmation."
+   }
+  ]
+ },
+ "f87fe375d20294e27928fba461cf7c43b9ee20155fde0e5bc6e174c585e2c4d0": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and confirmation that it is complete."
+   }
+  ]
+ },
+ "f8809ef9e181dad6735332788ed2c3346103b5cc6ddd25f45441ca323bb3c2f4": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Explicitly requests permanent account deletion, plus confirmation of completion."
+   }
+  ]
+ },
+ "f93dcf1ec979c31cfb78c51cb155dde6cbb311ea938fbd2b012db0c09eb55e3b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account to be erased and data deleted or de-identified."
+   }
+  ]
+ },
+ "f949784666ba6609e0daaebf43d9fc6964f26dc0e9e313cfbb61afd6a8cbae0b": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account linked to the email and confirm completion."
+   }
+  ]
+ },
+ "f983400e591ec933992fd7ff27efcb768425d79111f37391d2217ede3dacfba9": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data, with confirmation."
+   }
+  ]
+ },
+ "f9fcbc773e35f593c26c9551839beb53e2f52c8d8d75456bc85a95233c2e4f33": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "fa5d2e72b13906acb5f8293f32ce499e7dab8e6461f3e2bbec6d564459630bd1": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to erase the account and confirm completion, which is a deletion request."
+   }
+  ]
+ },
+ "fa7ac01d80bfa3973ae4cecd670d8c90e5c6603f65bea1a03ed84f130f1a950a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm completion."
+   }
+  ]
+ },
+ "fa89b848354c252328b2ed0a59cd99ba6127136e0277ddcaec713fe4b169ac3e": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for the account to be permanently deleted, including linked information."
+   }
+  ]
+ },
+ "fb0bf0c765466e5bf0a7022c78d16db3c23a3f39d09a3f2a5740adcd76ad5e34": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and its personal data across systems."
+   }
+  ]
+ },
+ "fb9af8df4352072a2bdc689ed4e94314f0bf0b33a0ad0cb8a1a0e0b64f1b4bee": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to remove the account and linked personal information entirely."
+   }
+  ]
+ },
+ "fbb07b969b8f86a8db59c2f2938a0b65c89e06d4faf6e25c82f99e1ab8918537": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to close the account and delete associated personal data."
+   }
+  ]
+ },
+ "fc7912a2c8b3d65e2797e2df8e46a1b34062d7ccc36ce640fc1c143b0bad78fb": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks for permanent account deletion and confirmation that erasure is complete."
+   }
+  ]
+ },
+ "fc9f95b2b88c091a972f31f774ee3e8eb32a6ebd709435353558b86f66dcf2a3": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests deletion of the account and its personal data; asks for review confirmation."
+   }
+  ]
+ },
+ "fefdeced11ad648feb7f3dbedd9c3afcdcf4680ce677bcfe8a95245267e2a4f8": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Asks to permanently delete the account and confirm completion."
+   }
+  ]
+ },
+ "fff4d8571ba345b1a270c13c2cdf8e975c423355b2f2733d6339346f824d579a": {
+  "results": [
+   {
+    "deletion": true,
+    "id": 1,
+    "reason": "Requests permanent account deletion and a confirmation once completed."
+   }
+  ]
+ }
+}

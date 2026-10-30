@@ -1,0 +1,920 @@
+{"timestamp": "2026-10-24T13:39:54Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1861, "output_tokens": 921, "cost_usd": 0.0006466}
+{"timestamp": "2026-10-24T13:39:58Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1986, "output_tokens": 869, "cost_usd": 0.0006331}
+{"timestamp": "2026-10-24T13:40:01Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1832, "output_tokens": 936, "cost_usd": 0.0006512}
+{"timestamp": "2026-10-24T13:40:04Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1833, "output_tokens": 904, "cost_usd": 0.0006353}
+{"timestamp": "2026-10-24T13:40:07Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1819, "output_tokens": 920, "cost_usd": 0.0006419}
+{"timestamp": "2026-10-24T13:40:11Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1840, "output_tokens": 898, "cost_usd": 0.000633}
+{"timestamp": "2026-10-24T13:40:14Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1824, "output_tokens": 922, "cost_usd": 0.0006434}
+{"timestamp": "2026-10-24T13:40:17Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1796, "output_tokens": 892, "cost_usd": 0.0006256}
+{"timestamp": "2026-10-24T13:40:20Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1803, "output_tokens": 898, "cost_usd": 0.0006293}
+{"timestamp": "2026-10-24T13:40:24Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1816, "output_tokens": 886, "cost_usd": 0.0006246}
+{"timestamp": "2026-10-24T13:40:27Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1833, "output_tokens": 904, "cost_usd": 0.0006353}
+{"timestamp": "2026-10-24T13:40:31Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1837, "output_tokens": 1061, "cost_usd": 0.0007142}
+{"timestamp": "2026-10-24T13:40:34Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1815, "output_tokens": 882, "cost_usd": 0.0006225}
+{"timestamp": "2026-10-24T13:40:37Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1851, "output_tokens": 915, "cost_usd": 0.0006426}
+{"timestamp": "2026-10-24T13:40:41Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1587, "output_tokens": 950, "cost_usd": 0.0006337}
+{"timestamp": "2026-10-24T13:40:47Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1714, "output_tokens": 1020, "cost_usd": 0.0006814}
+{"timestamp": "2026-10-24T13:40:50Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 791, "output_tokens": 672, "cost_usd": 0.0004151}
+{"timestamp": "2026-10-24T13:40:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 786, "output_tokens": 391, "cost_usd": 0.0002741}
+{"timestamp": "2026-10-24T13:40:55Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1906, "output_tokens": 890, "cost_usd": 0.0006356}
+{"timestamp": "2026-10-24T13:40:59Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1887, "output_tokens": 963, "cost_usd": 0.0006702}
+{"timestamp": "2026-10-24T13:41:02Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1834, "output_tokens": 921, "cost_usd": 0.0006439}
+{"timestamp": "2026-10-24T13:41:05Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1830, "output_tokens": 891, "cost_usd": 0.0006285}
+{"timestamp": "2026-10-24T13:41:10Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1827, "output_tokens": 950, "cost_usd": 0.0006577}
+{"timestamp": "2026-10-24T13:41:13Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1826, "output_tokens": 905, "cost_usd": 0.0006351}
+{"timestamp": "2026-10-24T13:41:16Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1822, "output_tokens": 919, "cost_usd": 0.0006417}
+{"timestamp": "2026-10-24T13:41:20Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1788, "output_tokens": 890, "cost_usd": 0.0006238}
+{"timestamp": "2026-10-24T13:41:23Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1813, "output_tokens": 920, "cost_usd": 0.0006413}
+{"timestamp": "2026-10-24T13:41:26Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1822, "output_tokens": 884, "cost_usd": 0.0006242}
+{"timestamp": "2026-10-24T13:41:30Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1844, "output_tokens": 959, "cost_usd": 0.0006639}
+{"timestamp": "2026-10-24T13:41:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1829, "output_tokens": 919, "cost_usd": 0.0006424}
+{"timestamp": "2026-10-24T13:41:36Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1828, "output_tokens": 894, "cost_usd": 0.0006298}
+{"timestamp": "2026-10-24T13:41:40Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1836, "output_tokens": 986, "cost_usd": 0.0006766}
+{"timestamp": "2026-10-24T13:41:42Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1092, "output_tokens": 601, "cost_usd": 0.0004097}
+{"timestamp": "2026-10-24T13:42:06Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1914, "output_tokens": 925, "cost_usd": 0.0006539}
+{"timestamp": "2026-10-24T13:42:10Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 2039, "output_tokens": 940, "cost_usd": 0.0006739}
+{"timestamp": "2026-10-24T13:42:13Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1885, "output_tokens": 917, "cost_usd": 0.000647}
+{"timestamp": "2026-10-24T13:42:16Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1886, "output_tokens": 903, "cost_usd": 0.0006401}
+{"timestamp": "2026-10-24T13:42:20Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1872, "output_tokens": 913, "cost_usd": 0.0006437}
+{"timestamp": "2026-10-24T13:42:23Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1893, "output_tokens": 907, "cost_usd": 0.0006428}
+{"timestamp": "2026-10-24T13:42:27Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1877, "output_tokens": 910, "cost_usd": 0.0006427}
+{"timestamp": "2026-10-24T13:42:30Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1849, "output_tokens": 904, "cost_usd": 0.0006369}
+{"timestamp": "2026-10-24T13:42:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1856, "output_tokens": 932, "cost_usd": 0.0006516}
+{"timestamp": "2026-10-24T13:42:36Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1869, "output_tokens": 910, "cost_usd": 0.0006419}
+{"timestamp": "2026-10-24T13:42:40Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1886, "output_tokens": 937, "cost_usd": 0.0006571}
+{"timestamp": "2026-10-24T13:42:44Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1890, "output_tokens": 1006, "cost_usd": 0.000692}
+{"timestamp": "2026-10-24T13:42:48Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1868, "output_tokens": 877, "cost_usd": 0.0006253}
+{"timestamp": "2026-10-24T13:42:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1904, "output_tokens": 940, "cost_usd": 0.0006604}
+{"timestamp": "2026-10-24T13:42:56Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1927, "output_tokens": 907, "cost_usd": 0.0006462}
+{"timestamp": "2026-10-24T13:42:59Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1640, "output_tokens": 926, "cost_usd": 0.000627}
+{"timestamp": "2026-10-24T13:43:06Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1767, "output_tokens": 1377, "cost_usd": 0.0008652}
+{"timestamp": "2026-10-24T13:43:09Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 844, "output_tokens": 594, "cost_usd": 0.0003814}
+{"timestamp": "2026-10-24T13:43:11Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 839, "output_tokens": 379, "cost_usd": 0.0002734}
+{"timestamp": "2026-10-24T13:43:15Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1959, "output_tokens": 933, "cost_usd": 0.0006624}
+{"timestamp": "2026-10-24T13:43:18Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1940, "output_tokens": 892, "cost_usd": 0.00064}
+{"timestamp": "2026-10-24T13:43:21Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1887, "output_tokens": 902, "cost_usd": 0.0006397}
+{"timestamp": "2026-10-24T13:43:26Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1883, "output_tokens": 900, "cost_usd": 0.0006383}
+{"timestamp": "2026-10-24T13:43:29Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1880, "output_tokens": 941, "cost_usd": 0.0006585}
+{"timestamp": "2026-10-24T13:43:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1879, "output_tokens": 929, "cost_usd": 0.0006524}
+{"timestamp": "2026-10-24T13:43:36Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1875, "output_tokens": 918, "cost_usd": 0.0006465}
+{"timestamp": "2026-10-24T13:43:40Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1841, "output_tokens": 899, "cost_usd": 0.0006336}
+{"timestamp": "2026-10-24T13:43:44Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1866, "output_tokens": 923, "cost_usd": 0.0006481}
+{"timestamp": "2026-10-24T13:43:48Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1875, "output_tokens": 916, "cost_usd": 0.0006455}
+{"timestamp": "2026-10-24T13:43:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1897, "output_tokens": 935, "cost_usd": 0.0006572}
+{"timestamp": "2026-10-24T13:43:55Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1882, "output_tokens": 953, "cost_usd": 0.0006647}
+{"timestamp": "2026-10-24T13:44:01Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1881, "output_tokens": 909, "cost_usd": 0.0006426}
+{"timestamp": "2026-10-24T13:44:04Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1889, "output_tokens": 919, "cost_usd": 0.0006484}
+{"timestamp": "2026-10-24T13:44:08Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 1145, "output_tokens": 605, "cost_usd": 0.000417}
+{"timestamp": "2026-10-24T13:51:40Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:51:42Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:51:42Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 52, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:51:44Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:51:44Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 45, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T13:51:45Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T13:51:47Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 551, "output_tokens": 52, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T13:51:48Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:51:49Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 52, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:51:50Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 48, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T13:51:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 51, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:51:53Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:51:54Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 49, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:51:56Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 55, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T13:51:56Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 55, "cost_usd": 8.37e-05}
+{"timestamp": "2026-10-24T13:51:57Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 48, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:51:58Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T13:51:59Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 52, "cost_usd": 8.22e-05}
+{"timestamp": "2026-10-24T13:52:00Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:52:01Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 49, "cost_usd": 8e-05}
+{"timestamp": "2026-10-24T13:52:02Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 586, "output_tokens": 52, "cost_usd": 8.46e-05}
+{"timestamp": "2026-10-24T13:52:04Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 54, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T13:52:05Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 53, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T13:52:07Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 55, "cost_usd": 8.3e-05}
+{"timestamp": "2026-10-24T13:52:08Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T13:52:09Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:52:10Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 52, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T13:52:11Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:52:12Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 51, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:52:14Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 56, "cost_usd": 8.41e-05}
+{"timestamp": "2026-10-24T13:52:15Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 50, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T13:52:16Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 600, "output_tokens": 48, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T13:52:17Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 52, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:52:18Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T13:52:19Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 584, "output_tokens": 50, "cost_usd": 8.34e-05}
+{"timestamp": "2026-10-24T13:52:20Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:52:20Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T13:52:22Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 52, "cost_usd": 8.22e-05}
+{"timestamp": "2026-10-24T13:52:23Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 55, "cost_usd": 8.36e-05}
+{"timestamp": "2026-10-24T13:52:25Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 47, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T13:52:27Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 47, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T13:52:27Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 49, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:52:28Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 583, "output_tokens": 47, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:52:30Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 51, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:52:31Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 57, "cost_usd": 8.51e-05}
+{"timestamp": "2026-10-24T13:52:32Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 567, "output_tokens": 53, "cost_usd": 8.32e-05}
+{"timestamp": "2026-10-24T13:52:34Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T13:52:34Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:52:35Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 597, "output_tokens": 51, "cost_usd": 8.52e-05}
+{"timestamp": "2026-10-24T13:52:36Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:52:37Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 55, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T13:52:39Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:52:41Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 49, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:52:42Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 48, "cost_usd": 7.95e-05}
+{"timestamp": "2026-10-24T13:52:43Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:52:43Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 54, "cost_usd": 8.32e-05}
+{"timestamp": "2026-10-24T13:52:45Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 48, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T13:52:45Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:52:47Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 53, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T13:52:48Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 51, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T13:52:49Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 51, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:52:49Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 52, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:52:50Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:52:51Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 51, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:52:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 49, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:52:53Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 52, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T13:52:54Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 46, "cost_usd": 7.9e-05}
+{"timestamp": "2026-10-24T13:52:55Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 47, "cost_usd": 7.95e-05}
+{"timestamp": "2026-10-24T13:52:56Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:52:57Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 54, "cost_usd": 8.28e-05}
+{"timestamp": "2026-10-24T13:52:58Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 48, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T13:53:00Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:53:01Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:53:02Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 52, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:53:03Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 51, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:53:04Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:53:05Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 43, "cost_usd": 7.74e-05}
+{"timestamp": "2026-10-24T13:53:06Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T13:53:07Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T13:53:08Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:53:10Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T13:53:11Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:53:12Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:53:12Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 52, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T13:53:13Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 50, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T13:53:14Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:53:15Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 48, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:53:16Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 54, "cost_usd": 8.34e-05}
+{"timestamp": "2026-10-24T13:53:17Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:53:18Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 57, "cost_usd": 8.48e-05}
+{"timestamp": "2026-10-24T13:53:19Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 46, "cost_usd": 7.88e-05}
+{"timestamp": "2026-10-24T13:53:20Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 52, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:53:21Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 59, "cost_usd": 8.6e-05}
+{"timestamp": "2026-10-24T13:53:22Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 54, "cost_usd": 8.25e-05}
+{"timestamp": "2026-10-24T13:53:23Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 50, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:53:24Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 51, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:53:25Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 54, "cost_usd": 8.34e-05}
+{"timestamp": "2026-10-24T13:53:26Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 47, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T13:53:27Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 52, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T13:53:28Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 52, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T13:53:29Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 51, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:53:29Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 51, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:53:31Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:53:32Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T13:53:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 48, "cost_usd": 7.98e-05}
+{"timestamp": "2026-10-24T13:53:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 51, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:53:34Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:53:35Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 49, "cost_usd": 7.98e-05}
+{"timestamp": "2026-10-24T13:53:37Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:53:38Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 48, "cost_usd": 7.98e-05}
+{"timestamp": "2026-10-24T13:53:39Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 55, "cost_usd": 8.35e-05}
+{"timestamp": "2026-10-24T13:53:40Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 55, "cost_usd": 8.35e-05}
+{"timestamp": "2026-10-24T13:53:42Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:53:44Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:53:45Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 50, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:53:46Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 55, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T13:53:47Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 46, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T13:53:48Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:53:49Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 55, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T13:53:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 55, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T13:53:53Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T13:53:54Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 51, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:53:55Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 45, "cost_usd": 7.83e-05}
+{"timestamp": "2026-10-24T13:53:56Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 49, "cost_usd": 8e-05}
+{"timestamp": "2026-10-24T13:53:58Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 51, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T13:54:00Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:54:02Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:54:03Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 47, "cost_usd": 7.96e-05}
+{"timestamp": "2026-10-24T13:54:05Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 51, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:54:05Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 55, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T13:54:06Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 44, "cost_usd": 7.75e-05}
+{"timestamp": "2026-10-24T13:54:07Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 53, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T13:54:09Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 52, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:54:11Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:54:12Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T13:54:13Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:54:14Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:54:15Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 567, "output_tokens": 49, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T13:54:15Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:54:17Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:54:18Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 51, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T13:54:18Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 52, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T13:54:19Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:54:20Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:54:21Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 49, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T13:54:23Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 51, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:54:24Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 50, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T13:54:24Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 45, "cost_usd": 7.8e-05}
+{"timestamp": "2026-10-24T13:54:25Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 52, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:54:26Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 50, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:54:27Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 50, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T13:54:28Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 52, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:54:29Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:54:31Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:54:32Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 50, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T13:54:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 53, "cost_usd": 8.3e-05}
+{"timestamp": "2026-10-24T13:54:34Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:54:35Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 49, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T13:54:36Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 50, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T13:54:38Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 47, "cost_usd": 7.96e-05}
+{"timestamp": "2026-10-24T13:54:38Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 52, "cost_usd": 8.22e-05}
+{"timestamp": "2026-10-24T13:54:39Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 47, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T13:54:40Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:54:41Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:54:42Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 48, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:54:43Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 48, "cost_usd": 8e-05}
+{"timestamp": "2026-10-24T13:54:44Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 52, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T13:54:45Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 53, "cost_usd": 8.28e-05}
+{"timestamp": "2026-10-24T13:54:46Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 46, "cost_usd": 7.89e-05}
+{"timestamp": "2026-10-24T13:54:47Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:54:48Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 47, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T13:54:49Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 51, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T13:54:50Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 52, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T13:54:51Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 49, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:54:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 48, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T13:54:54Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 45, "cost_usd": 7.88e-05}
+{"timestamp": "2026-10-24T13:54:55Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 550, "output_tokens": 49, "cost_usd": 7.95e-05}
+{"timestamp": "2026-10-24T13:54:56Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:54:57Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:54:58Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 50, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T13:54:59Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 53, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T13:54:59Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 47, "cost_usd": 7.91e-05}
+{"timestamp": "2026-10-24T13:55:00Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 55, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T13:55:01Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:55:03Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:55:04Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 49, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T13:55:05Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:55:06Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:55:06Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 54, "cost_usd": 8.27e-05}
+{"timestamp": "2026-10-24T13:55:07Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:55:09Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 52, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:55:09Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 45, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T13:55:10Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 46, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T13:55:11Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 50, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:55:12Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 53, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T13:55:14Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 53, "cost_usd": 8.22e-05}
+{"timestamp": "2026-10-24T13:55:14Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 50, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:55:15Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:55:17Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:55:19Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 50, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:55:20Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 46, "cost_usd": 7.9e-05}
+{"timestamp": "2026-10-24T13:55:21Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 53, "cost_usd": 8.28e-05}
+{"timestamp": "2026-10-24T13:55:22Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T13:55:23Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 48, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T13:55:25Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:55:26Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 54, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T13:55:27Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 50, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:55:28Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:55:29Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 49, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T13:55:30Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:55:31Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 56, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T13:55:32Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T13:55:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 45, "cost_usd": 7.8e-05}
+{"timestamp": "2026-10-24T13:55:34Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:55:35Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 45, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T13:55:36Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:55:36Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:55:37Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 53, "cost_usd": 8.29e-05}
+{"timestamp": "2026-10-24T13:55:39Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:55:40Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 51, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:55:41Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:55:42Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 47, "cost_usd": 7.95e-05}
+{"timestamp": "2026-10-24T13:55:43Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T13:55:44Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 51, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T13:55:46Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:55:46Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 47, "cost_usd": 7.98e-05}
+{"timestamp": "2026-10-24T13:55:47Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T13:55:48Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 52, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T13:55:49Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:55:50Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 49, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T13:55:51Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 52, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:55:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:55:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 50, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T13:55:53Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:55:55Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:55:56Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 47, "cost_usd": 7.95e-05}
+{"timestamp": "2026-10-24T13:55:58Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 50, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T13:55:59Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:56:00Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 54, "cost_usd": 8.29e-05}
+{"timestamp": "2026-10-24T13:56:00Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:56:01Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 54, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T13:56:02Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 49, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T13:56:03Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:56:04Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 53, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:56:05Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 55, "cost_usd": 8.41e-05}
+{"timestamp": "2026-10-24T13:56:06Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:56:06Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 45, "cost_usd": 7.85e-05}
+{"timestamp": "2026-10-24T13:56:07Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 52, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:56:08Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:56:09Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 50, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:56:10Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:56:11Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 53, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T13:56:12Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 48, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:56:13Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 53, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T13:56:14Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 49, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T13:56:15Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:56:15Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 48, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T13:56:16Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 45, "cost_usd": 7.81e-05}
+{"timestamp": "2026-10-24T13:56:17Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:56:20Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:56:21Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:56:22Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 52, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T13:56:23Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 44, "cost_usd": 7.78e-05}
+{"timestamp": "2026-10-24T13:56:23Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 52, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:56:24Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 54, "cost_usd": 8.35e-05}
+{"timestamp": "2026-10-24T13:56:25Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T13:56:26Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 51, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:56:28Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 50, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T13:56:29Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 47, "cost_usd": 7.96e-05}
+{"timestamp": "2026-10-24T13:56:30Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 46, "cost_usd": 7.85e-05}
+{"timestamp": "2026-10-24T13:56:31Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 52, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T13:56:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:56:34Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 56, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T13:56:35Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:56:37Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 55, "cost_usd": 8.35e-05}
+{"timestamp": "2026-10-24T13:56:38Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 53, "cost_usd": 8.25e-05}
+{"timestamp": "2026-10-24T13:56:39Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:56:39Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 53, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T13:56:40Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:56:41Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 51, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:56:42Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 54, "cost_usd": 8.34e-05}
+{"timestamp": "2026-10-24T13:56:43Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 53, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T13:56:44Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 48, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:56:45Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:56:46Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T13:56:47Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 53, "cost_usd": 8.25e-05}
+{"timestamp": "2026-10-24T13:56:48Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 52, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:56:49Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 49, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:56:50Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T13:56:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:56:53Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 51, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:56:54Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 55, "cost_usd": 8.41e-05}
+{"timestamp": "2026-10-24T13:56:55Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 44, "cost_usd": 7.78e-05}
+{"timestamp": "2026-10-24T13:56:56Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 56, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T13:56:57Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 54, "cost_usd": 8.32e-05}
+{"timestamp": "2026-10-24T13:56:58Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T13:56:59Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 51, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T13:57:00Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 55, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T13:57:01Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:57:03Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 54, "cost_usd": 8.29e-05}
+{"timestamp": "2026-10-24T13:57:03Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 48, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:57:04Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 45, "cost_usd": 7.83e-05}
+{"timestamp": "2026-10-24T13:57:05Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 56, "cost_usd": 8.39e-05}
+{"timestamp": "2026-10-24T13:57:06Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 57, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T13:57:07Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T13:57:08Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 47, "cost_usd": 7.94e-05}
+{"timestamp": "2026-10-24T13:57:09Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 45, "cost_usd": 7.86e-05}
+{"timestamp": "2026-10-24T13:57:10Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T13:57:11Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 50, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T13:57:13Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 55, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T13:57:13Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 55, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T13:57:14Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 46, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T13:57:15Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:57:16Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 51, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T13:57:16Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 47, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T13:57:17Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 49, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:57:18Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T13:57:19Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 50, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:57:21Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 46, "cost_usd": 7.91e-05}
+{"timestamp": "2026-10-24T13:57:22Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:57:23Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 52, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T13:57:24Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 47, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T13:57:25Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 49, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T13:57:26Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 50, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:57:27Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T13:57:29Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 55, "cost_usd": 8.39e-05}
+{"timestamp": "2026-10-24T13:57:30Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:57:31Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 53, "cost_usd": 8.28e-05}
+{"timestamp": "2026-10-24T13:57:32Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 50, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:57:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 55, "cost_usd": 8.39e-05}
+{"timestamp": "2026-10-24T13:57:34Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 45, "cost_usd": 7.83e-05}
+{"timestamp": "2026-10-24T13:57:35Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T13:57:36Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:57:37Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 53, "cost_usd": 8.29e-05}
+{"timestamp": "2026-10-24T13:57:38Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 52, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T13:57:39Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 49, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T13:57:40Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:57:41Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T13:57:42Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 51, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T13:57:43Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 51, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T13:57:44Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 52, "cost_usd": 8.22e-05}
+{"timestamp": "2026-10-24T13:57:45Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:57:46Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:57:47Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 48, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:57:48Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 567, "output_tokens": 52, "cost_usd": 8.27e-05}
+{"timestamp": "2026-10-24T13:57:49Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 51, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:57:51Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 45, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T13:57:52Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T13:57:53Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 50, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T13:57:54Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 48, "cost_usd": 7.94e-05}
+{"timestamp": "2026-10-24T13:57:55Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 54, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T13:57:56Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:57:57Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 49, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T13:57:58Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 59, "cost_usd": 8.55e-05}
+{"timestamp": "2026-10-24T13:57:59Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 52, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:58:00Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T13:58:02Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 55, "cost_usd": 8.35e-05}
+{"timestamp": "2026-10-24T13:58:03Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 52, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T13:58:03Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 53, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T13:58:04Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 45, "cost_usd": 7.83e-05}
+{"timestamp": "2026-10-24T13:58:06Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 54, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T13:58:07Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 539, "output_tokens": 53, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:58:08Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 541, "output_tokens": 55, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T13:58:09Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 534, "output_tokens": 54, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:58:11Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 532, "output_tokens": 49, "cost_usd": 7.77e-05}
+{"timestamp": "2026-10-24T13:58:12Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 536, "output_tokens": 54, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T13:58:13Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 536, "output_tokens": 53, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T13:58:14Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 539, "output_tokens": 52, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T13:58:14Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 540, "output_tokens": 57, "cost_usd": 8.25e-05}
+{"timestamp": "2026-10-24T13:58:15Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 529, "output_tokens": 49, "cost_usd": 7.74e-05}
+{"timestamp": "2026-10-24T13:58:17Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 541, "output_tokens": 52, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T13:58:17Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 58, "cost_usd": 8.52e-05}
+{"timestamp": "2026-10-24T13:58:18Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 52, "cost_usd": 8.22e-05}
+{"timestamp": "2026-10-24T13:58:19Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 46, "cost_usd": 7.89e-05}
+{"timestamp": "2026-10-24T13:58:20Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 55, "cost_usd": 8.28e-05}
+{"timestamp": "2026-10-24T13:58:22Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 547, "output_tokens": 47, "cost_usd": 7.82e-05}
+{"timestamp": "2026-10-24T13:58:24Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 577, "output_tokens": 50, "cost_usd": 8.27e-05}
+{"timestamp": "2026-10-24T13:58:25Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 545, "output_tokens": 61, "cost_usd": 8.5e-05}
+{"timestamp": "2026-10-24T13:58:26Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 549, "output_tokens": 51, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T13:58:27Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 541, "output_tokens": 159, "cost_usd": 0.0001336}
+{"timestamp": "2026-10-24T13:58:28Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 536, "output_tokens": 46, "cost_usd": 7.66e-05}
+{"timestamp": "2026-10-24T13:58:29Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 537, "output_tokens": 54, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T13:58:30Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 544, "output_tokens": 55, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T13:58:32Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 145, "cost_usd": 0.0001277}
+{"timestamp": "2026-10-24T13:58:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 51, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T13:58:33Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 543, "output_tokens": 51, "cost_usd": 7.98e-05}
+{"timestamp": "2026-10-24T13:58:34Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T13:58:35Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 54, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T13:58:37Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 52, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T13:58:37Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 545, "output_tokens": 48, "cost_usd": 7.85e-05}
+{"timestamp": "2026-10-24T13:58:38Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 57, "cost_usd": 8.39e-05}
+{"timestamp": "2026-10-24T13:58:39Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 57, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T13:58:40Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 548, "output_tokens": 57, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T13:58:41Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 550, "output_tokens": 56, "cost_usd": 8.3e-05}
+{"timestamp": "2026-10-24T13:58:42Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 51, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T13:58:43Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 53, "cost_usd": 8.22e-05}
+{"timestamp": "2026-10-24T13:58:44Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 57, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T13:58:45Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 59, "cost_usd": 8.51e-05}
+{"timestamp": "2026-10-24T13:58:46Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 537, "output_tokens": 50, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T13:58:47Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 536, "output_tokens": 51, "cost_usd": 7.91e-05}
+{"timestamp": "2026-10-24T13:58:49Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 543, "output_tokens": 52, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T13:58:50Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 546, "output_tokens": 44, "cost_usd": 7.66e-05}
+{"timestamp": "2026-10-24T13:58:50Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 541, "output_tokens": 48, "cost_usd": 7.81e-05}
+{"timestamp": "2026-10-24T13:58:51Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 537, "output_tokens": 53, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T13:58:53Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 551, "output_tokens": 56, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T13:58:54Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 531, "output_tokens": 54, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T13:58:55Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 527, "output_tokens": 47, "cost_usd": 7.62e-05}
+{"timestamp": "2026-10-24T13:58:56Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 532, "output_tokens": 47, "cost_usd": 7.67e-05}
+{"timestamp": "2026-10-24T14:51:55Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3684, "output_tokens": 854, "cost_usd": 0.0007954}
+{"timestamp": "2026-10-24T14:51:57Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3489, "output_tokens": 356, "cost_usd": 0.0005269}
+{"timestamp": "2026-10-24T14:52:01Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3619, "output_tokens": 916, "cost_usd": 0.0008199}
+{"timestamp": "2026-10-24T14:52:05Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3619, "output_tokens": 728, "cost_usd": 0.0007259}
+{"timestamp": "2026-10-24T14:52:10Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3489, "output_tokens": 1236, "cost_usd": 0.0009669}
+{"timestamp": "2026-10-24T14:52:22Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3684, "output_tokens": 857, "cost_usd": 0.0007969}
+{"timestamp": "2026-10-24T14:52:27Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3619, "output_tokens": 904, "cost_usd": 0.0008139}
+{"timestamp": "2026-10-24T14:52:31Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3489, "output_tokens": 1091, "cost_usd": 0.0008944}
+{"timestamp": "2026-10-24T14:52:35Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3489, "output_tokens": 862, "cost_usd": 0.0007799}
+{"timestamp": "2026-10-24T14:52:40Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3619, "output_tokens": 1171, "cost_usd": 0.0009474}
+{"timestamp": "2026-10-24T14:52:44Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 2671, "output_tokens": 756, "cost_usd": 0.0006451}
+{"timestamp": "2026-10-24T14:53:35Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3870, "output_tokens": 484, "cost_usd": 0.000629}
+{"timestamp": "2026-10-24T14:53:37Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3675, "output_tokens": 326, "cost_usd": 0.0005305}
+{"timestamp": "2026-10-24T14:53:42Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3805, "output_tokens": 1060, "cost_usd": 0.0009105}
+{"timestamp": "2026-10-24T14:53:46Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3805, "output_tokens": 1006, "cost_usd": 0.0008835}
+{"timestamp": "2026-10-24T14:53:51Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3675, "output_tokens": 1175, "cost_usd": 0.000955}
+{"timestamp": "2026-10-24T14:53:57Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3870, "output_tokens": 1521, "cost_usd": 0.0011475}
+{"timestamp": "2026-10-24T14:54:02Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3805, "output_tokens": 1118, "cost_usd": 0.0009395}
+{"timestamp": "2026-10-24T14:54:07Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3675, "output_tokens": 1130, "cost_usd": 0.0009325}
+{"timestamp": "2026-10-24T14:54:12Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3675, "output_tokens": 1120, "cost_usd": 0.0009275}
+{"timestamp": "2026-10-24T14:54:18Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3805, "output_tokens": 1548, "cost_usd": 0.0011545}
+{"timestamp": "2026-10-24T14:54:24Z", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 2857, "output_tokens": 1256, "cost_usd": 0.0009137}
+{"timestamp": "2026-10-24T15:21:45Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 529, "output_tokens": 51, "cost_usd": 7.84e-05}
+{"timestamp": "2026-10-24T15:21:47Z", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 551, "output_tokens": 47, "cost_usd": 7.86e-05}
+{"timestamp": "2026-10-24T15:42:13Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:42:14Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:42:15Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 52, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T15:42:16Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:42:16Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 46, "cost_usd": 7.92e-05}
+{"timestamp": "2026-10-24T15:42:17Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T15:42:18Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 551, "output_tokens": 54, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T15:42:19Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 53, "cost_usd": 8.28e-05}
+{"timestamp": "2026-10-24T15:42:20Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 52, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:42:22Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 48, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T15:42:23Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 49, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:42:24Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:42:25Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:42:26Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 55, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T15:42:27Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:42:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 49, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T15:42:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T15:42:30Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:42:31Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:42:32Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 49, "cost_usd": 8e-05}
+{"timestamp": "2026-10-24T15:42:33Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 586, "output_tokens": 58, "cost_usd": 8.76e-05}
+{"timestamp": "2026-10-24T15:42:34Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 54, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T15:42:35Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 54, "cost_usd": 8.28e-05}
+{"timestamp": "2026-10-24T15:42:37Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 55, "cost_usd": 8.3e-05}
+{"timestamp": "2026-10-24T15:42:38Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:42:39Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 47, "cost_usd": 7.95e-05}
+{"timestamp": "2026-10-24T15:42:40Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 53, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T15:42:41Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:42:42Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 51, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:42:44Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 54, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T15:42:45Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 49, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T15:42:47Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 600, "output_tokens": 48, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T15:42:48Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 52, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T15:42:49Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T15:42:49Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 584, "output_tokens": 50, "cost_usd": 8.34e-05}
+{"timestamp": "2026-10-24T15:42:50Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:42:51Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 52, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T15:42:52Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 52, "cost_usd": 8.22e-05}
+{"timestamp": "2026-10-24T15:42:53Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 56, "cost_usd": 8.41e-05}
+{"timestamp": "2026-10-24T15:42:54Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 47, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T15:42:55Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 52, "cost_usd": 8.22e-05}
+{"timestamp": "2026-10-24T15:42:56Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 53, "cost_usd": 8.3e-05}
+{"timestamp": "2026-10-24T15:42:57Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 583, "output_tokens": 47, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:42:59Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 50, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:43:00Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 49, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:43:01Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 567, "output_tokens": 53, "cost_usd": 8.32e-05}
+{"timestamp": "2026-10-24T15:43:03Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 52, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T15:43:04Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:43:05Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 597, "output_tokens": 51, "cost_usd": 8.52e-05}
+{"timestamp": "2026-10-24T15:43:06Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:43:08Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 55, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T15:43:09Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:43:10Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 49, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T15:43:10Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 52, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:43:11Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 51, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T15:43:13Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 55, "cost_usd": 8.37e-05}
+{"timestamp": "2026-10-24T15:43:14Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 47, "cost_usd": 7.96e-05}
+{"timestamp": "2026-10-24T15:43:16Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:43:17Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 54, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T15:43:18Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 51, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T15:43:19Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 49, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T15:43:20Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 57, "cost_usd": 8.43e-05}
+{"timestamp": "2026-10-24T15:43:21Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:43:22Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 45, "cost_usd": 7.8e-05}
+{"timestamp": "2026-10-24T15:43:23Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 49, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T15:43:24Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:43:26Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 46, "cost_usd": 7.9e-05}
+{"timestamp": "2026-10-24T15:43:26Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 47, "cost_usd": 7.95e-05}
+{"timestamp": "2026-10-24T15:43:27Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:43:28Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:43:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 48, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T15:43:30Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:43:31Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T15:43:32Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 56, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T15:43:34Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 52, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:43:36Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 54, "cost_usd": 8.32e-05}
+{"timestamp": "2026-10-24T15:43:37Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 56, "cost_usd": 8.39e-05}
+{"timestamp": "2026-10-24T15:43:38Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:43:38Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 50, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T15:43:39Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 46, "cost_usd": 7.9e-05}
+{"timestamp": "2026-10-24T15:43:41Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 55, "cost_usd": 8.36e-05}
+{"timestamp": "2026-10-24T15:43:42Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:43:43Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T15:43:44Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T15:43:45Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 51, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T15:43:47Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:43:47Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 48, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T15:43:49Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 54, "cost_usd": 8.34e-05}
+{"timestamp": "2026-10-24T15:43:50Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 50, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T15:43:51Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 56, "cost_usd": 8.43e-05}
+{"timestamp": "2026-10-24T15:43:52Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 45, "cost_usd": 7.83e-05}
+{"timestamp": "2026-10-24T15:43:52Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 49, "cost_usd": 8e-05}
+{"timestamp": "2026-10-24T15:43:54Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 50, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:43:55Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 52, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:43:57Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 50, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:43:57Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 51, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:43:58Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 50, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:43:59Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 47, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T15:44:00Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 50, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T15:44:01Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:44:02Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 51, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T15:44:03Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 50, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:44:04Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:44:04Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:44:05Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 52, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:44:06Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 49, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T15:44:07Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 53, "cost_usd": 8.25e-05}
+{"timestamp": "2026-10-24T15:44:08Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 49, "cost_usd": 7.98e-05}
+{"timestamp": "2026-10-24T15:44:09Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T15:44:11Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 48, "cost_usd": 7.98e-05}
+{"timestamp": "2026-10-24T15:44:12Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:44:14Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 56, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T15:44:15Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 47, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T15:44:16Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:44:16Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 49, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T15:44:18Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 47, "cost_usd": 8e-05}
+{"timestamp": "2026-10-24T15:44:19Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 47, "cost_usd": 7.98e-05}
+{"timestamp": "2026-10-24T15:44:20Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T15:44:20Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 52, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:44:21Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 55, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T15:44:23Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:44:24Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:44:25Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 52, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:44:26Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 49, "cost_usd": 8e-05}
+{"timestamp": "2026-10-24T15:44:28Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 51, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:44:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:44:30Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 52, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T15:44:31Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 47, "cost_usd": 7.96e-05}
+{"timestamp": "2026-10-24T15:44:32Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 53, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:44:33Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 55, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T15:44:35Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 44, "cost_usd": 7.75e-05}
+{"timestamp": "2026-10-24T15:44:36Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 53, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T15:44:37Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 56, "cost_usd": 8.39e-05}
+{"timestamp": "2026-10-24T15:44:38Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:44:39Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 52, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T15:44:40Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:44:41Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:44:42Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 567, "output_tokens": 52, "cost_usd": 8.27e-05}
+{"timestamp": "2026-10-24T15:44:43Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 55, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T15:44:44Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 45, "cost_usd": 7.88e-05}
+{"timestamp": "2026-10-24T15:44:44Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 51, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T15:44:45Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 55, "cost_usd": 8.41e-05}
+{"timestamp": "2026-10-24T15:44:46Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:44:47Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:44:49Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 45, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T15:44:50Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 56, "cost_usd": 8.35e-05}
+{"timestamp": "2026-10-24T15:44:51Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 50, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T15:44:52Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 45, "cost_usd": 7.8e-05}
+{"timestamp": "2026-10-24T15:44:52Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:44:53Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 50, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T15:44:54Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 46, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T15:44:55Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 53, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T15:44:57Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T15:44:57Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:44:58Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 50, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T15:44:59Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 49, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:45:00Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:45:01Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 49, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T15:45:02Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 50, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T15:45:03Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 48, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T15:45:04Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 47, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T15:45:05Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 55, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T15:45:06Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:45:07Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:45:08Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 53, "cost_usd": 8.3e-05}
+{"timestamp": "2026-10-24T15:45:09Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:45:10Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 52, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T15:45:12Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 53, "cost_usd": 8.28e-05}
+{"timestamp": "2026-10-24T15:45:13Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 50, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T15:45:15Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:45:16Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 55, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T15:45:17Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 52, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:45:18Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 50, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:45:19Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:45:19Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 45, "cost_usd": 7.82e-05}
+{"timestamp": "2026-10-24T15:45:21Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 46, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T15:45:22Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 550, "output_tokens": 52, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:45:23Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:45:24Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:45:25Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:45:26Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:45:27Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 47, "cost_usd": 7.91e-05}
+{"timestamp": "2026-10-24T15:45:28Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 55, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T15:45:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:45:30Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:45:32Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 52, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T15:45:33Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:45:33Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 47, "cost_usd": 7.95e-05}
+{"timestamp": "2026-10-24T15:45:34Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 51, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T15:45:35Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:45:36Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 53, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:45:37Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 45, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T15:45:38Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 47, "cost_usd": 7.98e-05}
+{"timestamp": "2026-10-24T15:45:40Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 50, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:45:41Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 47, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T15:45:43Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 53, "cost_usd": 8.22e-05}
+{"timestamp": "2026-10-24T15:45:43Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 50, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:45:44Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:45:45Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T15:45:46Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 55, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T15:45:47Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 45, "cost_usd": 7.85e-05}
+{"timestamp": "2026-10-24T15:45:48Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 54, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T15:45:49Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:45:50Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 51, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T15:45:51Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T15:45:52Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:45:53Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 50, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T15:45:54Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:45:55Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 49, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T15:45:56Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:45:56Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 55, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T15:45:57Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:45:58Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 45, "cost_usd": 7.8e-05}
+{"timestamp": "2026-10-24T15:45:59Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:46:00Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 45, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T15:46:01Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:46:02Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:46:03Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 47, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T15:46:04Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:46:05Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 55, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T15:46:06Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T15:46:07Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:46:08Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:46:09Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 51, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T15:46:10Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:46:11Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 46, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T15:46:14Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T15:46:15Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 52, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T15:46:16Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:46:17Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 49, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T15:46:18Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 51, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:46:20Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 47, "cost_usd": 7.95e-05}
+{"timestamp": "2026-10-24T15:46:21Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:46:21Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 56, "cost_usd": 8.43e-05}
+{"timestamp": "2026-10-24T15:46:22Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:46:23Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:46:24Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 50, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:46:25Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:46:26Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 54, "cost_usd": 8.29e-05}
+{"timestamp": "2026-10-24T15:46:27Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:46:28Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:46:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 53, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:46:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:46:30Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 53, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:46:31Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 53, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T15:46:32Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:46:33Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 46, "cost_usd": 7.9e-05}
+{"timestamp": "2026-10-24T15:46:34Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 54, "cost_usd": 8.29e-05}
+{"timestamp": "2026-10-24T15:46:36Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:46:36Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 50, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T15:46:37Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T15:46:38Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 53, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T15:46:39Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 50, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T15:46:40Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:46:41Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 49, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T15:46:42Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 49, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T15:46:43Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 44, "cost_usd": 7.77e-05}
+{"timestamp": "2026-10-24T15:46:44Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 45, "cost_usd": 7.81e-05}
+{"timestamp": "2026-10-24T15:46:45Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:46:46Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 49, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:46:47Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:46:48Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 52, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T15:46:49Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 44, "cost_usd": 7.78e-05}
+{"timestamp": "2026-10-24T15:46:50Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 50, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:46:51Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 54, "cost_usd": 8.35e-05}
+{"timestamp": "2026-10-24T15:46:52Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T15:46:53Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 51, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T15:46:53Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 50, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T15:46:55Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 47, "cost_usd": 7.96e-05}
+{"timestamp": "2026-10-24T15:46:56Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 46, "cost_usd": 7.85e-05}
+{"timestamp": "2026-10-24T15:46:57Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 52, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T15:46:58Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 49, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:47:00Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:47:01Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:47:02Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 51, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:47:04Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 53, "cost_usd": 8.25e-05}
+{"timestamp": "2026-10-24T15:47:05Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 50, "cost_usd": 8.1e-05}
+{"timestamp": "2026-10-24T15:47:06Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 53, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T15:47:07Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:47:07Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 51, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:47:08Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 51, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T15:47:09Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:47:10Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 47, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T15:47:11Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:47:12Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 54, "cost_usd": 8.29e-05}
+{"timestamp": "2026-10-24T15:47:13Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:47:13Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 52, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:47:14Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 47, "cost_usd": 7.96e-05}
+{"timestamp": "2026-10-24T15:47:15Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 54, "cost_usd": 8.29e-05}
+{"timestamp": "2026-10-24T15:47:16Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:47:17Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 51, "cost_usd": 8.19e-05}
+{"timestamp": "2026-10-24T15:47:18Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 53, "cost_usd": 8.31e-05}
+{"timestamp": "2026-10-24T15:47:18Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 44, "cost_usd": 7.78e-05}
+{"timestamp": "2026-10-24T15:47:19Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 56, "cost_usd": 8.4e-05}
+{"timestamp": "2026-10-24T15:47:21Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 55, "cost_usd": 8.37e-05}
+{"timestamp": "2026-10-24T15:47:22Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 52, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:47:23Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 53, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T15:47:23Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 52, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T15:47:24Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:47:25Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T15:47:26Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 47, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T15:47:27Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 45, "cost_usd": 7.83e-05}
+{"timestamp": "2026-10-24T15:47:28Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T15:47:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 50, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:47:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:47:32Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 47, "cost_usd": 7.94e-05}
+{"timestamp": "2026-10-24T15:47:33Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 45, "cost_usd": 7.86e-05}
+{"timestamp": "2026-10-24T15:47:33Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 51, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:47:34Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:47:35Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 49, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:47:37Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 54, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T15:47:37Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 46, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T15:47:38Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 51, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T15:47:39Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 50, "cost_usd": 8.06e-05}
+{"timestamp": "2026-10-24T15:47:40Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 47, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T15:47:41Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 50, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:47:42Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:47:43Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 53, "cost_usd": 8.2e-05}
+{"timestamp": "2026-10-24T15:47:44Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 47, "cost_usd": 7.96e-05}
+{"timestamp": "2026-10-24T15:47:45Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 49, "cost_usd": 8.04e-05}
+{"timestamp": "2026-10-24T15:47:46Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 52, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T15:47:47Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 47, "cost_usd": 7.93e-05}
+{"timestamp": "2026-10-24T15:47:48Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 52, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:47:49Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 53, "cost_usd": 8.21e-05}
+{"timestamp": "2026-10-24T15:47:50Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:47:51Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 50, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:47:52Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 47, "cost_usd": 7.94e-05}
+{"timestamp": "2026-10-24T15:47:53Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 54, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T15:47:53Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 565, "output_tokens": 50, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:47:54Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 55, "cost_usd": 8.39e-05}
+{"timestamp": "2026-10-24T15:47:55Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 45, "cost_usd": 7.83e-05}
+{"timestamp": "2026-10-24T15:47:56Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:47:57Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 56, "cost_usd": 8.37e-05}
+{"timestamp": "2026-10-24T15:47:58Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 52, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T15:47:59Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 56, "cost_usd": 8.43e-05}
+{"timestamp": "2026-10-24T15:48:00Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 52, "cost_usd": 8.12e-05}
+{"timestamp": "2026-10-24T15:48:01Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 53, "cost_usd": 8.23e-05}
+{"timestamp": "2026-10-24T15:48:02Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T15:48:08Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 52, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:48:09Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 48, "cost_usd": 7.95e-05}
+{"timestamp": "2026-10-24T15:48:10Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 47, "cost_usd": 7.97e-05}
+{"timestamp": "2026-10-24T15:48:11Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 50, "cost_usd": 8.13e-05}
+{"timestamp": "2026-10-24T15:48:12Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 563, "output_tokens": 53, "cost_usd": 8.28e-05}
+{"timestamp": "2026-10-24T15:48:13Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 47, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T15:48:14Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 567, "output_tokens": 50, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:48:15Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 564, "output_tokens": 50, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:48:16Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 45, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T15:48:17Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:48:18Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:48:19Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 44, "cost_usd": 7.74e-05}
+{"timestamp": "2026-10-24T15:48:20Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 561, "output_tokens": 51, "cost_usd": 8.16e-05}
+{"timestamp": "2026-10-24T15:48:21Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 53, "cost_usd": 8.24e-05}
+{"timestamp": "2026-10-24T15:48:22Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 49, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T15:48:23Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 54, "cost_usd": 8.3e-05}
+{"timestamp": "2026-10-24T15:48:24Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 51, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:48:25Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 50, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:48:25Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 55, "cost_usd": 8.35e-05}
+{"timestamp": "2026-10-24T15:48:26Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 52, "cost_usd": 8.15e-05}
+{"timestamp": "2026-10-24T15:48:27Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 566, "output_tokens": 55, "cost_usd": 8.41e-05}
+{"timestamp": "2026-10-24T15:48:28Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 558, "output_tokens": 45, "cost_usd": 7.83e-05}
+{"timestamp": "2026-10-24T15:48:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 49, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T15:48:30Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 539, "output_tokens": 55, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:48:31Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 541, "output_tokens": 54, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:48:32Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 534, "output_tokens": 55, "cost_usd": 8.09e-05}
+{"timestamp": "2026-10-24T15:48:33Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 532, "output_tokens": 49, "cost_usd": 7.77e-05}
+{"timestamp": "2026-10-24T15:48:34Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 536, "output_tokens": 49, "cost_usd": 7.81e-05}
+{"timestamp": "2026-10-24T15:48:35Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 536, "output_tokens": 55, "cost_usd": 8.11e-05}
+{"timestamp": "2026-10-24T15:48:36Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 539, "output_tokens": 52, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T15:48:37Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 540, "output_tokens": 57, "cost_usd": 8.25e-05}
+{"timestamp": "2026-10-24T15:48:38Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 529, "output_tokens": 49, "cost_usd": 7.74e-05}
+{"timestamp": "2026-10-24T15:48:39Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 541, "output_tokens": 52, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T15:48:39Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 51, "cost_usd": 8.17e-05}
+{"timestamp": "2026-10-24T15:48:41Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 562, "output_tokens": 49, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T15:48:41Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 559, "output_tokens": 46, "cost_usd": 7.89e-05}
+{"timestamp": "2026-10-24T15:48:42Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 53, "cost_usd": 8.18e-05}
+{"timestamp": "2026-10-24T15:48:47Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3870, "output_tokens": 867, "cost_usd": 0.0008205}
+{"timestamp": "2026-10-24T15:48:49Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3675, "output_tokens": 345, "cost_usd": 0.00054}
+{"timestamp": "2026-10-24T15:48:54Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3805, "output_tokens": 1020, "cost_usd": 0.0008905}
+{"timestamp": "2026-10-24T15:48:58Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3805, "output_tokens": 1025, "cost_usd": 0.000893}
+{"timestamp": "2026-10-24T15:49:03Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3675, "output_tokens": 922, "cost_usd": 0.0008285}
+{"timestamp": "2026-10-24T15:49:08Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3870, "output_tokens": 1374, "cost_usd": 0.001074}
+{"timestamp": "2026-10-24T15:49:13Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3805, "output_tokens": 1008, "cost_usd": 0.0008845}
+{"timestamp": "2026-10-24T15:49:17Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3675, "output_tokens": 1070, "cost_usd": 0.0009025}
+{"timestamp": "2026-10-24T15:49:23Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3675, "output_tokens": 1087, "cost_usd": 0.000911}
+{"timestamp": "2026-10-24T15:49:29Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 3805, "output_tokens": 1525, "cost_usd": 0.001143}
+{"timestamp": "2026-10-24T15:49:34Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "vision", "model": "claude-haiku-5-5", "input_tokens": 2857, "output_tokens": 1052, "cost_usd": 0.0008117}
+{"timestamp": "2026-10-24T15:49:34Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 547, "output_tokens": 46, "cost_usd": 7.77e-05}
+{"timestamp": "2026-10-24T15:49:35Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 577, "output_tokens": 50, "cost_usd": 8.27e-05}
+{"timestamp": "2026-10-24T15:49:36Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 545, "output_tokens": 61, "cost_usd": 8.5e-05}
+{"timestamp": "2026-10-24T15:49:37Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 549, "output_tokens": 50, "cost_usd": 7.99e-05}
+{"timestamp": "2026-10-24T15:49:40Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 541, "output_tokens": 161, "cost_usd": 0.0001346}
+{"timestamp": "2026-10-24T15:49:41Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 536, "output_tokens": 46, "cost_usd": 7.66e-05}
+{"timestamp": "2026-10-24T15:49:42Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 537, "output_tokens": 50, "cost_usd": 7.87e-05}
+{"timestamp": "2026-10-24T15:49:44Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 544, "output_tokens": 149, "cost_usd": 0.0001289}
+{"timestamp": "2026-10-24T15:49:45Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 130, "cost_usd": 0.0001202}
+{"timestamp": "2026-10-24T15:49:46Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 55, "cost_usd": 8.29e-05}
+{"timestamp": "2026-10-24T15:49:47Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 543, "output_tokens": 51, "cost_usd": 7.98e-05}
+{"timestamp": "2026-10-24T15:49:48Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 560, "output_tokens": 55, "cost_usd": 8.35e-05}
+{"timestamp": "2026-10-24T15:49:49Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 51, "cost_usd": 8.08e-05}
+{"timestamp": "2026-10-24T15:49:50Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 50, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:49:51Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 545, "output_tokens": 48, "cost_usd": 7.85e-05}
+{"timestamp": "2026-10-24T15:49:52Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 554, "output_tokens": 62, "cost_usd": 8.64e-05}
+{"timestamp": "2026-10-24T15:49:53Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 553, "output_tokens": 57, "cost_usd": 8.38e-05}
+{"timestamp": "2026-10-24T15:49:54Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 548, "output_tokens": 57, "cost_usd": 8.33e-05}
+{"timestamp": "2026-10-24T15:49:55Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 550, "output_tokens": 51, "cost_usd": 8.05e-05}
+{"timestamp": "2026-10-24T15:49:55Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 552, "output_tokens": 51, "cost_usd": 8.07e-05}
+{"timestamp": "2026-10-24T15:49:56Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 557, "output_tokens": 61, "cost_usd": 8.62e-05}
+{"timestamp": "2026-10-24T15:49:57Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 555, "output_tokens": 55, "cost_usd": 8.3e-05}
+{"timestamp": "2026-10-24T15:49:58Z", "run_id": "2026-10-24T15:42:11Z", "entrypoint": "main", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 556, "output_tokens": 60, "cost_usd": 8.56e-05}
+{"timestamp": "2026-10-24T15:53:45Z", "run_id": "2026-10-24T15:53:43Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 529, "output_tokens": 57, "cost_usd": 8.14e-05}
+{"timestamp": "2026-10-24T15:53:46Z", "run_id": "2026-10-24T15:53:43Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 551, "output_tokens": 46, "cost_usd": 7.81e-05}
+{"timestamp": "2026-10-24T15:53:50Z", "run_id": "2026-10-24T15:53:47Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 537, "output_tokens": 51, "cost_usd": 7.92e-05}
+{"timestamp": "2026-10-24T15:53:52Z", "run_id": "2026-10-24T15:53:47Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 536, "output_tokens": 51, "cost_usd": 7.91e-05}
+{"timestamp": "2026-10-24T15:53:53Z", "run_id": "2026-10-24T15:53:47Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 543, "output_tokens": 52, "cost_usd": 8.03e-05}
+{"timestamp": "2026-10-24T15:53:54Z", "run_id": "2026-10-24T15:53:47Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 546, "output_tokens": 44, "cost_usd": 7.66e-05}
+{"timestamp": "2026-10-24T15:53:55Z", "run_id": "2026-10-24T15:53:47Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 541, "output_tokens": 44, "cost_usd": 7.61e-05}
+{"timestamp": "2026-10-24T15:53:56Z", "run_id": "2026-10-24T15:53:47Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 537, "output_tokens": 53, "cost_usd": 8.02e-05}
+{"timestamp": "2026-10-24T15:53:57Z", "run_id": "2026-10-24T15:53:47Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 551, "output_tokens": 55, "cost_usd": 8.26e-05}
+{"timestamp": "2026-10-24T15:53:58Z", "run_id": "2026-10-24T15:53:47Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 531, "output_tokens": 54, "cost_usd": 8.01e-05}
+{"timestamp": "2026-10-24T15:53:59Z", "run_id": "2026-10-24T15:53:47Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 527, "output_tokens": 47, "cost_usd": 7.62e-05}
+{"timestamp": "2026-10-24T15:54:00Z", "run_id": "2026-10-24T15:53:47Z", "entrypoint": "evaluation", "purpose": "intent", "model": "claude-haiku-5-5", "input_tokens": 532, "output_tokens": 47, "cost_usd": 7.67e-05}

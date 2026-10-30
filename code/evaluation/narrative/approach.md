@@ -1,0 +1,13 @@
+## Approach
+
+The agent audits each deletion request in five stages. A language model is used only where reading is needed. Every judgement is made by deterministic code, so the same input always gives the same verdict, and every step can be traced to its evidence with `python3 code/main.py --explain <case_id>`.
+
+1. **Intent.** Claude Haiku 5.5 decides whether the request authorises deletion, in any language. Each request gets its own cached call. A keyword fallback exists, but the run refuses to write output if any verdict came from it.
+2. **Identity.** The request email is resolved to a user through current and historical identifiers (emails, phones, email hashes). Matching is exact and never by name, because the data contains near-identical names.
+3. **Evidence.** All 94 evidence files (JSON, SQLite dumps, several log formats, text, PDFs and screenshots) are normalised into one table of sightings: which resource, in which system, in what state, observed when, and carrying which identifiers. The vision model reads each screenshot once; deterministic parsers read everything else.
+4. **State.** For each of the person's resources, the latest admissible evidence inside the audit window decides its state. Replicas are tracked as separate copies, and a direct observation beats absence by omission from a snapshot.
+5. **Policy and plan.** `deletion_rules.csv` is applied as data, not code. The result is findings, remediation and verification steps in the required order, with every finding and every completed check citing the evidence that proves it; remediation steps and future checks carry an empty evidence ID, as the contract requires.
+
+We treated evaluation as the first feature, not the last. The scorer and validator existed before any agent logic, and the baseline was measured in the first hour. Every milestone's metrics were saved, so each change below was kept only if it improved the numbers, or was principled and neutral.
+
+**Reproducibility.** The model API does not accept a temperature setting, so repeatability comes from caching every model answer. As a stronger test, we deleted the cache and re-ran the whole pipeline from scratch, and the fresh run reproduced `output.csv` byte-for-byte. A clean virtual environment built from `requirements.txt` reproduced it again. An independent audit on a different operating system and Python version (Linux, Python 3.12), with no API key, reproduced it once more.

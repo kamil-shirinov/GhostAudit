@@ -1,0 +1,637 @@
+## [2026-10-24T12:51:00Z] SESSION START
+
+tool=Claude Code
+model=claude-sonnet-5-5
+Repo Root: ~/hackerrank-orchestrate-october26
+Branch: main
+Worktree: main
+Parent Agent: none
+Language: py
+Time Remaining: 0d 23h 39m (submission closes 2026-10-25T12:30:00Z, as stated by the user)
+
+## [2026-10-24T12:56:00Z] Scaffold pipeline, validator, evaluator, baseline
+
+User Prompt (verbatim, secrets redacted):
+Why: before building the real auditor, I want a valid end-to-end pipeline and a scoring harness, so every later change is measured against a baseline. The baseline trusts the workflow's reported_status, which is exactly the failure this challenge is about, so it is an honest floor to beat.
+
+For the log's Time Remaining field: submission closes 2026-10-25T12:30:00Z.
+
+Context, so you don't need to explore: dataset/deletion_requests.csv (518 rows) and dataset/sample_deletion_requests.csv (32 rows) have columns case_id,email,requested_at,reported_status,reported_at,audit_at,request_text. dataset/sample_output.csv holds gold answers: case_id,deletion_status,steps_json. The output contract is in problem_statement.md under "Required Output" and "Allowed Operations". Do not open the evidence files for this task. Python 3.9-compatible (no match statements, no X | Y type unions), standard library only, paths resolved relative to the repo root.
+
+Create:
+
+1. code/agent.py: predict(case: dict) -> tuple[str, list], where case holds one request row. Baseline only: ("COMPLETE", []) if reported_status is COMPLETE, otherwise ("INCOMPLETE", []). Label it clearly as the baseline to be replaced.
+
+2. code/main.py: read a requests CSV (default dataset/deletion_requests.csv), call predict() per case, renumber step_no from 1, and write output.csv at the repo root (--out to override) with header case_id,deletion_status,steps_json. Serialise steps with json.dumps(steps, ensure_ascii=False, separators=(",", ":")). Sort rows by the number after "case_", which matches the input order (a plain string sort would put case_100 first).
+
+3. code/validate.py: validate_output(output_path, requests_path) returns errors and warnings. The CLI defaults to output.csv and dataset/deletion_requests.csv, prints warnings grouped by type with counts and up to 3 example case_ids, and exits 1 on any error.
+   Errors: wrong header; missing, extra or duplicate case_ids; wrong sort order; status not COMPLETE/INCOMPLETE/NOT_APPLICABLE; steps_json not a JSON array; a step without exactly the keys step_no, phase, system_id, resource_id, operation, state, evidence_id; step_no not consecutive from 1; an operation whose phase or state doesn't match the Allowed Operations table; phases out of order (FINDING, REMEDIATION, VERIFICATION); NOT_APPLICABLE with a non-empty array.
+   Warnings: COMPLETE with no steps, with non-VERIFICATION steps, or with an empty evidence_id; INCOMPLETE findings with an empty evidence_id; INCOMPLETE remediation or verification steps with a non-empty evidence_id.
+
+4. code/evaluation/main.py: run predict() on the sample requests, write code/evaluation/sample_predictions.csv, and score it against dataset/sample_output.csv. Only this script reads gold answers; the agent never does.
+   Metrics: status accuracy, overall and per gold status; step-level precision, recall and F1, micro-averaged, matching each case's steps as a multiset of (phase, operation, state, system_id, resource_id, evidence_id) and ignoring step_no; field-level accuracy for each of those six fields, comparing steps position by position up to the longer list; sequence accuracy, the share of cases whose whole steps array matches gold exactly and in order.
+   Print a summary and write it as a Markdown table to code/evaluation/latest_metrics.md. With --case <case_id>, print that case's missing and extra steps.
+
+Check (run only this): python3 code/main.py && python3 code/validate.py && python3 code/evaluation/main.py
+Expected: a 518-row output.csv with no validation errors (warnings are fine for the baseline), status accuracy 17/32 = 53.1%, and every step metric at 0.
+Then commit with the message "Scaffold pipeline, validator and evaluator with trust-the-workflow baseline".
+
+Agent Response Summary:
+Created code/agent.py (labelled baseline: COMPLETE if reported_status is COMPLETE else INCOMPLETE, no steps), code/main.py (pipeline, renumbering, numeric case sort, compact JSON), code/validate.py (contract constants, errors and warnings, grouped CLI) and code/evaluation/main.py (gold scoring, latest_metrics.md, --case diff). The specified check ran clean: 518 rows, no validation errors, 17/32 = 53.1% status accuracy, all step metrics 0; the only warning type is complete_no_steps (254 cases). Committed the four source files as bc709a0; generated artifacts and log.txt were left uncommitted, and CLAUDE.md and code/DECISIONS.md changes that appeared during the turn were not made by this agent and were not committed. Validator error paths were not exercised because the user asked to run only the given check.
+
+Actions:
+* Read problem_statement.md contract sections, the empty code/main.py and code/evaluation/main.py stubs; inspected dataset CSVs (line endings, BOM, ordering, gold status mix) with a read-only Python snippet; did not open evidence files
+* Created log.txt (SESSION START entry)
+* Created code/agent.py, code/validate.py, code/main.py, code/evaluation/main.py
+* Ran: python3 code/main.py && python3 code/validate.py && python3 code/evaluation/main.py (generated output.csv, code/evaluation/sample_predictions.csv, code/evaluation/latest_metrics.md)
+* git commit bc709a0 "Scaffold pipeline, validator and evaluator with trust-the-workflow baseline" (4 source files)
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-24T13:12:55Z] Add schema-agnostic evidence normaliser and extraction check
+
+User Prompt (verbatim, secrets redacted):
+Why: every later decision depends on knowing what each evidence file says about each resource, so I want one normalised view of all evidence first. I'm using one schema-agnostic extractor rather than a parser per file family: any record that carries a resource_id becomes a "sighting", whatever the format. That is less code and survives formats we haven't seen. We checked this design in planning against the 75 evidence citations in dataset/sample_output.csv.
+
+Build code/evidence.py (Python 3.9, standard library plus pypdf, already installed) with two functions.
+
+load_sightings() -> list[dict], one dict per record observation, with keys:
+- evidence_id: the file_id from dataset/evidence_files.csv; captured_at: that file's captured_at from the manifest.
+- observed_at: the most specific observation time: the record's own observed_at / recorded_at / log-line timestamp, else the enclosing snapshot's captured_at, else the file's captured_at. A SQL row's updated_at is a field, not the observation time.
+- resource_id, and system_id from the resource_id prefix: account→account_service, search→search_service, analytics→analytics_platform, support→support_platform, export→export_service, backup→backup_service, data_flow→integration_service, audit_record→security_service, tombstone→identity_service, cache→cache_service, email_delivery→email_delivery_service, legal_hold→legal_service, marketing→marketing_platform, object→object_storage. Keep this in one constant and report unknown prefixes rather than guessing.
+- context: where the record came from (data_store/system, collection, SQL table, log event name).
+- fields: the record's raw fields, flattened with dotted keys for nested objects.
+- identifiers: sorted, normalised identifiers found in any field value: emails (lowercased), user_<n> references, phone numbers ("+" plus digits only), 64-character hex hashes.
+- linked_resource_ids: other resource IDs mentioned in the values.
+- state, best effort: an explicit result field wins (FOUND→PRESENT, NOT_FOUND→ABSENT; IDENTIFIABLE, ANONYMIZED, REDACTED, ACTIVE, DISABLED, BLOCKED kept as-is); then http_status/status_code 404→ABSENT; rows, hits or total_hits of 0→ABSENT; enabled true/false→ACTIVE/DISABLED; restore_allowed true/false→ACTIVE/BLOCKED; available, download_available or archive_present false→ABSENT; otherwise PRESENT.
+
+load_coverage() -> list[dict] with evidence_id, system_id, observed_at, resource_ids: every place where a file lists the complete contents of a system at a moment, so a resource missing from it is proven ABSENT at that time. Sources: each snapshot block in the customer_data_snapshot_bundle JSON files, including blocks with empty record lists; and each SQL table, with its system taken from snapshot_scope rows where present, else from its rows' resource prefixes, else from the table name (e.g. customer_profiles* → account_service).
+
+Formats (read only a few lines of each to confirm):
+- JSON: walk recursively; any object with a string resource_id is a record, inheriting the nearest ancestor timestamps and data_store/system/collection.
+- SQL: execute each file into an in-memory sqlite3 database; every row with a resource_id is a record; merge the parsed record_json into fields; keep the table name, because primary vs replica tables matter for replication drift.
+- TXT handover: lines of the form "- time | system | resource_id | record_type | result | subject_reference".
+- Logs: each line is an ISO timestamp followed by either a JSON object or key=value pairs with optional quotes. Some have a syslog header first; cloud_runtime_export files nest the pairs inside message="..." with escaped quotes. Merge lines sharing a trace_id or requestId into one record, because "started" lines carry the lookup key (lookup_key, match_key, scan_key, subject_key, owner_key, subject_ref) and "completed" lines carry the resource_id and result. correlation_key is an identifier, not a grouping key. A line with a resource_id but no trace id is its own record.
+- PDF: extract text with pypdf; one record per resource ID found, with all of the document's identifiers attached and the text kept in fields.
+- PNG: skip for now and count them as pending vision.
+
+Also create code/evaluation/check_evidence.py. It prints sighting counts per format, files with no sightings, unknown prefixes, and gold-citation support: a step in dataset/sample_output.csv with a non-empty evidence_id is supported if that file has a sighting of the step's resource, or a coverage entry for the step's system_id that doesn't list the resource. With --resource <id>, print every sighting of that resource. This checks extraction only; the agent must never read sample_output.csv.
+
+Also add requirements.txt pinning the installed versions of anthropic, python-dotenv and pypdf.
+
+Check (run only this): python3 code/evaluation/check_evidence.py && python3 code/evaluation/check_evidence.py --resource support_001
+Expected: no sightings only for the 11 PNGs and evidence_90 (an inventory whose tables are empty, so it provides coverage only); no unknown prefixes; gold-citation support 75/75; support_001 shows a sighting from the PDF evidence_58.
+Then commit: "Add schema-agnostic evidence normaliser and extraction check".
+
+Agent Response Summary:
+Built code/evidence.py (load_sightings, load_coverage; JSON walk, SQL via in-memory sqlite3, TXT handover, six log header styles with trace/requestId merging, PDF via pypdf, PNG skipped as pending vision) and code/evaluation/check_evidence.py, plus requirements.txt (anthropic==2.3.0, python-dotenv==1.2.4, pypdf==6.14.2). The check gives 2953 sightings and 359 coverage entries, no unknown prefixes, gold-citation support 75/75 (71 by sighting, 4 by coverage), and support_001 sighted in evidence_58. One deviation from the expected result: evidence_18 and evidence_27 (PDFs) also have no sightings because their text contains no resource IDs (only user_<n> refs and order numbers); neither is cited in sample gold, so I did not invent IDs. SQL coverage is emitted only for systems listed in snapshot_scope when that table exists (so evidence_90 covers only account_service); coverage dicts carry an extra context key (table or collection).
+
+Actions:
+* Inspected a few lines of each evidence family (JSON key paths, SQL schemas and snapshot_scope, log headers, PDF text, TXT handover) and the installed package versions
+* Created code/evidence.py, code/evaluation/check_evidence.py, requirements.txt
+* Ran: python3 code/evaluation/check_evidence.py && python3 code/evaluation/check_evidence.py --resource support_001
+* Inspected full text of evidence_18 and evidence_27 to explain why they yield no sightings
+* git commit 779d7a1 "Add schema-agnostic evidence normaliser and extraction check" (3 files); left the user's code/DECISIONS.md edit uncommitted
+
+Context:
+tool=Claude Code
+model=claude-opus-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-24T13:29:39Z] Add identity resolution and rule-based case engine with audit trail
+
+User Prompt (verbatim, secrets redacted):
+Why: this is the auditor itself. evidence.py says what each file shows; now, per case, we decide who the person is, which resources are theirs, what state each was in at audit_at, and what the policy requires. I validated these rules in planning with a throwaway prototype on the 32 samples (status 32/32, step precision 0.99, recall 0.86), so please implement them as specified rather than redesigning. We'll improve recall next, measured by the evaluator.
+
+Read code/evidence.py's public functions and code/agent.py first; don't re-explore the dataset. Python 3.9-compatible.
+
+1. code/identity.py: resolve_identity(email) returns the user_ids whose current email (user_identities.csv) or any old/new email value (user_audit_log.csv) matches the request email case-insensitively, plus an identifier set: those user_ids and every current and historical email (lowercased), phone and email_hash for them, normalised exactly like evidence.py.
+
+2. code/agent.py: replace the baseline. predict(case) returns (status, steps), using indexes built once per process.
+- Linking: a resource is the subject's if any sighting's identifiers intersect the identifier set, or a LINK_RESOURCE_IDENTITY activity in system_activity.csv names one of the identifiers. Once linked, every sighting of that resource counts, including ones without identifiers.
+- Admissible evidence: only sightings and coverage whose file captured_at and observed_at are both <= audit_at.
+- Copies: a sighting from a SQL table whose name contains "replica" belongs to that replica copy; everything else is the primary copy.
+- State per copy: the latest admissible explicit sighting decides. Coverage proves the primary copy ABSENT only when that copy has no admissible explicit sighting (use the latest such coverage entry). Gold cases 21 and 24 show explicit sightings must win over omission.
+- Category: a record_type field on any sighting wins. Otherwise apply these semantic hints, kept in one commented table: support resources with attachment signals (attachment collection or event, a file_name field, or PDF evidence) -> SUPPORT_ATTACHMENT; contact_query or legacy_contact_index records -> SECONDARY_IDENTIFIER; analytics records from contact_lookup or with email_opt_in -> MARKETING_PROFILE. Otherwise use the system default: account->USER_PROFILE, search->SEARCH_INDEX_ENTRY, analytics->ANALYTICS_PROFILE, support->SUPPORT_MESSAGE, export->USER_EXPORT, backup->BACKUP_ARCHIVE, integration->DATA_FLOW, security->SECURITY_AUDIT_LOG, identity->ACCOUNT_TOMBSTONE, legal->LEGAL_HOLD_RECORD, cache->CACHE_ENTRY, email_delivery->EMAIL_DELIVERY_LOG, marketing->MARKETING_PROFILE.
+- Identifiability of a present record: IDENTIFIABLE if an explicit result says so, a *_pii_scan or analytics_identity_scan line has a matched_value, direct_identifiers is not "none", or any direct-identifier field is non-null (name, full_name, display_name, requester_name, any email field, any phone field, email_hash). For ANONYMIZE categories, a non-null user_id or customer_reference also counts, since anonymised means unlinkable.
+- If evidence.py doesn't already map result=hit -> PRESENT, result=miss -> ABSENT, eligible=true -> ACTIVE and deletion_block=true -> BLOCKED, add those there. When merging a trace, only the line carrying the resource_id may set result, so a cache_lookup "miss" can't leak in.
+- Policy: read required_action per data_category from deletion_rules.csv; don't hardcode it.
+  DELETE: compliant only if ABSENT; otherwise REPORT_REMAINING_RECORD and DELETE_RECORD. Verify with VERIFY_RECORD_ABSENT.
+  REDACT / ANONYMIZE: compliant unless IDENTIFIABLE, or PRESENT with identifiers not known to be removed; otherwise REPORT_EXPOSED_PII and REDACT_RECORD / ANONYMIZE_RECORD. Verify with VERIFY_RECORD_REDACTED / VERIFY_RECORD_ANONYMIZED.
+  RETAIN: verify with VERIFY_RECORD_PRESENT.
+  BACKUP_ARCHIVE: if restore is ACTIVE, REPORT_RESTORE_RISK and BLOCK_RESTORE. Verify with VERIFY_RESTORE_BLOCKED.
+  DATA_FLOW: if ACTIVE, REPORT_ACTIVE_DATA_FLOW and DISABLE_DATA_FLOW. Verify with VERIFY_DATA_FLOW_DISABLED.
+  If any copy violates, that copy's state and evidence decide the resource (gold case_05: a failover replica kept a deleted profile).
+- Status: COMPLETE if there are no findings, else INCOMPLETE.
+- Steps: for COMPLETE, only verification steps, each citing the evidence_id that established that resource's state. For INCOMPLETE: findings citing their evidence, then remediation, then verification for every linked resource, including already-compliant ones. Remediation and verification steps use evidence_id "". Order by phase, then the Allowed Operations table order, then system_id, then resource_id.
+- Keep a reason for every step (rule_id, state, evidence) outside output.csv. Add python3 code/main.py --explain <case_id> to print a case's audit trail: identity, linked resources, the state and evidence chosen for each, and the steps.
+
+3. code/validate.py: make within-phase ordering (operation order, then system_id, then resource_id) an error.
+
+Leave the two PDFs without resource IDs out for now; no gold answer cites them, and we'll revisit if the evaluation shows retention misses. Treat every request as a deletion for now; intent classification is the next task.
+
+Check (run only this): python3 code/main.py && python3 code/validate.py && python3 code/evaluation/main.py && python3 code/main.py --explain case_05
+Expected: no validation errors. On the samples: status 31-32/32, step precision about 0.98-0.99, recall about 0.85. Most remaining misses should be resources linked only through deletion-worker activities, such as account_001 in case_01. case_05's trail should show the failover-replica copy of account_005 as the remaining record, citing evidence_54.
+Then copy code/evaluation/latest_metrics.md to code/evaluation/history/m2_engine_v1.md and commit: "Add identity resolution and rule-based case engine with audit trail".
+
+Agent Response Summary:
+Built code/identity.py and replaced the baseline in code/agent.py with the specified rule engine (linking, admissibility, copies, per-copy state, category hints table, identifiability, rules-driven policy, ordered steps, per-step reasons) plus main.py --explain; evidence.py now maps hit/miss/eligible/deletion_block and keeps shared trace lines from setting result; validate.py errors on within-phase misordering. First run gave recall 81.9% because I had restricted linking to admissible sightings; 8 gold resources match identifiers only in sightings captured after audit_at, so I switched linking to any sighting as the spec states, keeping state and citations admissible-only. Final check: no validation errors, status 32/32, precision 166/168 (98.8%), recall 166/193 (86.0%); remaining misses are unlinked resources (deletion-worker style, e.g. account_6440); extras are account_6523 and tombstone_17 in case_17. case_05 shows the failover-replica copy of account_005 citing evidence_54. Committed b722c13.
+
+Actions:
+* Read headers of user_identities, user_audit_log, system_activity, deletion_rules CSVs
+* Edited code/evidence.py, code/validate.py, code/main.py; created code/identity.py; rewrote code/agent.py
+* Ran the specified check twice (before and after the linking change); ran scratch diagnostics listing sample misses/extras and testing time-bounded linking (gold read only by those diagnostics, never by the agent)
+* Copied latest_metrics.md to code/evaluation/history/m2_engine_v1.md
+* git commit b722c13 "Add identity resolution and rule-based case engine with audit trail"
+
+Context:
+tool=Claude Code
+model=claude-opus-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-24T13:44:36Z] Add cached LLM intent classifier with spend cap, ledger and probes
+
+User Prompt (verbatim, secrets redacted):
+Why: about ten of the 518 requests aren't deletions at all, such as "remove me from marketing lists only", correcting a surname, or asking for a copy of data. Each must be NOT_APPLICABLE with []. Keyword rules fail exactly here ("remove me from marketing lists" contains "remove"), and requests come in several languages, so this is the one judgement that needs a language model. Every call goes through one wrapper that caches, logs token usage for usage_report.md, and enforces a spend cap, so a re-run never pays twice and a bug can't drain the API budget.
+
+Python 3.9-compatible; anthropic and python-dotenv are installed. Don't re-explore the dataset.
+
+1. code/llm.py, the only module that calls the API:
+- Model claude-haiku-5-5. Read ANTHROPIC_API_KEY via python-dotenv; never print or log it.
+- complete_json(system, user, purpose, max_tokens=4000) -> dict: request JSON-only output, read only text blocks (ignore any thinking blocks), strip code fences, parse, and retry once on invalid JSON. If the SDK supports an effort setting for this model, use low.
+- Cache in code/cache/llm_cache.json, keyed by sha256 of (model, system, user); a cache hit makes no API call.
+- Ledger: append one JSON line per real API call to code/cache/llm_usage.jsonl with timestamp, purpose, model, input_tokens, output_tokens and estimated cost. Keep prices in one PRICES constant: $0.10 per million input tokens and $0.50 per million output tokens for prompts up to 100K tokens (source: platform.claude.com/docs/en/docs/about-claude/pricing).
+- Spend cap: refuse new calls once the ledger total reaches $1.00 (LLM_SPEND_CAP_USD overrides).
+- With no key or an API failure, raise a clear LLMUnavailable error so callers can fall back.
+
+2. code/intent.py: classify_intents(texts) -> {text: {"deletion": bool, "reason": str, "source": "llm" or "keyword"}}.
+- Deduplicate, then send batches of 25 numbered texts. The system prompt defines a deletion request as asking to erase the person's account or their personal data, in any language. It lists non-deletion examples: correction, access or a copy, export or portability, login help, marketing opt-out, changing an email. Removing a single detail while explicitly keeping the account is a correction. Phrases like "only", "keep my account" or "don't delete" outweigh deletion verbs.
+- Keyword fallback, used only on LLMUnavailable: deletion verbs in English, Spanish, French, Portuguese, Korean and Japanese, overridden by explicit negations such as "not asking for deletion", "don't delete", "keep the account".
+- Keep both prompts as constants in this module.
+
+3. code/agent.py: classify all requests once per run; predict() returns ("NOT_APPLICABLE", []) for non-deletions, and --explain shows the intent verdict, reason and source.
+
+4. code/evaluation/intent_cases.py: 10 custom intent probes, each with an expected label and a one-line note on what it tests, at least 4 of them non-English:
+- a marketing opt-out containing "remove"
+- a surname correction
+- a request for a data copy with "don't delete"
+- a German deletion
+- a Polish deletion
+- a Japanese request to download data without deleting
+- a French correction saying "ne supprimez rien"
+- deleting an old shipping address while keeping the account
+- "close my account permanently and erase everything"
+- login help with "do not close the account"
+Add --intent to code/evaluation/main.py. It reports probe accuracy for the LLM and the keyword fallback side by side, intent on the 32 samples (all deletions), and the number of NOT_APPLICABLE predictions among the 518.
+
+Check (run only this): python3 code/main.py && python3 code/validate.py && python3 code/evaluation/main.py --intent && wc -l code/cache/llm_usage.jsonl && python3 code/main.py && wc -l code/cache/llm_usage.jsonl
+Expected: LLM 10/10 on the probes, keyword fallback visibly lower; all 32 samples classified as deletions, so sample metrics are unchanged; about 10 NOT_APPLICABLE among the 518; total spend well under 5 cents; both wc counts equal, because the second run is fully cached.
+Then commit, including code/cache: "Add cached LLM intent classifier with spend cap, usage ledger and intent probes". Never commit .env.
+
+Agent Response Summary:
+Added code/llm.py (cache, usage ledger, spend cap, LLMUnavailable; effort=low via output_config), code/intent.py (batched LLM classifier with a keyword fallback for EN/ES/FR/PT/KO/JA), code/evaluation/intent_cases.py (10 probes, 4 non-English) and --intent in the evaluator; agent.prepare()/intent_for() classify requests once and predict() returns NOT_APPLICABLE for non-deletions; --explain shows the verdict. The first run misclassified 3 samples (case_21, 27, 28: requests to verify an earlier deletion) as non-deletions, dropping sample status to 29/32, so I added one sentence to the system prompt saying requests to verify/audit/confirm an erasure are deletion requests; the re-run restored 32/32 with unchanged step metrics. Final: LLM probes 10/10, keyword 7/10, 10 NOT_APPLICABLE among the 518, 67 ledger lines (both runs equal, second run fully cached), total spend $0.0418 including the discarded first prompt. Committed b2e8622 with code/cache; .env not committed.
+
+Actions:
+* Checked SDK effort support (output_config) and that .env holds a non-empty key (never printed)
+* Created code/llm.py, code/intent.py, code/evaluation/intent_cases.py; edited code/agent.py, code/main.py, code/evaluation/main.py
+* Ran the specified check twice (before and after the prompt change); printed the three misclassified sample requests
+* Real API calls to claude-haiku-5-5 via llm.py only (67 calls recorded in code/cache/llm_usage.jsonl)
+* git commit b2e8622 "Add cached LLM intent classifier with spend cap, usage ledger and intent probes"
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-24T13:59:13Z] Fail loudly on keyword fallback; classify each request in isolation
+
+User Prompt (verbatim, secrets redacted):
+Why: a silent fallback is the dangerous failure. If the key is missing or the spend cap is hit during the final run, German or Polish deletions would quietly become NOT_APPLICABLE and we'd submit them. Isolating each request in its own call gives the cleanest security property: a hostile request text can only affect its own verdict, never another person's. At about 375 unique texts that costs a few cents, which is worth it.
+
+1. Yes to #2: main.py exits with an error naming the affected case_ids if any verdict came from the keyword fallback, unless --allow-keyword-fallback is passed.
+2. For #1, set the intent batch size to 1 through a single INTENT_BATCH_SIZE constant, with a comment giving the blast-radius reason, so each request is classified in its own call and cached per text.
+3. The three older guards wait for a hardening pass on Sunday, with tests.
+
+Check (run only this): python3 code/main.py && python3 code/validate.py && python3 code/evaluation/main.py --intent && tail -n 1 code/cache/llm_usage.jsonl
+Expected: probes still 10/10, still 10 NOT_APPLICABLE among the 518, sample metrics unchanged, total spend still well under $0.20.
+Then commit: "Fail loudly on keyword fallback; classify each request in isolation".
+
+Agent Response Summary:
+intent.py: BATCH_SIZE became INTENT_BATCH_SIZE = 1 with a blast-radius comment, so every request is classified in its own cached call. main.py: run_agent raises KeywordFallbackError (naming up to 30 case_ids plus a count) if any verdict has source keyword, unless --allow-keyword-fallback; main() prints the error and exits 1 without writing output; the evaluator reports the same error cleanly. The check ran in the background (408 new calls, about 7 minutes): no validation errors, probes 10/10 (keyword 7/10), 10 NOT_APPLICABLE among the 518 (case_533 to 542), sample metrics unchanged (32/32, precision 166/168, recall 166/193). Total ledger spend $0.075 across 475 calls (this run $0.033). The fallback-error path itself was not exercised, since the user asked to run only the given check. Committed.
+
+Actions:
+* Edited code/intent.py, code/main.py, code/evaluation/main.py
+* Ran the specified check in the background (about 408 real API calls to claude-haiku-5-5 via llm.py)
+* Totalled the ledger; checked no key material under code/
+* git commit "Fail loudly on keyword fallback; classify each request in isolation" (code/cache included; .env not tracked)
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+
+## [2026-10-24T14:03:45Z] SESSION START
+
+tool=Claude Code
+model=claude-opus-5-5
+Repo Root: ~/hackerrank-orchestrate-october26
+Branch: main
+Worktree: main
+Parent Agent: none
+Language: py
+Time Remaining: not configured
+
+## [2026-10-24T14:06:18Z] Link primary accounts through one-to-one workflow matching
+
+User Prompt (verbatim, secrets redacted):
+Why: most remaining misses on the samples are primary accounts linked to the person only through the deletion worker's activity stream. For example, account_6440 in case_21 has one 404 sighting with no identifiers. The worker's own DELETE_RECORD activities can link these accounts, but only carefully: in planning, picking the activity nearest each case's report time was right 8 times and wrong 9. Two constraints fixed most of that: the worker's reported result must agree with the case's reported status, and each activity can belong to at most one case. That raised exact sequences on the samples from 10/32 to 17/32 and recall from 0.84 to 0.90, at a cost of about one point of precision. The same idea for anonymised analytics was right 3 times and wrong 6, so analytics is deliberately out of scope.
+
+Put this in a new code/workflow_links.py used by code/agent.py; don't re-explore the dataset. Python 3.9-compatible.
+
+1. Pool: every request classified as a deletion, from both dataset/deletion_requests.csv and dataset/sample_deletion_requests.csv, because the worker served all of them and they compete for the same activities. Use only request fields, never gold answers.
+2. A request needs a workflow account only if identity linking found no account_service resource for it.
+3. Owned accounts: build once a map from every identifier of every user in user_identities.csv (current and historical, built exactly as identity.py does) to that user. An account is owned if any sighting of it carries some user's identifier. Owned accounts are never candidates.
+4. Candidates for a request: rows of system_activity.csv where source_system is deletion_worker, event_type is DELETE_RECORD, target_system is account_service, requested_at <= event_time <= reported_at, the account is not owned, and reported_result agrees with reported_status: COMPLETE -> SUCCESS; NOT_STARTED -> FAILED; PARTIALLY_COMPLETE -> PARTIAL or SUCCESS.
+5. Assignment: collect every (request, candidate) pair, sort ascending by reported_at minus event_time, and assign greedily so each request gets at most one account and each activity at most one request. Break ties by case_id, then activity_id, so the result is deterministic.
+6. An assigned account is linked like any other resource: its state and evidence still come only from admissible sightings and coverage. --explain shows the provenance, e.g. "linked via activity_3682 (deletion worker, SUCCESS, 74 min before the report)".
+7. code/evaluation/main.py: add a "workflow links" line for the samples, judged against gold resources (evaluation only): requests that needed an account, assigned correctly, assigned wrongly, unmatched.
+
+Check (run only this): python3 code/main.py && python3 code/validate.py && python3 code/evaluation/main.py && python3 code/main.py --explain case_31
+Expected: sample status still 32/32; exact sequences around 17/32; recall around 0.90; precision around 0.97; workflow links about 18 needed, 11 correct, 3 wrong, 4 unmatched. case_31's trail links account_4857 via activity_3682 and proves it absent with evidence_51.
+Then copy code/evaluation/latest_metrics.md to code/evaluation/history/m3_workflow_accounts.md and commit: "Link primary accounts through status-compatible, one-to-one workflow matching".
+
+Agent Response Summary:
+Added code/workflow_links.py (pool reader, owned-account set, status-compatible greedy one-to-one assignment sorted by gap to the report, then case_id, then activity_id). identity.py gained identifiers_by_user(), which resolve_identity now reuses so owned-account detection and identity resolution build identifiers the same way. agent.py moved identity linking into _link_by_identity(), added a cached workflow_assignment() over both request files' deletions, and links the assigned account only when the case has no identifier-linked account; state and evidence still come from admissible sightings and coverage. Evaluator adds a Workflow links row. Check results: status 32/32, sequences 17/32, precision 177/182 (97.3%), recall 177/193 (91.7%), workflow links 18 needed / 11 correct / 3 wrong / 4 unmatched; case_31 links account_4857 via activity_3682 (SUCCESS, 74 min) and proves it ABSENT with evidence_51. No new LLM calls.
+
+Actions:
+* Created code/workflow_links.py; edited code/agent.py, code/identity.py, code/evaluation/main.py
+* Ran the specified check (main, validate, evaluation, --explain case_31)
+* Copied latest_metrics.md to code/evaluation/history/m3_workflow_accounts.md
+* git commit 64df4c7 "Link primary accounts through status-compatible, one-to-one workflow matching" (DECISIONS.md left uncommitted)
+
+Context:
+tool=Claude Code
+model=claude-opus-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-24T14:30:15Z] SESSION START
+
+tool=Claude Code
+model=claude-opus-5-5
+Repo Root: ~/hackerrank-orchestrate-october26
+Branch: main
+Worktree: main
+Parent Agent: none
+Language: py
+Time Remaining: not configured
+
+## [2026-10-24T14:56:30Z] Read screenshots via vision, resolve catalog aliases, audit window
+
+User Prompt (verbatim, secrets redacted):
+Why: the 11 screenshots and 4 PDFs aren't decoration. Each was captured just before one evaluation case's audit: the connector console before case_39's, the backup console before case_55's, and a marketing screenshot before case_63's. case_63 is currently COMPLETE with no steps because none of its evidence is readable yet. Screenshots are the one input a parser can't read, so a vision model reads each one once, literally, into the same sighting schema, and the rules engine judges as usual. The data catalog's LINK_RESOURCE_IDENTITY activities publish aliases, e.g. "object_19 (delivery_confirmation_19.pdf)", "export_1842 (NST-2026-0718-1842)" and "tombstone_17 (user_17)"; that is how evidence without resource IDs connects to resources. Two engine safety rules come with this, so that older screenshots can't create false findings: state evidence must fall inside the audit window, and unproven safety counts as unsafe. Both were neutral on the samples in planning.
+
+Don't re-explore the dataset; read evidence.py, llm.py and agent.py as needed. Python 3.9-compatible.
+
+1. code/llm.py: add complete_json_image(system, user, image_path, purpose, max_tokens=4000). Send the PNG as a base64 image block, and reuse the same cache (the key includes the image's sha256), ledger, spend cap and LLMUnavailable.
+
+2. code/vision.py: extract_screenshot(path) returns {"screen": title, "records": [...]}, one record per distinct item in the main content. Merge a list row with its detail panel when they show the same item. Each record is {"resource_id": as printed or null, "aliases": other identifiers printed for the item, such as file names, statement or order numbers, customer keys, "fields": {name, email, phone, user_reference, status (verbatim label), enabled, restore_allowed, present, retention_end, plus other visible key-values}}. The prompt, kept as a constant, demands literal extraction: values exactly as printed, null when not shown, booleans only when the screen states them, and never invented IDs. present is false only if the screen marks the item deleted, removed or not found.
+
+3. code/evidence.py:
+- PNGs become sightings through vision.py, with observed_at = the manifest captured_at and context source "screenshot". Records without a resource_id become document records, and so do PDF texts without resource IDs (the two skipped earlier).
+- Aliases: parse "<resource_id> (<alias>)" from LINK_RESOURCE_IDENTITY details, ignoring aliases equal to the resource_id. A document record whose aliases or text contain an alias becomes a sighting of that resource. An alias that is a user_<n> reference matches only a record that names it as the item's own key (e.g. a screenshot titled user_17), never free text such as a register listing several users. Never apply aliases to records that have their own resource_id.
+- If an uncached PNG can't be read (LLMUnavailable), main.py exits with an error unless --allow-missing-vision is passed, like the intent guard.
+
+4. code/agent.py:
+- Category hint: object_storage resources whose link activity mentions an attachment catalog, or whose evidence shows a support-attachments location -> SUPPORT_ATTACHMENT.
+- Audit window: sightings and coverage decide state only if observed on or after requested_at, as well as <= audit_at. A resource with no in-window evidence is skipped, with the reason "no evidence in the audit window" in --explain. Linking still uses all evidence.
+- Unproven safety is unsafe: a present BACKUP_ARCHIVE with no explicit restore state counts as restorable (ACTIVE), and a present DATA_FLOW with no explicit enabled state counts as ACTIVE.
+- If a linked resource's in-window evidence shows direct identifiers and none of them belong to the subject, keep the resource but add "identity mismatch" to its --explain reason (case_63's marketing screenshot shows another name and email).
+
+5. code/evaluation/check_evidence.py: for each PNG, list the records and resource IDs extracted; then list every alias-resolved sighting.
+
+Check (run only this): python3 code/evaluation/check_evidence.py && python3 code/main.py && python3 code/validate.py && python3 code/evaluation/main.py && python3 code/main.py --explain case_63 && python3 code/main.py --explain case_61
+Expected:
+- Screenshot resource IDs include account_5762, analytics_7438, data_flow_1121, export_1258 to export_1260, marketing_001, search_428, audit_record_001 to audit_record_006, support_1034 and several backup_92xx. Alias-resolved sightings: tombstone_17 (deleted-account screenshot), object_19 (object-storage screenshot) and export_1842 (account-history PDF).
+- Gold-citation support still 75/75. Samples roughly unchanged: status 32/32, exact sequences about 17/32, precision about 97%, recall about 92%. List any sample whose output changed, and why.
+- case_63 no longer triggers the complete_no_steps warning: marketing_001 is a remaining record citing evidence_60, flagged "identity mismatch". case_61 reports object_19 as a remaining SUPPORT_ATTACHMENT citing evidence_46.
+- Vision spend under $0.05, and a second run makes no new calls.
+Then copy code/evaluation/latest_metrics.md to code/evaluation/history/m4_vision.md and commit: "Read screenshots and documents into evidence, resolve catalog aliases, add audit-window and fail-safe rules".
+(Follow-up turn: "Continue the task from where you stopped, then run the check.")
+
+Agent Response Summary:
+Added llm.complete_json_image (base64 image block; cache key adds the image sha256, text keys unchanged), code/vision.py (literal-transcription prompt constant, shape validation, not-shown nulls dropped), screenshot/PDF document records and catalog-alias resolution in evidence.py (user_<n> aliases match only an item's own key), the --allow-missing-vision guard, and in agent.py the object-storage attachment hints, audit window, fail-safe process states and identity-mismatch note. The first vision prompt dropped detail-page subjects (analytics_7438, user_17) and took ticket numbers as IDs, so the prompt now names the page subject as the first record and resource-ID shape, and a single resource-shaped alias is promoted in code. Check passed: all expected screenshot IDs and the 3 alias sightings, gold support 75/75, samples byte-identical (32/32, 17/32, P 97.3%, R 91.7%), case_63 and case_61 as expected, vision $0.0186 total over 22 calls (final 11 reads $0.0099), second run 0 new calls. 22 evaluation cases changed; case_46 (tombstone screenshot showing only the retained reference read as NOT_KNOWN_REMOVED) is flagged to the user as a likely false finding.
+
+Actions:
+* Edited code/llm.py, code/evidence.py, code/agent.py, code/main.py, code/evaluation/main.py, code/evaluation/check_evidence.py, code/DECISIONS.md (32-37); created code/vision.py
+* Ran the specified check chain, a cached re-run, and diffs against pre-change outputs; viewed two screenshots to diagnose extraction
+* Copied latest_metrics.md to code/evaluation/history/m4_vision.md
+* git commit 94a5e96 "Read screenshots and documents into evidence, resolve catalog aliases, add audit-window and fail-safe rules" (includes code/cache)
+
+Context:
+tool=Claude Code
+model=claude-opus-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-24T15:02:00Z] Treat a reference-only account tombstone as redacted
+
+User Prompt (verbatim, secrets redacted):
+Why: an account tombstone is meant to keep the stable user reference and nothing else, so a tombstone record showing only user_17 is exactly what the policy requires, not exposed PII. A broader "screenshot with no identifiers counts as redacted" rule could hide real exposure on list views, so limit the rule to the policy's own tombstone definition.
+
+In code/agent.py, add one rule: for ACCOUNT_TOMBSTONE, a present record whose only identifier is the subject's user reference, with no name, email, phone or email_hash shown, counts as REDACTED. Leave every other category unchanged.
+Append to code/DECISIONS.md: "38. A tombstone showing only the subject's user reference counts as redacted: that is the policy's own definition of a tombstone. We deliberately did not adopt a broader rule for all screenshots, which could hide real exposure."
+
+Check (run only this): python3 code/main.py && python3 code/validate.py && python3 code/evaluation/main.py && python3 code/main.py --explain case_46
+Expected: samples unchanged; case_46 back to COMPLETE, verifying tombstone_17 as redacted with evidence_42; list any other evaluation case that changes.
+Then commit: "Treat a reference-only account tombstone as redacted".
+
+Agent Response Summary:
+Added _reference_only() and passed category and identity into _judge(): for ACCOUNT_TOMBSTONE, a present copy with no name/email/phone/email_hash value and only the subject's user reference among its identifiers is assessed REDACTED; every other category is untouched. Appended decision 38. Check passed: samples byte-identical (32/32, 17/32, P 97.3%, R 91.7%), validation clean, case_46 is COMPLETE verifying tombstone_17 as REDACTED with evidence_42. case_46 is the only evaluation case that changed.
+
+Actions:
+* Edited code/agent.py and code/DECISIONS.md
+* Ran the specified check chain and diffed outputs against the pre-change snapshot
+* git commit "Treat a reference-only account tombstone as redacted"
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-24T15:21:00Z] SESSION START
+
+tool=Claude Code
+model=claude-sonnet-5-5
+Repo Root: ~/hackerrank-orchestrate-october26
+Branch: main
+Worktree: main
+Parent Agent: none
+Language: py
+Time Remaining: not configured
+
+## [2026-10-24T15:26:00Z] Generate evaluation and usage reports, custom and label-free checks
+
+User Prompt (verbatim, secrets redacted):
+Why: code.zip is worth 30 points and must contain code/evaluation/evaluation_report.md and code/evaluation/usage_report.md, with every number written directly in Markdown, because the code judge and AI interviewer ignore raw data files. Generating both reports from the evaluator and the usage ledger keeps every number reproducible and in sync with the code, rather than typed by hand. The custom cases test what the 32 samples can't: a non-deletion request, identity through an old email, the audit-time cut-off, and another language.
+
+Don't re-explore the dataset; read the evaluation code and agent.py as needed. Python 3.9-compatible.
+
+1. code/evaluation/custom_cases.py: four derived cases. Each keeps the original case_id and all other fields, is run through predict(), and is reported pass/fail with a one-line description. They are metamorphic tests: changing one thing must change only what it should.
+- C1 not a deletion: case_05's request with the text "Please correct the phone number on my account. I want to keep using it." Expect NOT_APPLICABLE and [].
+- C2 old email: case_12's request using its historical address minjun.kim90@gmail.com (from user_audit_log). Expect output identical to our case_12 output.
+- C3 time cut-off: case_05 with audit_at 2026-09-02T22:00:00Z, before evidence_54 was captured. Expect evidence_54 not cited, and no cited evidence captured after audit_at.
+- C4 other language: case_01's request with the text "Bitte löschen Sie mein Konto und alle damit verbundenen personenbezogenen Daten dauerhaft." Expect output identical to our case_01 output.
+
+2. code/evaluation/label_free_checks.py, run on the 518 predictions without labels:
+- NOT_APPLICABLE verdicts that link to an account which the privacy intake (CLASSIFY_REQUEST activities) also marked as non-deletion;
+- steps citing evidence captured after the case's audit_at (expect 0);
+- COMPLETE steps with an empty evidence_id (expect 0);
+- remediation steps without a matching verification step (expect 0);
+- a table of reported_status against our deletion_status, showing, for example, how many workflow "COMPLETE" claims our audit confirms.
+
+3. code/evaluation/build_reports.py writes two reports:
+- code/evaluation/evaluation_report.md: how we evaluate (the 32 labelled samples as the dev set, and the metric definitions); the current sample metrics (status accuracy overall and per status, step precision/recall/F1, field-level accuracy per field, sequence accuracy, workflow-link accuracy); a progression table built from code/evaluation/history/*.md (baseline, engine v1, workflow accounts, vision, current); the intent probes, LLM against the keyword fallback; the custom cases; the label-free checks. If code/evaluation/narrative/approach.md, failures.md or limitations.md exist, include them in that order around the generated sections; otherwise insert a visible TODO.
+- code/evaluation/usage_report.md, built from code/cache/llm_usage.jsonl: provider and model; calls, input tokens and output tokens per purpose (intent, vision) and overall; total and average tokens per request over the 518; estimated total and per-request cost, citing the PRICES source. If code/cache/llm_usage_dev.jsonl exists, add a separate "development spend" section.
+
+Check (run only this): python3 code/evaluation/custom_cases.py && python3 code/evaluation/label_free_checks.py && python3 code/evaluation/build_reports.py && head -n 40 code/evaluation/evaluation_report.md && head -n 30 code/evaluation/usage_report.md
+Expected: C1 to C4 pass (if one fails, report why rather than adjusting the test); all 10 NOT_APPLICABLE verdicts agree with the privacy intake; zero violations for the three invariants; both reports render with real numbers, with TODOs only where narrative files are missing.
+Then commit: "Generate evaluation and usage reports from evaluator output, with custom and label-free checks".
+
+Agent Response Summary:
+Added custom_cases.py (C1-C4, all pass), label_free_checks.py (10/10 NOT_APPLICABLE verdicts agree with the privacy intake; 0 late citations, 0 empty COMPLETE evidence_ids, 0 unmatched remediation steps) and build_reports.py, which wrote evaluation_report.md and usage_report.md with the three narrative files included and no TODOs. Small supporting edits: PRICES_SOURCE constant in llm.py, workflow_link_counts() split out of workflow_link_row() in evaluation/main.py, decision 39. The usage ledger is cumulative with no dev/final split, so the usage report says its totals overstate the final run. Committed as 558a374; log.txt, output.csv and the evaluator's latest_metrics.md and sample_predictions.csv were left uncommitted.
+
+Actions:
+* Created code/evaluation/custom_cases.py, label_free_checks.py, build_reports.py and the generated evaluation_report.md and usage_report.md
+* Edited code/llm.py, code/evaluation/main.py, code/DECISIONS.md
+* Ran the specified check chain; the two new request texts made 2 real API calls, recorded in code/cache/llm_usage.jsonl and llm_cache.json
+* git commit 558a374
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-24T15:45:00Z] Tag LLM calls by run so the usage report describes the final run
+
+User Prompt (verbatim, secrets redacted):
+Why: usage_report.md must describe the final full-dataset run that produced output.csv, but the ledger mixes development, evaluation and final-run calls. Tagging every call with a run id lets the report describe exactly one run, while all development calls stay visible in their own section. Deterministic model settings make a fresh run as reproducible as the API allows.
+
+1. code/llm.py: every new ledger entry gets "run_id" and "entrypoint". main.py sets them once at start (run_id = UTC timestamp, entrypoint "main"); evaluation scripts set entrypoint "evaluation". Existing entries have no run_id; treat them as development. If the API accepts temperature 0 for claude-haiku-5-5 with our settings, set it; otherwise leave it, with a comment saying why.
+2. code/evaluation/build_reports.py: usage_report.md first summarises the latest run with entrypoint "main": calls, tokens per purpose and overall, totals and averages over the 518 requests, and cost. Then a "development and evaluation calls" section covers everything else, so nothing is hidden.
+
+Check (run only this): python3 code/main.py && python3 code/evaluation/build_reports.py && head -n 30 code/evaluation/usage_report.md
+Expected: every call is cached, so the latest main run shows 0 calls and the report says so plainly; development totals are unchanged at about 499 calls and $0.094.
+Then commit: "Tag LLM calls by run so the usage report describes the final run".
+
+Agent Response Summary:
+llm.py now tags every ledger entry with run_id and entrypoint (start_run) and appends each finished main.py run to code/cache/llm_runs.jsonl (record_run), because a run served wholly from the cache leaves no ledger line. main.py tags "main" (or "explain" for --explain); the evaluation scripts tag "evaluation". Temperature is left unset: the API returned 400 "temperature: Extra inputs are not permitted" with and without effort (the SDK's create() has no such argument either); the rejected probes recorded no usage. build_reports.py now reports the latest main run first (0 calls, 409 cache hits, $0.0000) and lists all 499 earlier calls ($0.0939) as development. Committed as fb220a4; output.csv came out byte-identical.
+
+Actions:
+* Edited code/llm.py, code/main.py, code/DECISIONS.md (decision 40), code/evaluation/{build_reports,check_evidence,custom_cases,label_free_checks,main}.py
+* Probed the API twice for temperature 0 (both rejected, nothing billed or recorded)
+* Ran the specified check chain; tested the tagged-entry path of the report on synthetic data in the scratchpad
+* git commit fb220a4
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-24T16:10:00Z] Fix report wording and define the final run as the latest cold run
+
+User Prompt (verbatim, secrets redacted):
+Why: proofreading found two errors a judge would notice in the generated reports. First, the evaluation report says 32 of the 518 evaluation requests have known answers, but the 32 labelled samples are separate requests, and none of the 518 has a known answer. Second, the usage report treats the latest main.py run as the final run. My clean-environment test was a newer main.py run served entirely from the cache, so rebuilding now would describe that replay instead of the cold run that made the 409 calls, and the "upper bound" paragraph would contradict a run that was actually measured.
+
+In code/evaluation/build_reports.py:
+1. Replace the sentence beginning "Only 32 of the 518 evaluation requests have a known answer" with: "None of the 518 evaluation requests has a known answer. The only labelled cases are the 32 separate sample requests, so the evidence comes in three layers:"
+2. In the usage report, the final run is the latest main run that made API calls, i.e. the latest cold run. List any later main runs served entirely from the cache as "cache replays" (run id, requests, cache hits), noting that they made no calls. Print the "upper bound" paragraph only when no main run made calls.
+3. Pluralise counts ("1 step", "2 steps").
+4. If the ledger's purpose field allows it, show what the evaluation calls were for (intent probes, custom-case texts); otherwise leave that table as it is.
+
+Check (run only this): python3 code/evaluation/build_reports.py && grep -n "known answer" code/evaluation/evaluation_report.md && sed -n '/## Final run/,/## Development/p' code/evaluation/usage_report.md
+Expected: the corrected sentence; the final run is run 2026-10-24T15:42:11Z with 409 calls and $0.0422; the later cache replay(s) are listed with 0 calls; no upper-bound paragraph.
+Then commit: "Fix report wording and define the final run as the latest cold run".
+
+Agent Response Summary:
+Replaced the sentence as given, made the final run the latest main run with API calls (falling back to the latest run, with the upper-bound note, only if none made calls), and listed later all-cache main runs as cache replays. Added code/evaluation/wording.py (plural) and used it for step, call, request, answer, entry and similar counts. The ledger's purpose field is only intent/vision, so the evaluation-calls table is unchanged. The check output matched expectations: final run 2026-10-24T15:42:11Z, 409 calls, $0.0422, replay 15:56:35Z with 0 calls, no upper-bound paragraph, 0 new API calls. Committed as 64a6d07, including the run log and the narrative approach.md edit that the report embeds; README.md (unfinished sentence) was left out. Decision 41 records the rule.
+
+Actions:
+* Edited code/evaluation/build_reports.py, custom_cases.py, label_free_checks.py; created code/evaluation/wording.py; appended decision 41 to code/DECISIONS.md
+* Ran the specified check plus label_free_checks.py to exercise the edited CLI text
+* git commit 64a6d07
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-24T16:22:00Z] SESSION START
+
+tool=Claude Code
+model=claude-sonnet-5-5
+Repo Root: ~/hackerrank-orchestrate-october26
+Branch: main
+Worktree: main
+Parent Agent: none
+Language: py
+Time Remaining: not configured
+
+## [2026-10-24T16:22:30Z] Add offline unit tests and harden evidence loading
+
+User Prompt (verbatim, secrets redacted):
+Why: the code judge is worth 30 points, and even the leaders lose half of them there; an automated test suite is the clearest gap left in ours. The tests must run offline, with no API key and no network, so a judge can run them in seconds. The two security guards deferred earlier come with this, because evidence files are untrusted input: a SQL dump could ATTACH a database file on disk, and a manifest path could point outside dataset/.
+
+Use the standard library's unittest (no new dependency), in code/tests/, runnable with: python3 -m unittest discover -s code/tests -v
+Write small, focused tests:
+1. validate.py rejects bad output: a wrong header, a duplicate case_id, a non-consecutive step_no, an operation in the wrong phase, the wrong within-phase order, NOT_APPLICABLE with steps. It accepts a minimal valid file. Use temp files.
+2. Step ordering: phase order, then operation-table order, then system_id and resource_id.
+3. Identity: minjun.kim90@gmail.com (historical) resolves to user_12; an unknown email resolves to nothing; matching is exact, so a similar name never matches.
+4. Fail-loud guards: with LLM_SPEND_CAP_USD=0 and an uncached text, intent raises LLMUnavailable, and main refuses to write output unless --allow-keyword-fallback is passed. Never touch the network; use a temporary cache path or patching.
+5. Security guards, implemented in evidence.py: a sqlite3 authorizer denies ATTACH and DETACH while loading SQL dumps (test that a dump containing ATTACH is refused and creates no file); manifest file paths must resolve inside dataset/evidence/ (test that ../ is rejected).
+6. One end-to-end test: predict() on sample case_05 returns INCOMPLETE, with the failover-replica finding citing evidence_54, served from the committed cache.
+Add the test command to README.md's "Setup and run" block.
+
+Check (run only this): python3 -m unittest discover -s code/tests -v && python3 code/main.py && python3 code/validate.py && diff -q output.csv /tmp/output_reference.csv && echo IDENTICAL
+Expected: all tests pass within a few seconds with no API calls (the ledger's line count doesn't change), and output.csv is identical to the reference.
+Then commit: "Add offline unit tests and harden evidence loading against untrusted SQL and paths".
+
+Agent Response Summary:
+Added 37 stdlib unittest tests in code/tests/ (validator, step order, identity, fail-loud guards, evidence security, one end-to-end case on sample case_05). The tests run offline: sockets are patched to fail, a cache miss in the end-to-end test fails the test, and the spend-cap and keyword-fallback tests use a scratch copy of the cache, ledger and run log. In evidence.py, SQL dumps now load under a sqlite3 authorizer that denies ATTACH and DETACH (which also stops VACUUM INTO), and manifest paths must resolve inside dataset/evidence/; both raise UnsafeEvidenceError. agent.step_sort_key() was extracted so step order is testable. The specified check passed: 37 tests in 0.26s, the ledger stayed at 920 lines, and output.csv is identical to the reference. Disabling each guard in a scratch copy made its tests fail. Decisions 43 and 44 were added, and the duplicate decision number 41 was fixed (the usage-report rule is now 42).
+
+Actions:
+* Created code/tests/{common,test_validate,test_step_order,test_identity,test_fail_loud,test_evidence_security,test_end_to_end}.py
+* Edited code/evidence.py (UnsafeEvidenceError, authorizer, evidence_path), code/agent.py (step_sort_key), README.md (test command, project structure row), code/DECISIONS.md (42-44)
+* Ran the specified check; ran each guard-disabled mutation in the scratchpad
+* git commit (message as specified)
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-25T09:38:00Z] Final read-only pre-submission audit
+
+User Prompt (verbatim, secrets redacted):
+Why: this is the final read-only check before I submit. Planning and data analysis for this project happened in a separate Claude chat (Opus 5.5), whose export goes in the agent-trace zip; implementation happened here in Claude Code. Before uploading, I want an independent check against the organisers' pre-submission checklist in README.md, so nothing is submitted broken or missing.
+
+Read-only: do not modify, create or delete any file other than log.txt. Report pass or fail, with brief evidence, for each:
+1. output.csv: header case_id,deletion_status,steps_json; 518 rows in case order; every steps_json a valid array with step_no consecutive from 1; findings cite real evidence IDs; COMPLETE steps cite evidence; remediation and future verification steps use "".
+2. python3 -m unittest discover -s code/tests passes, and python3 code/main.py rewrites output.csv byte-identically with no API calls.
+3. code.zip contains README.md, requirements.txt and code/, including code/evaluation/evaluation_report.md and code/evaluation/usage_report.md, and no dataset/, .env, virtual environment, __pycache__ or nested archive.
+4. No API keys or tokens in code.zip or log.txt.
+5. The README's setup and run commands match the code, and its headline numbers match the generated reports.
+Finish with a three-line summary.
+
+Agent Response Summary:
+Ran the five checks read-only. Heavy steps ran on scratchpad copies of the repo and of code.zip (no .env, no key), so no project file changed apart from this entry. Checks 1 to 5 passed: output.csv met the contract (518 rows, 3100 steps, 0 problems); 37 tests passed and main.py reproduced output.csv byte-identically from the cache with the ledger at 920 lines, also when run from the extracted zip; the zip layout was clean and matched the working tree; no secrets were found in code.zip or log.txt; the README commands ran and its headline numbers matched the reports and a recomputation from the raw data. Flagged: the evaluation reports sit at code/evaluation/ in the zip while problem_statement.md says evaluation/; usage_report.md lacks the newest cache-replay row (an uncommitted llm_runs.jsonl line); the cold-cache, clean-venv and Python 3.12 claims were not re-run.
+
+Actions:
+* Read README.md, problem_statement.md, agent_trace_instructions.md, requirements.txt and code.zip's listing and contents
+* Wrote and ran two throwaway scripts (output checker, secret scan) in the scratchpad; ran unittest, main.py, validate.py, evaluation/main.py, --explain case_05 and build_reports.py on scratchpad copies only
+* Appended this entry to log.txt; no other project file was created, modified or deleted
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-30T09:00:00Z] Prepare the repo for public GitHub: steps 1-5, stopped before commit
+
+User Prompt (verbatim, secrets redacted; the local filesystem path in step 2 is redacted):
+Prepare this project for a public GitHub repo and push it. Work from the project root, and show me the result of step 5 before committing.
+
+1. Create .gitignore containing: .env, .venv/, __pycache__/, *.pyc, .DS_Store, dataset/
+2. In log.txt, replace every "[local path redacted in this log]" with "~/", so no local username is published.
+3. Add a LICENSE file with: "Copyright (c) 2026 Kamil Shirinov. All rights reserved. This code is published for review only; no licence is granted for reuse."
+4. In README.md, directly under the title, add a short section with these three lines, changing nothing else:
+   - "Built for HackerRank Orchestrate (October 2026): final rank #425 of 4,090 (top 11%)."
+   - "Challenge and dataset: https://github.com/interviewstreet/hackerrank-orchestrate-october26. The dataset isn't included here; to run the agent, copy that repo's dataset/ folder into this repo's root."
+   - "Licence: all rights reserved, published for review."
+5. Secret check: run git init if needed and git add -A. Confirm with git status that .env and dataset/ are NOT staged, and search the staged files for "sk-ant" and "ANTHROPIC_API_KEY=". Stop and tell me if anything is found.
+6. Commit with the message "Ghost data audit agent: HackerRank Orchestrate, October 2026".
+7. If the GitHub CLI (gh) is installed and logged in, create a public repo named ghost-data-audit and push. If not, stop and give me the exact commands to run after I create the repo on github.com.8. Set the repo's description and topics with gh repo edit:
+   - Description: "AI agent that audits whether 'deleted' customer data is really gone, and writes evidence-cited remediation plans. HackerRank Orchestrate, October 2026: #425 of 4,090."
+   - Topics: hackathon, hackerrank-orchestrate, ai-agent, llm, claude, data-privacy, right-to-erasure, compliance, python
+   If gh isn't available, skip this step and tell me.
+
+Agent Response Summary:
+Did steps 1-5 and stopped before committing, as asked. Wrote .gitignore (kept the existing code.zip line), LICENSE and the three README lines, and replaced 18 local-path occurrences in log.txt with "~/". Staged everything: .env and dataset/ are not among the staged changes and the search found no "sk-ant", no real key, and one "ANTHROPIC_API_KEY=" hit, the README placeholder "your-key". Found that this clone has 73 commits (42 by the organisers), 103 tracked dataset files (3.8 MB) in history, six of the user's commits containing the old local path, and origin pointing at the organisers' repo, so a plain push would publish the dataset and old paths. Proposed a single-commit orphan branch and asked for confirmation; nothing was committed or pushed.
+
+Actions:
+* Wrote .gitignore and LICENSE; edited README.md (three lines under the title) and log.txt (path replaced)
+* git add -A; git status, git check-ignore, git grep --cached for sk-ant and ANTHROPIC_API_KEY=, key-literal search over the index and all history (names only), git log history checks
+* gh --version and gh auth status (read-only); no commit, no remote, no push
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=main
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
+
+## [2026-10-30T13:24:10Z] Orphan public branch, push to github remote, description and topics
+
+User Prompt (verbatim, secrets redacted):
+1. Yes, use the orphan single-commit approach, and push only to the new "github" remote, never origin.
+2. Yes, leave AGENTS.md, problem_statement.md and agent_trace_instructions.md out of the public commit (git rm --cached). CLAUDE.md imports @AGENTS.md, so replace that first line with: "The organisers' agent instructions (AGENTS.md) are in the official challenge repo and aren't included here."
+3. In README.md, change the first bullet to: "Built for HackerRank Orchestrate (October 2026): final score 67.5/100, rank #425 of 4,090 (top 11%)."
+Before pushing, print git ls-files for the public branch and git remote -v. If dataset/ and the three organiser files are absent and the github remote points to kamil-shirinov/ghost-data-audit, go ahead and run steps 7 and 8.
+
+Agent Response Summary:
+Edited the CLAUDE.md first line and the README first bullet as instructed, then created the orphan branch public with one commit that leaves out dataset/, AGENTS.md, problem_statement.md and agent_trace_instructions.md (git rm --cached; the files stay on disk, untracked). Local main, with its full history, is untouched. The commit is followed by gh repo create ghost-data-audit --public --remote=github, a check of git ls-files and git remote -v against the stated conditions, a push of public to github main only (never origin), and gh repo edit for the description and topics; their outcome is in the reply, not in this entry.
+
+Actions:
+* Edited CLAUDE.md and README.md; git checkout --orphan public; git rm -r --cached dataset AGENTS.md problem_statement.md agent_trace_instructions.md
+* Appended this entry to log.txt and committed with the message from step 6
+* gh repo create, git push github public:main, gh repo edit (see the reply)
+
+Context:
+tool=Claude Code
+model=claude-sonnet-5-5
+branch=public
+repo_root=~/hackerrank-orchestrate-october26
+worktree=main
+parent_agent=none
