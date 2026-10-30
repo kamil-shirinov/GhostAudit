@@ -4,6 +4,8 @@
 - Challenge and dataset: https://github.com/interviewstreet/hackerrank-orchestrate-october26. The dataset isn't included here; to run the agent, copy that repo's dataset/ folder into this repo's root.
 - Licence: all rights reserved, published for review.
 
+<img width="1063" height="267" alt="Screenshot 2026-10-30 at 14 10 18" src="https://github.com/user-attachments/assets/74ca73c3-4c35-439a-a0f6-c0ebfda4ac29" />
+
 Northstar's deletion workflow reports "Complete" even when copies of a customer survive in replicas, logs, exports, search indexes and backups. This agent doesn't trust that claim. For every request it checks whether deletion was actually requested, works out who the person is (including old emails and phones), finds every copy of their data across 94 evidence files, works out the state of each copy at the audit time, and applies the deletion policy. The output is a verdict and an ordered, evidence-cited plan of findings, remediation and verification steps.
 
 **Design principle: models read, code judges.** A language model does only what needs reading: understanding requests in any language, and reading screenshots. Deterministic code applies the policy, so the same input always gives the same verdict, and every step can be traced to the evidence that proves it.
