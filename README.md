@@ -4,7 +4,7 @@
 - Challenge and dataset: https://github.com/interviewstreet/hackerrank-orchestrate-october26. The dataset isn't included here; to run the agent, copy that repo's dataset/ folder into this repo's root.
 - Licence: all rights reserved, published for review.
 
-<img width="1063" height="267" alt="Screenshot 2026-10-30 at 14 10 18" src="https://github.com/user-attachments/assets/74ca73c3-4c35-439a-a0f6-c0ebfda4ac29" />
+<img width="1440" height="980" alt="33353102" src="https://github.com/user-attachments/assets/035c54cb-7d95-495b-8565-69e92776a4ce" />
 
 Northstar's deletion workflow reports "Complete" even when copies of a customer survive in replicas, logs, exports, search indexes and backups. This agent doesn't trust that claim. For every request it checks whether deletion was actually requested, works out who the person is (including old emails and phones), finds every copy of their data across 94 evidence files, works out the state of each copy at the audit time, and applies the deletion policy. The output is a verdict and an ordered, evidence-cited plan of findings, remediation and verification steps.
 
